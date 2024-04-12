@@ -1,19 +1,19 @@
 # TÍTULO DO PROJETO
 
-`CURSO`
+`Análise e Desenvolvimento de sistemas`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de Aplicação Web Front-End`
 
-`SEMESTRE`
+`1º`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
-* Sharon Steicy 
+* Artur Maciel 
 * Gabriel de Jesus Almeida
 * Gustavo Paz
-* Nome completo do aluno 4
+* Sharon Steicy
 
 ## Orientador
 
