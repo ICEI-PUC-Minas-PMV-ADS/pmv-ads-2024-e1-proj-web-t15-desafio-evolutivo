@@ -12,7 +12,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 * Sharon Steicy 
 * Gabriel de Jesus Almeida
-* Nome completo do aluno 3
+* Gustavo Paz
 * Nome completo do aluno 4
 
 ## Orientador
