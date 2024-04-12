@@ -1,190 +1,130 @@
 # Especificações do Projeto
 
 ## Perfis de usuários
-----------------------------------------------------------------------------------------------------
-|Perfil 01: Jovem adulto de 16 a 24
-----------------------------------------------------------------------------------------------------
-|Descrição:          |  Jovens em busca de desenvolvimento pessoal
-|--------------------|----------------------------------------------------------------------------|
-|Necessidades:       | Encontrar algum hobby gratuito.
-                     | Organização melhor da rotina.
-                     |  Sair do sedentarismo.
-                     |  Atividades que ajudam a lidar com a ansiedade.
 
-                   
-----------------------------------------------------------------------------------------------------
-|Perfil 02: Adulto de 30 a 50 anos
-----------------------------------------------------------------------------------------------------
-|Descrição:          |  Adultos em busca de desenvolvimento pessoal
-|--------------------|----------------------------------------------------------------------------|
-|Necessidades:       |  Equilíbrio entre vida profissional e lazer.
-                     |  Organização melhor da rotina.
-                     |  Sair do sedentarismo.
-                     |  Atividades que ajudam a lidar com a ansiedade.
-                     |  Melhorar produtividade no trabalho.
-                     |  Rotinas de autocuidado.
 
-----------------------------------------------------------------------------------------------------
-|Perfil 02: Adulto sênior 60+ anos
-----------------------------------------------------------------------------------------------------
-|Descrição:          |  Pessoas buscando manter a mente e o corpo ativos
-|--------------------|----------------------------------------------------------------------------|
-|Necessidades:       |  Sair do sedentarismo.
-                     |  Atividades que ajudam a desenvolver a mente.
-                     |  Rotinas de autocuidado.
-                     |  Combater isolamento social.
+<table>
+<tbody>
+<tr>
+<th colspan="2">Perfil 01: Jovem adulto de 16 a 24 </th>
+</tr>
+<tr>
+<td width="150px"><b>Descrição</b></td>
+<td width="600px">
+Jovens em busca de desenvolvimento pessoal
+</td>
+</tr>
+<tr>
+<td><b>Necessidades</b></td>
+<td>
+ 1.Encontrar algum hobby gratuito. <br>
+ 2.Organização melhor da rotina. <br>
+ 3.Sair do sedentarismo. <br>
+ 4.Atividades que ajudam a lidar com a ansiedade. <br>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr>
+<th colspan="2">Perfil 02: Adulto de 30 a 50 anos </th>
+</tr>
+<tr>
+<td width="150px"><b>Descrição</b></td>
+<td width="600px">
+Adultos em busca de desenvolvimento pessoal
+</td>
+</tr>
+<tr>
+<td><b>Necessidades</b></td>
+<td>
+1.Equilíbrio entre vida profissional e lazer.  <br>
+2.Organização melhor da rotina. <br>
+3.Sair do sedentarismo. <br>
+4.Atividades que ajudam a lidar com a ansiedade. <br>
+5.Melhorar produtividade no trabalho. <br>
+6.Rotinas de autocuidado. <br>
+
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr>
+<th colspan="2">Perfil 03: Adulto sênior 60+ anos</th>
+</tr>
+<tr>
+<td width="150px"><b>Descrição</b></td>
+<td width="600px">
+Pessoas buscando manter a mente e o corpo ativos
+</td>
+</tr>
+<tr>
+<td><b>Necessidades</b></td>
+<td>
+1.Sair do sedentarismo.  <br>
+2.Atividades que ajudam a desenvolver a mente.  <br>
+3.Rotinas de autocuidado.  <br>
+4.Combater isolamento social. <br>
+</td>
+</tr>
+</tbody>
+</table>
 
       
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|Eu como …[QUEM]     | … quero/desejo … [O QUE]           |… para ....[PORQUE]                     |
-|--------------------|------------------------------------|----------------------------------------|
-|Jovem adulto        |poder me cadastrar e fazer login    |   poder realizar os desafios 
-                     | na plataforma para acessar         |     e organizar uma rotina
-                     | 
-                     | 
-                     |                   | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
-
-## Modelagem do Processo de Negócio 
-
-### Análise da Situação Atual
-
-Apresente aqui os problemas existentes que viabilizam sua proposta. Apresente o modelo do sistema como ele funciona hoje. Caso sua proposta seja inovadora e não existam processos claramente definidos, apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente, mesmo que não se utilize tecnologia computacional. 
-
-### Descrição Geral da Proposta
-
-Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias.
-
-### Processo 1 – NOME DO PROCESSO
-
-Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN. 
-
-![Processo 1](img/02-bpmn-proc1.png)
-
-### Processo 2 – NOME DO PROCESSO
-
-Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
-
-![Processo 2](img/02-bpmn-proc2.png)
-
-## Indicadores de Desempenho
-
-Apresente aqui os principais indicadores de desempenho e algumas metas para o processo. Atenção: as informações necessárias para gerar os indicadores devem estar contempladas no diagrama de classe. Colocar no mínimo 5 indicadores. 
-
-Usar o seguinte modelo: 
-
-![Indicadores de Desempenho](img/02-indic-desemp.png)
-Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe a ser apresentado a posteriori. 
+|Eu como …`QUEM`    | QUERO/PRECISO ... `FUNCIONALIDADE`                                             |PARA ... `MOTIVO/VALOR`                 |
+|--------------------|--------------------------------------------------------------------------------|----------------------------------------|
+|Jovem adulto      |poder me cadastrar e fazer login na plataforma para acessar seus recursos | poder realizar os desafios e organizar uma rotina |
+|Jovem adulto     | quero poder editar meus dados pessoais na plataforma  | poder apresentar minhas necessidades de acordo com meu perfil  |
+|Jovem adulto|quero poder filtrar desafios que irão agregar à minha rotina, tanto física quanto mentalmente, para melhorar meu bem-estar| personalizar meus interesses na plataforma de forma organizada  |
+|Adulto| quero poder ver imagens relacionadas a cada desafio na plataforma   |para poder me orientar melhor durante cada passo do desafio |
+|Adulto | quero poder me inscrever nos desafios que me interessam na plataforma  |para poder preservar meus gostos e proporcionar uma avaliação positiva |
+|Adulto|quero poder ver o nível de dificuldade de cada desafio listado na plataforma para selecionar aqueles que correspondem ao meu nível de habilidade. | para poder evoluir gradativamente, não extrapolando meu limite e consequentemente perdendo o interesse nas tarefas do desafio.  |
+|Jovem adulto |Quero poder me inscrever no ao comprimir o primeiro desafio |                  |
+|Adulto sênior | quero poder receber lembretes da plataforma para completar os desafios nos quais me propus  | para eu poder garantir um compromisso com aquele desafio, fazendo com que ele se conclua no prazo estabelecido |
+|Adulto sênior |quero poder acompanhar meu progresso em cada desafio  | para me manter motivado e focado em alcançar meus objetivos |
+|Jovem adulto | Quero que a plataforma mostre quando eu concluir um desafio  | para ter uma noção de como estou evoluindo  |
+|Adulto Sênior | quero poder avaliar os desafios que iniciei usando um sistema de classificação por estrela | para fornecer feedback e ajudar outros usuários a selecionar desafios de qualidade  |
+|Adulto Sênior| quero que a plataforma tenha uma barra de menu para navegação fácil entre diferentes seções e funcionalidade  | para ter uma navegação dinâmica sem muitas divergências que tomaram meu tempo   |
 
 ## Requisitos
-
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade de requisitos, aplicar uma técnica de priorização de requisitos e detalhar como a técnica foi aplicada.
 
 ### Requisitos Funcionais
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-01| O sistema deve permitir o cadastro e login na plataforma. | ALTA | 
+|RF-02| O sistema deve permitir que o usuário faça mudanças nos seus dados pessoais  | ALTA | 
+|RF-03| O sistema deve ter categorias entre os desafios entre físicos e mentais.   | ALTA |
+|RF-04| O sistema deve apresentar uma imagem relacionada a cada desafio.    | BAIXA |
+|RF-05| O sistema deve permitir inscrição nos desafios.  | ALTA |
+|RF-06| O sistema deve mostrar nível de dificuldade dos desafios entre fácil, médio e avançado.    | BAIXA |
+|RF-07| O sistema deve fornecer uma descrição do desafio e primeiro dia do desafio.    | MÉDIA |
+|RF-08| O sistema deve enviar lembretes aos usuários para completarem o desafio.    | MÉDIA |
+|RF-09| O sistema deve fornecer aos usuários histórico do progresso no desafio.   | MÉDIA |
+|RF-10| O sistema deve mostrar a conclusão dos desafios  | ALTA |
+|RF-11| O sistema deve permitir ao usuário fazer avaliações de desafios utilizando de 1 a 5 estrelas.  | MÉDIA |
+|RF-12| O sistema deve ter uma barra de menu   | ALTA |
 
-### Requisitos não Funcionais
+**Prioridade: Alta / Média / Baixa.  
+
+### Requisitos Não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-01| O sistema deve exigir senha com no mínimo 6 caracteres sendo 1 maiúsculas, 1 minúsculas e 1 caracteres especiais(@,#,$,&,*,etc) | MÉDIA | 
+|RNF-02| Ter responsividade para diferentes dispositivos como notebook, smartphone.  | ALTA | 
+|RNF-03| Limitar o acesso a no máximo 3 desafios simultâneos por usuário.  | MÉDIA | 
+|RNF-04| Ter compatibilidade com as versões mais recentes do Google Chrome, Firefox, Microsoft Edge.  | ALTA | 
+|RNF-05| O sistema deverá ter cores harmoniosas, hierarquia visual, espaçamento adequado como base dos princípios de design visual para websites.  | ALTA | 
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-
-## Restrições
-
-O projeto está restrito pelos itens apresentados na tabela a seguir.
-
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
-
-## Diagrama de Casos de Uso
-
-O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
-
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
-
-> **Links Úteis**:
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
-
-# Matriz de Rastreabilidade
-
-A matriz de rastreabilidade é uma ferramenta usada para facilitar a visualização dos relacionamento entre requisitos e outros artefatos ou objetos, permitindo a rastreabilidade entre os requisitos e os objetivos de negócio. 
-
-A matriz deve contemplar todos os elementos relevantes que fazem parte do sistema, conforme a figura meramente ilustrativa apresentada a seguir.
-
-![Exemplo de matriz de rastreabilidade](img/02-matriz-rastreabilidade.png)
-
-> **Links Úteis**:
-> - [Artigo Engenharia de Software 13 - Rastreabilidade](https://www.devmedia.com.br/artigo-engenharia-de-software-13-rastreabilidade/12822/)
-> - [Verificação da rastreabilidade de requisitos usando a integração do IBM Rational RequisitePro e do IBM ClearQuest Test Manager](https://developer.ibm.com/br/tutorials/requirementstraceabilityverificationusingrrpandcctm/)
-> - [IBM Engineering Lifecycle Optimization – Publishing](https://www.ibm.com/br-pt/products/engineering-lifecycle-optimization/publishing/)
-
-
-# Gerenciamento de Projeto
-
-De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar projetos, e que caracterizam a multidisciplinaridade envolvida, são: Integração, Escopo, Cronograma (Tempo), Custos, Qualidade, Recursos, Comunicações, Riscos, Aquisições, Partes Interessadas. Para desenvolver projetos um profissional deve se preocupar em gerenciar todas essas dez áreas. Elas se complementam e se relacionam, de tal forma que não se deve apenas examinar uma área de forma estanque. É preciso considerar, por exemplo, que as áreas de Escopo, Cronograma e Custos estão muito relacionadas. Assim, se eu amplio o escopo de um projeto eu posso afetar seu cronograma e seus custos.
-
-## Gerenciamento de Tempo
-
-Com diagramas bem organizados que permitem gerenciar o tempo nos projetos, o gerente de projetos agenda e coordena tarefas dentro de um projeto para estimar o tempo necessário de conclusão.
-
-![Diagrama de rede simplificado notação francesa (método francês)](img/02-diagrama-rede-simplificado.png)
-
-O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las.
-
-![Gráfico de Gantt](img/02-grafico-gantt.png)
-
-## Gerenciamento de Equipe
-
-O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados. 
-
-![Simple Project Timeline](img/02-project-timeline.png)
-
-## Gestão de Orçamento
-
-O processo de determinar o orçamento do projeto é uma tarefa que depende, além dos produtos (saídas) dos processos anteriores do gerenciamento de custos, também de produtos oferecidos por outros processos de gerenciamento, como o escopo e o tempo.
-
-![Orçamento](img/02-orcamento.png)
+**Prioridade: Alta / Média / Baixa.
