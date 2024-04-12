@@ -16,6 +16,15 @@ Feito abaixo junto com **Ferramentas**
 
 ## Controle de Versão
 
+Para organização e distribuição das tarefas do projeto, a equipe está utilizando quadro kanban no GitHub, estruturado com as seguintes listas:
+
+Product Backlog: recebe as tarefas a serem trabalhadas e representa o Backlog do produto. Todas as atividades identificadas no decorrer do projeto são incorporadas a esta lista.
+To Do: esta lista representa o Sprint Backlog que está sendo trabalhado.
+In progress: lista das tarefas iniciadas.
+Done: nesta lista são colocadas as tarefas finalizadas e as que passaram pelos testes e controle de qualidade, prontas para serem entregues aos usuários.
+O quadro kanban do grupo no GitHub está disponível no link https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1033 e é apresentado, no estado atual, na figura abaixo:
+
+
 _A ferramenta de controle de versão adotada no projeto foi o
 [Git](https://git-scm.com/), sendo que o [Github](https://github.com)
 foi utilizado para hospedagem do repositório._
@@ -30,10 +39,12 @@ O projeto segue a seguinte convenção para o nome de branches:
 Quanto à gerência de issues, o projeto adota a seguinte convenção para
 etiquetas:
 
-- `documentation`: melhorias ou acréscimos à documentação
-- `bug`: uma funcionalidade encontra-se com problemas
-- `enhancement`: uma funcionalidade precisa ser melhorada
-- `feature`: uma nova funcionalidade precisa ser introduzida
+* Bug (Erro no código)
+* Development (Desenvolvimento)
+* Documentation (Documentação)
+* Project Management (Gerência de Projetos)
+* Infrastructure (Infraestrutura)
+* Tests (Testes)
 
 _Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada._
 
