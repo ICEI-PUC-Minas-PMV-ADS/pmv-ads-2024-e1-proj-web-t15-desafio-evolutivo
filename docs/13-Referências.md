@@ -1,6 +1,6 @@
 # Referências
 
-**Drauzio** O Sedentarismo no Século 21. Disponível em: https://drauziovarella.uol.com.br/atividade-fisica/sedentarismo-e-um-dos-principais-fatores-de-risco-de-doencas-nao-transmissiveis/ Acessado em 19 mar. 2024.
+**Drauzio.** O Sedentarismo no Século 21. Disponível em: https://drauziovarella.uol.com.br/atividade-fisica/sedentarismo-e-um-dos-principais-fatores-de-risco-de-doencas-nao-transmissiveis/ Acessado em 19 mar. 2024.
 
 O que é SCRUM? (2023) **Amazon Web Services**. Disponível em: https://aws.amazon.com/pt/what-is/scrum/. Acessado em 11 abr. 2024.
 
