@@ -54,7 +54,7 @@ Os artefatos do projeto são desenvolvidos a partir das plataformas GitHub, Marv
 
 | Ambiente  | Plataforma | Link |
 | --------- | ---------- | ------- |
-| Repositório do código fonte | GitHub  | a inserir |
+| Repositório do código fonte | GitHub  | https://github.com/ICEI-PUC-Minas-PMV-ADS/DesafioEvolutivo/blob/main/src/README.md |
 | Documentos do projeto  | GitHub  | https://github.com/ICEI-PUC-Minas-PMV-ADS/DesafioEvolutivo  |
 | Projeto de Interface  | Canva  | https://www.canva.com/design/DAGBqtH0lHQ/e75d9rHkMYLIy4cFvKcqlA/edit  |
 | Gerenciamento do Projeto  | GitHub  | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1033/views/3 |
