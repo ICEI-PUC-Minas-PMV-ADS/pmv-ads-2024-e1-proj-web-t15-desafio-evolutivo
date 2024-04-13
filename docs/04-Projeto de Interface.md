@@ -3,7 +3,7 @@
 
 ## User Flow
 
-O fluxograma apresentado na figura 1 mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Protótipo de baixa fidelidade que se segue. As linhas verdes simbolizão que estão indo em direção ao menu lateral.
+O fluxograma apresentado na figura 1 mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Protótipo de baixa fidelidade que se segue. As linhas verdes simbolizão que estão indo em direção ao menu lateral. RF representa requisitos funcionais.
 
   ![Untitled Diagram-Page-1 drawio (2)](img/13.png)
 
@@ -26,6 +26,7 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
     <figcaption>Figura 2 - Estrutura padrão do site
 </figure> 
 <hr>
+
 
 <h3><b>Tela - Home page</b></h3>
 <p>A tela de home page apresenta as categorias "Mentais" e "Físicos" dos desafios. </p>
