@@ -8,8 +8,8 @@ A metodologia ágil escolhida é a SCRUM, pois cria um ambiente para a entrega e
 ### Divisão de Papéis
 
 Como a equipe se baseia na metodologia SCRUM, a divisão de papeis é a seguinte:
-- Scrum Master: Sharon Steicy;
-- Product Owner: Artur Maciel;
+- Scrum Master: Sharon Steicy
+- Product Owner: Artur Maciel
 - Equipe de Desenvolvimento: Artur Maciel, Enzo Gabriel, Gabriel Almeida, Gabriel Estebanez, Giuseppe Maida, Gustavo Paz, Sharon Steicy.
 
 ### Processo
