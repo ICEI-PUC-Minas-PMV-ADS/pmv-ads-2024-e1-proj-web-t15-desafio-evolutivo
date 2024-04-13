@@ -56,7 +56,7 @@ Os artefatos do projeto são desenvolvidos a partir das plataformas GitHub, Marv
 | --------- | ---------- | ------- |
 | Repositório do código fonte | GitHub  | a inserir |
 | Documentos do projeto  | GitHub  | https://github.com/ICEI-PUC-Minas-PMV-ADS/DesafioEvolutivo  |
-| Projeto de Interface  | Canva  | a inserir  |
+| Projeto de Interface  | Canva  | https://www.canva.com/design/DAGBqtH0lHQ/e75d9rHkMYLIy4cFvKcqlA/edit  |
 | Gerenciamento do Projeto  | GitHub  | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1033/views/3 |
 
 Tabela 1 - Desenvolvimento dos artefatos
