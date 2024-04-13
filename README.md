@@ -1,4 +1,4 @@
-# TÍTULO DO PROJETO
+# Desafio Evolutivo
 
 `Análise e Desenvolvimento de sistemas`
 
@@ -6,7 +6,7 @@
 
 `1º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O projeto desenvolvido é uma aplicação web front-end onde o usuário terá acesso a desafios diários a serem feitos no campo do desenvolvimento pessoal. 
 
 ## Integrantes
 
