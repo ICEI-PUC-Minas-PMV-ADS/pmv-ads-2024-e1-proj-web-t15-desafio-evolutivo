@@ -13,6 +13,9 @@ O projeto desenvolvido é uma aplicação web front-end onde o usuário terá ac
 * Artur Maciel 
 * Gabriel de Jesus Almeida
 * Gustavo Paz
+* Gabriel Estabanez
+* Enzo Gabriel
+* Giusepp Maida
 * Sharon Steicy
 
 ## Orientador
