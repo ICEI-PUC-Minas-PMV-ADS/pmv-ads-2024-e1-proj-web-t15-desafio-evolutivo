@@ -10,7 +10,7 @@ A metodologia ágil escolhida é a SCRUM, pois cria um ambiente para a entrega e
 Como a equipe se baseia na metodologia SCRUM, a divisão de papeis é a seguinte:
 - Scrum Master: Sharon Steicy;
 - Product Owner: Artur Maciel;
-- Equipe de Desenvolvimento: Artur Maciel, Enzo Gabriel, Gabriel Almeida, Gabriel Estebanez, Giuseppe Maida, Gustavo Paz, Sharon Steicy;
+- Equipe de Desenvolvimento: Artur Maciel, Enzo Gabriel, Gabriel Almeida, Gabriel Estebanez, Giuseppe Maida, Gustavo Paz, Sharon Steicy.
 
 ### Processo
 
@@ -29,14 +29,15 @@ Figura 1 - Quadro kanban
 Quanto à gerência de issues, o projeto adota a seguinte convenção para
 etiquetas:
 
-* Bug (Erro no código)
+* Bug (Erro)
 * Development (Desenvolvimento)
 * Documentation (Documentação)
-* Project Management (Gerência de Projetos)
 * Infrastructure (Infraestrutura)
+* Project Management (Gerência de Projetos)
 * Tests (Testes)
   
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/DesafioEvolutivo/assets/163445754/289ad8ff-a5f3-4836-b018-f4039261fea3)
+
 Figura 2 - etiquetas
 
 ### Ferramentas
@@ -54,10 +55,10 @@ Os artefatos do projeto são desenvolvidos a partir das plataformas GitHub, Marv
 | Ambiente  | Plataforma | Link |
 | --------- | ---------- | ------- |
 | Repositório do código fonte | GitHub  | a inserir |
-| Documentos do projeto  | GitHub  | a inserir  |
-| Protótipo e fluxo  | Marvel  | a inserir  |
-| Gerenciamento do Projeto  | GitHub  | a inserir  |
-| Projeto de interface  | Canva | a inserir  |
+| Documentos do projeto  | GitHub  | https://github.com/ICEI-PUC-Minas-PMV-ADS/DesafioEvolutivo  |
+| Projeto de Interface  | Canva  | a inserir  |
+| Gerenciamento do Projeto  | GitHub  | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1033/views/3 |
+
 Tabela 1 - Desenvolvimento dos artefatos
 
-Escolhemos utilizar o GitHub para centralizar o gerenciamento do projeto, consulta/edição de documentos e código fonte na mesma plataforma buscando eficiência. Utilizamos o Marvel para gerar o protótipo de baixa fidelidade e o fluxo das telas pela sua facilidade, e o Canva para suprir limitações no Marvel quanto ao design do projeto de interface.
+Escolhemos utilizar o GitHub para centralizar o gerenciamento do projeto, consulta/edição de documentos e código fonte na mesma plataforma buscando eficiência. Utilizamos o Canva para gerar o protótipo de baixa fidelidade e o user flow pela sua facilidade.
