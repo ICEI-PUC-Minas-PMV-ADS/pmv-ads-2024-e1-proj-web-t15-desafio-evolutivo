@@ -3,16 +3,6 @@
 
 A metodologia ágil escolhida é a SCRUM, pois cria um ambiente para a entrega eficiente de projetos, com adaptabilidade às mudanças, transparência nas atividades e fazendo com que a equipe se autogerencie e aprenda com a experiência (2023, Amazon Web Services). 
 
-## Controle de Versão
-
-> **Links Úteis**:
-> - [Microfundamento: Gerência de Configuração](https://pucminas.instructure.com/courses/87878/)
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
-
 ## Gerenciamento de Projeto
 
 ### Divisão de Papéis
@@ -21,11 +11,6 @@ Como a equipe se baseia na metodologia SCRUM, a divisão de papeis é a seguinte
 - Scrum Master: Sharon Steicy;
 - Product Owner: Artur Maciel;
 - Equipe de Desenvolvimento: Artur Maciel, Enzo Gabriel, Gabriel Almeida, Gabriel Estebanez, Giuseppe Maida, Gustavo Paz, Sharon Steicy;
-
-_> **Links Úteis**:_
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-> - [Os papéis do Scrum e a verdade sobre cargos nessa técnica](https://www.atlassian.com/br/agile/scrum/roles)
 
 ### Processo
 
@@ -38,6 +23,9 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 
 O quadro kanban do grupo no GitHub está disponível no link https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1033 e é apresentado, no estado atual, na figura abaixo:
 
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/DesafioEvolutivo/assets/163445754/87beb130-b693-46e0-be61-467eeaba3adc)
+Figura 1 - Quadro kanban
+
 Quanto à gerência de issues, o projeto adota a seguinte convenção para
 etiquetas:
 
@@ -47,14 +35,9 @@ etiquetas:
 * Project Management (Gerência de Projetos)
 * Infrastructure (Infraestrutura)
 * Tests (Testes)
- 
-_> **Links Úteis**:_
-> - [Planejamento e Gestáo Ágil de Projetos](https://pucminas.instructure.com/courses/87878/pages/unidade-2-tema-2-utilizacao-de-ferramentas-para-controle-de-versoes-de-software)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards)
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+  
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/DesafioEvolutivo/assets/163445754/289ad8ff-a5f3-4836-b018-f4039261fea3)
+Figura 2 - etiquetas
 
 ### Ferramentas
 
@@ -75,5 +58,6 @@ Os artefatos do projeto são desenvolvidos a partir das plataformas GitHub, Marv
 | Protótipo e fluxo  | Marvel  | a inserir  |
 | Gerenciamento do Projeto  | GitHub  | a inserir  |
 | Projeto de interface  | Canva | a inserir  |
+Tabela 1 - Desenvolvimento dos artefatos
 
 Escolhemos utilizar o GitHub para centralizar o gerenciamento do projeto, consulta/edição de documentos e código fonte na mesma plataforma buscando eficiência. Utilizamos o Marvel para gerar o protótipo de baixa fidelidade e o fluxo das telas pela sua facilidade, e o Canva para suprir limitações no Marvel quanto ao design do projeto de interface.
