@@ -89,11 +89,11 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Adulto| quero poder ver imagens relacionadas a cada desafio na plataforma   |para poder me orientar melhor durante cada passo do desafio |
 |Adulto | quero poder me inscrever nos desafios que me interessam na plataforma  |para poder preservar meus gostos e proporcionar uma avaliação positiva |
 |Adulto|quero poder ver o nível de dificuldade de cada desafio listado na plataforma para selecionar aqueles que correspondem ao meu nível de habilidade. | para poder evoluir gradativamente, não extrapolando meu limite e consequentemente perdendo o interesse nas tarefas do desafio.  |
-|Jovem adulto |Quero poder me inscrever no ao comprimir o primeiro desafio |  Para facilitar meu engajamento no desafio                |
-|Adulto sênior | quero poder receber lembretes da plataforma para completar os desafios nos quais me propus  | para eu poder garantir um compromisso com aquele desafio, fazendo com que ele se conclua no prazo estabelecido |
+|Jovem adulto | Quero poder me inscrever no desafio ao comprimir a primeira tarefa. |  Para facilitar meu engajamento no desafio                |
+|Adulto sênior | quero poder receber lembretes da plataforma para completar os desafios nos quais me propus  | para eu poder garantir um compromisso com aquele desafio|
 |Adulto sênior |quero poder acompanhar meu progresso em cada desafio  | para me manter motivado e focado em alcançar meus objetivos |
 |Jovem adulto | Quero que a plataforma mostre quando eu concluir um desafio  | para ter uma noção de como estou evoluindo  |
-|Adulto Sênior | quero poder avaliar os desafios que iniciei usando um sistema de classificação por estrela | para fornecer feedback e ajudar outros usuários a selecionar desafios de qualidade  |
+|Adulto Sênior | quero poder avaliar os desafios que iniciei usando um sistema de classificação por estrela | para fornecer feedback e ajudar outros usuários e desenvolvedores.  |
 |Adulto Sênior| quero que a plataforma tenha uma barra de menu para navegação fácil entre diferentes seções e funcionalidade  | para ter uma navegação dinâmica sem muitas divergências que tomaram meu tempo   |
 
 ## Requisitos
