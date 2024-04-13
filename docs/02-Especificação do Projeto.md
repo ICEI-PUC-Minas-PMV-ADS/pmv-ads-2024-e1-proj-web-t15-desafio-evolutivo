@@ -17,10 +17,10 @@ Jovens em busca de desenvolvimento pessoal
 <tr>
 <td><b>Necessidades</b></td>
 <td>
- 1.Encontrar algum hobby gratuito. <br>
- 2.Organização melhor da rotina. <br>
- 3.Sair do sedentarismo. <br>
- 4.Atividades que ajudam a lidar com a ansiedade. <br>
+ 1. Encontrar um hobby gratuito. <br>
+ 2. Encontrar uma forma melhor para organizar a rotina. <br>
+ 3. Entrar ambiente que facilite sair do sedentarismo. <br>
+ 4. Realizar atividades que ajudam a lidar com a ansiedade. <br>
 </td>
 </tr>
 </tbody>
@@ -40,12 +40,12 @@ Adultos em busca de desenvolvimento pessoal
 <tr>
 <td><b>Necessidades</b></td>
 <td>
-1.Equilíbrio entre vida profissional e lazer.  <br>
-2.Organização melhor da rotina. <br>
-3.Sair do sedentarismo. <br>
-4.Atividades que ajudam a lidar com a ansiedade. <br>
-5.Melhorar produtividade no trabalho. <br>
-6.Rotinas de autocuidado. <br>
+1. Encontrar maneiras de equilibrar a vida profissional e lazer.  <br>
+2. Encontrar uma forma melhor para organizar a rotina. <br>
+3. Entrar ambiente que facilite sair do sedentarismo. <br>
+4. Realizar atividades que ajudam a lidar com a ansiedade. <br>
+5. Entrar uma plataforma que ajude a melhorar a produtividade no trabalho. <br>
+6. Encontrar maneiras de implementar rotinas de autocuidado. <br>
 
 </td>
 </tr>
@@ -66,10 +66,10 @@ Pessoas buscando manter a mente e o corpo ativos
 <tr>
 <td><b>Necessidades</b></td>
 <td>
-1.Sair do sedentarismo.  <br>
-2.Atividades que ajudam a desenvolver a mente.  <br>
-3.Rotinas de autocuidado.  <br>
-4.Combater isolamento social. <br>
+1. Entrar ambiente que facilite sair do sedentarismo.  <br>
+2. Encontrar uma plataforma que ajude a realizar atividades que desenvolvem a mente.  <br>
+3. Encontrar maneiras de implementar rotinas de autocuidado. <br>
+4. Encontrar meios para combater isolamento social. <br>
 </td>
 </tr>
 </tbody>
