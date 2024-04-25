@@ -18,22 +18,22 @@ h1 {
 }
 
 h2 {
-    position: absolute;
+    position: fixed;
     text-align: end;
     color: #000000;
     font-size: 1rem;
-    top: 500px;
-    left: 338px;
+    top: 462px;
+    left: 422px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
         }
 
         h3 {
-    position: absolute;
+    position: fixed;
     text-align: end;
     color: #000000;
     font-size: 1rem;
-    top: 500px;
-    right: 338px;
+    top: 462px;
+    right: 422px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
         }
 
