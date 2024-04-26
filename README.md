@@ -15,7 +15,7 @@ O projeto desenvolvido é uma aplicação web front-end onde o usuário terá ac
 * Gustavo Paz
 * Gabriel Estabanez
 * Enzo Gabriel
-* Giusepp Maida
+* Giuseppe Maida
 * Sharon Steicy
 
 ## Orientador
