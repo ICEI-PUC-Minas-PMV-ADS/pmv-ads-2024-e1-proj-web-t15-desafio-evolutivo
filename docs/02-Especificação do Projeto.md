@@ -94,7 +94,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Adulto sênior |quero poder acompanhar meu progresso em cada desafio  | para me manter motivado e focado em alcançar meus objetivos |
 |Jovem adulto | Quero que a plataforma mostre quando eu concluir um desafio  | para ter uma noção de como estou evoluindo  |
 |Adulto Sênior | quero poder avaliar os desafios que iniciei usando um sistema de classificação por estrela | para fornecer feedback e ajudar outros usuários e desenvolvedores.  |
-|Adulto Sênior| quero que a plataforma tenha uma barra de menu para navegação fácil entre diferentes seções e funcionalidade  | para ter uma navegação dinâmica sem muitas divergências que tomaram meu tempo   |
+
 
 ## Requisitos
 
@@ -113,7 +113,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |RF-09| O sistema deve fornecer aos usuários histórico do progresso no desafio.   | MÉDIA |
 |RF-10| O sistema deve mostrar a conclusão dos desafios  | ALTA |
 |RF-11| O sistema deve permitir ao usuário fazer avaliações de desafios utilizando de 1 a 5 estrelas.  | MÉDIA |
-|RF-12| O sistema deve ter uma barra de menu   | ALTA |
 
 **Prioridade: Alta / Média / Baixa.  
 
