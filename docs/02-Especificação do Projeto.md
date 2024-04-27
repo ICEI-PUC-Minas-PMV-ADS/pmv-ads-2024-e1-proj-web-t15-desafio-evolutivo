@@ -124,6 +124,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |RNF-02| Ter responsividade para diferentes dispositivos como notebook, smartphone.  | ALTA | 
 |RNF-03| Limitar o acesso a no máximo 3 desafios simultâneos por usuário.  | MÉDIA | 
 |RNF-04| Ter compatibilidade com as versões mais recentes do Google Chrome, Firefox, Microsoft Edge.  | ALTA | 
-|RNF-05| O projeto precisa ser disponibilizado em um ambiente online acessível ao público na internet.  | ALTA | 
+|RNF-05| O projeto precisa ser disponibilizado em um website público na internet.  | ALTA | 
 
 **Prioridade: Alta / Média / Baixa.
