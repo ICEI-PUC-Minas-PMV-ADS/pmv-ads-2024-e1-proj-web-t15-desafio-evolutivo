@@ -89,7 +89,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Adulto| quero poder ver imagens relacionadas a cada desafio na plataforma   |para poder me orientar melhor durante cada passo do desafio |
 |Adulto | quero poder me inscrever nos desafios que me interessam na plataforma  |para poder preservar meus gostos e proporcionar uma avaliação positiva |
 |Adulto|quero poder ver o nível de dificuldade de cada desafio listado na plataforma para selecionar aqueles que correspondem ao meu nível de habilidade. | para poder evoluir gradativamente, não extrapolando meu limite e consequentemente perdendo o interesse nas tarefas do desafio.  |
-|Jovem adulto | Quero poder ver a descrição do desafio quando escolher. |  Para facilitar meu engajamento no desafio                |
+|Jovem adulto | quero poder ver a descrição do desafio quando escolhido |  para facilitar meu engajamento no desafio                |
 |Adulto sênior | quero poder receber lembretes da plataforma para completar os desafios nos quais me propus  | para eu poder garantir um compromisso com aquele desafio|
 |Adulto sênior |quero poder acompanhar meu progresso em cada desafio  | para me manter motivado e focado em alcançar meus objetivos |
 |Jovem adulto | Quero que a plataforma mostre quando eu concluir um desafio  | para ter uma noção de como estou evoluindo  |
