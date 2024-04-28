@@ -8,6 +8,24 @@ body {
     font-family: Arial, sans-serif;
 }
 
+.title-container {
+    position: absolute;
+    top: 8rem;
+    left: 6rem;
+    width: 80%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    margin: 0 auto;
+        }
+
+.title-container img {
+    width: 80%;
+    height: auto;
+  }
+
 .objective-container {
     position: absolute;
     top: 350px;
