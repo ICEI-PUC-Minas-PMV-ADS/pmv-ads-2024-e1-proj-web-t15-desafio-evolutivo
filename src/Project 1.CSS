@@ -11,6 +11,7 @@ body {
 .title-container {
     position: absolute;
     top: 8rem;
+    right: 50rem;
     left: 6rem;
     width: 80%;
     height: 90px;
@@ -28,15 +29,18 @@ body {
 
 .objective-container {
     position: absolute;
-    top: 350px;
+    top: 100px;
+    right: 90rem;
     left: 15rem;
-    width: 140%;
-    height: 90px;
+    width: 200%;
+    
     display: flex;
     align-items: center;
     justify-content: center;
     max-width: 600px;
     margin: 0 auto;
+    height: auto; /* Mantém a proporção da imagem */
+    
         }
 .objective-container img {
     width: 140%;
@@ -54,7 +58,7 @@ body {
     justify-content: center;
     max-width: 600px;
     margin: 0 auto;
-        }
+        } 
 .figure-container img {
     width: 150%;
     height: auto;
@@ -93,6 +97,8 @@ h2 {
     position: absolute;
     width: 60%;
     height: 50%;
+    right: 9rem;
+    left: 16rem;
     padding: 4rem;
     top: 50rem;
     background-color: #ffffff;
@@ -243,4 +249,82 @@ h2 {
     padding: 20px;
     box-sizing: border-box;
 }
+.grid-container {
+    display: grid;
+    height: 100vh; /* Define a altura da grade para cobrir toda a altura da janela */
+}
 
+.element {
+    grid-row: 3; /* Define a linha em que o elemento será colocado (no topo) */
+    grid-column: 3; 
+    align-self: start; /* Alinha o elemento no início (topo) do espaço da grade */
+    justify-self: start; /* Alinha o elemento no início (esquerda) do espaço da grade */
+    
+}
+.container {
+    position: relative; /* Garante que a posição absoluta da imagem seja relativa a este contêiner */
+    width: 100%; /* Garante que o contêiner ocupe toda a largura disponível */
+    height: auto; /* Mantém a proporção do contêiner */
+    overflow: hidden; /* Garante que a imagem não ultrapasse os limites do contêiner */
+}
+
+.container img {
+    position: absolute; /* Permite posicionar a imagem de forma absoluta */
+    top: 0; /* Alinha a imagem ao topo do contêiner */
+    left: 0; /* Alinha a imagem à esquerda do contêiner */
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+  .title {
+    color: grey;
+    font-size: 20px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 19px;
+    color: black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+
+  .card5{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    margin: 0 10px;
+    right: -600px;
+    left:px; /* Alinha a imagem à esquerda do contêiner */
+    position: relative; /* Permite posicionar o elemento de forma absoluta */
+    top: -400px; /* Move o elemento para cima */
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    margin: 0 10px;
+    right: 551px;
+    left: px; /* Alinha a imagem à esquerda do contêiner */
+    position: relative; /* Permite posicionar o elemento de forma absoluta */
+    top: 150px; /* Move o elemento para cima */
+  }
+  
