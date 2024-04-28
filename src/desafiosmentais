@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head> 
+    <meta charset="UF-8">
+    <meta name=" viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="body {.css">
+</head>
+<body>
+    <div class="title-container">
+        <a href="Untitled-1.html"> 
+        <img src="titulodesafioevolutivo.png">
+    </a>
+    </div>
+
+   
+      
+      <div class="card5">
+        <img src="xadrez.jpg" alt="John" style="width:100%">
+        <h1>Desafio xadrez </h1>
+        <p class="title">Desafie seu cerébro ganhando muitas partidas de xadrez </p>
+        <a href="#"><i class="fa fa-dribbble"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <p><button>Ver Desafio</button></p>
+      </div>
+
+      <div class="card5">
+        <img src="xadrez.jpg" alt="John" style="width:100%">
+        <h1>Desafio xadrez </h1>
+        <p class="title">Desafie seu cerébro ganhando muitas partidas de xadrez </p>
+        <a href="#"><i class="fa fa-dribbble"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <p><button>Ver Desafio</button></p>
+      </div>
+
+<div class="card5">
+        <img src="xadrez.jpg" alt="John" style="width:100%">
+        <h1>Desafio xadrez </h1>
+        <p class="title">Desafie seu cerébro ganhando muitas partidas de xadrez </p>
+        <a href="#"><i class="fa fa-dribbble"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <p><button>Ver Desafio</button></p>
+      </div>
+<div class="card5">
+        <img src="xadrez.jpg" alt="John" style="width:100%">
+        <h1>Desafio xadrez </h1>
+        <p class="title">Desafie seu cerébro ganhando muitas partidas de xadrez </p>
+        <a href="#"><i class="fa fa-dribbble"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <p><button>Ver Desafio</button></p>
+      </div>
+      <div class="card5">
+        <img src="xadrez.jpg" alt="John" style="width:100%">
+        <h1>Desafio xadrez </h1>
+        <p class="title">Desafie seu cerébro ganhando muitas partidas de xadrez </p>
+        <a href="#"><i class="fa fa-dribbble"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <p><button>Ver Desafio</button></p>
+      </div>
+      <br>
+      <div class="card5">
+        <img src="xadrez.jpg" alt="John" style="width:100%">
+        <h1>Desafio xadrez </h1>
+        <p class="title">Desafie seu cerébro ganhando muitas partidas de xadrez </p>
+        <a href="#"><i class="fa fa-dribbble"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <p><button>Ver Desafio</button></p>
+      </div>
+      
+      <div class="card">
+        <img src="matématica.jpg" alt="John" style="width:100%">
+        <h1>Desafio mátemático </h1>
+        <p class="title">Desafie seu cerébro com todas as equações </p>
+        <a href="#"><i class="fa fa-dribbble"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <p><button>Ver Desafio</button></p>
+      </div>
+      <div class="card">
+        <img src="matématica.jpg" alt="John" style="width:100%">
+        <h1>Desafio mátemático </h1>
+        <p class="title">Desafie seu cerébro com todas as equações </p>
+        <a href="#"><i class="fa fa-dribbble"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <p><button>Ver Desafio</button></p>
+      </div>
+      <div class="card">
+        <img src="matématica.jpg" alt="John" style="width:100%">
+        <h1>Desafio mátemático </h1>
+        <p class="title">Desafie seu cerébro com todas as equações </p>
+        <a href="#"><i class="fa fa-dribbble"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <p><button>Ver Desafio</button></p>
+      </div>
+      <div class="card">
+        <img src="matématica.jpg" alt="John" style="width:100%">
+        <h1>Desafio mátemático </h1>
+        <p class="title">Desafie seu cerébro com todas as equações </p>
+        <a href="#"><i class="fa fa-dribbble"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <p><button>Ver Desafio</button></p>
+      </div>
+      <div class="card">
+        <img src="matématica.jpg" alt="John" style="width:100%">
+        <h1>Desafio mátemático </h1>
+        <p class="title">Desafie seu cerébro com todas as equações </p>
+        <a href="#"><i class="fa fa-dribbble"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <p><button>Ver Desafio</button></p>
+      </div>
+    
+    <div class="content-container">
+        <div class="menu-button">
+            <button>☰</button>
+        </div>
+        <div class="menu">
+            <a href="#">Home</a>
+            <a href="#">Apps</a>
+            <a href="#">Settings</a>
+        </div>
+        <div class="perfil-button">
+            <div class="user-profile-icon">
+                <i class="fas fa-user"></i>
+                <i class="fas fa-check"></i>
+              </div>
+        </div>
+
+        <div class="image-container">
+            <a href="notificação.html"> 
+            <img src="notificação.png" alt="Bell description" />
+        </a>
+          </div>
+</body>
+</html>
