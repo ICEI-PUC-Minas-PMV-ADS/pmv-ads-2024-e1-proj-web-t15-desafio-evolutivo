@@ -23,23 +23,23 @@ Teremos como objetivos:
 
 ## Justificativa
 
-O alerta emitido pela OMS sobre o sedentarismo ressalta a urgência em abordar os padrões de atividades físicas da população, já que esse é um fator significativo no aumento das taxas de obesidade, doenças cardiovasculares entre outras condições crônicas. O mesmo órgão também estima que mais de 12 bilhões de dias de trabalho são perdidos por ano devido a ansiedade ou depressão, resultando em um custo de US$ 1 trilhão anual em perda de produtividade (2022).
+O alerta emitido pela OMS sobre o sedentarismo (2017) ressalta a urgência em abordar os padrões de atividades físicas da população, já que esse é um fator significativo no aumento das taxas de obesidade, doenças cardiovasculares entre outras condições crônicas. O mesmo órgão também estima que mais de 12 bilhões de dias de trabalho são perdidos por ano devido a ansiedade ou depressão, resultando em um custo de US$ 1 trilhão anual em perda de produtividade (2022).
 
-Além disso, em um contexto mais localizado, uma pesquisa da Universidade de São Paulo (USP) mostrou que o sedentarismo é responsável por cerca de 320 mil mortes prematuras a cada ano no Brasil, evidenciando sua gravidade como problema de saúde pública (USP, 2020). Nesse cenário, um projeto de aplicação web pode desempenhar um papel crucial no esforço para construir uma sociedade saudável, trazendo uma plataforma acessível e conveniente para pessoas de todas as idades encontrarem motivação para se tornarem mais ativos e obter qualidade de vida.
+Nesse cenário, um projeto de aplicação web pode desempenhar um papel crucial no esforço para construir uma sociedade fisicamente e mentalmente saudável, trazendo uma plataforma acessível e conveniente para pessoas de todas as idades encontrarem motivação para se tornarem mais ativos e obter qualidade de vida.
 
 Entre as diversas funcionalidades, vamos oferecer:
 * Definição de Metas;
 * Sugestões de Exercícios; 
-* Compartilhamento Social;
-* Recompensas e Incentivos; 
+* Interação Social;
+* Incentivos; 
 * Desafios Variados;
 * Feedback e Avaliações.
 
-Com esse projeto em vigor, podemos contribuir para eliminar os efeitos negativos do sedentarismo na sociedade, buscando uma cultura de pessoas ativas e saudáveis. Além de que as abordagens baseadas na tecnologia podem atingir grandes populações de uma forma escalável, promovendo a saúde pública e reduzindo o impacto de doenças relacionadas ao sedentarismo. 
+Com esse projeto em vigor, podemos contribuir para eliminar efeitos negativos de negligência com saúde física e mental, buscando uma cultura de pessoas ativas, saudáveis e produtivas. As abordagens baseadas na tecnologia podem atingir grandes populações de uma forma escalável, promovendo a saúde pública e reduzindo o impacto de doenças relacionadas ao sedentarismo e à saude mental. 
 
 ## Público-Alvo
 
-Nosso público-alvo inclui adultos de todas as idades interessados em melhorar sua qualidade de vida e alcançar seu potencial máximo. Isso engloba desde adultos jovens que lidam com ansiedade até profissionais ocupados em busca de equilíbrio entre trabalho e vida pessoal, e adultos sêniores que buscam manter uma mente ativa e combater o isolamento social.
+Nosso público-alvo inclui adultos de todas as idades interessados em melhorar sua qualidade de vida pelo cuidado com a saúde. Isso engloba desde adultos jovens que lidam com ansiedade, até profissionais ocupados em busca de equilíbrio entre trabalho e vida pessoal, e adultos sêniores que buscam manter uma mente ativa, combater o isolamento social e o sedentarismo.
 
 Algumas características do nosso público-alvo são:
 * Pouca disponibilidade de tempo;
