@@ -18,8 +18,8 @@ Teremos como objetivos:
 * Amenizar os impactos do sedentarismo na sociedade promovendo a pratica de exercicios fisicos;
 * Auxiliar o usuário na organização da sua rotina de forma eficiente, criativa, adotando hábitos saudáveis como alimentação apropiada;
 * Ajudar pessoas a cumprirem metas em um ambiente saudável, de uso gratuito, para auxiliar em seu desenvolvimento pessoal;
-* Promover estimulos ao constante aprendizado para beneficio mental, como leitura de livros e artigos;
-* Proporcionar desafios para melhorar a inteligência emocional, reconhecimento e gestão de emoções, empatia e habilidades de comunicação interpessoal. 
+* Promover estímulos ao constante aprendizado para beneficio mental, como leitura de livros e artigos;
+* Proporcionar desafios para melhorar a inteligência emocional, reconhecimento e gestão de emoções, empatia e habilidades de comunicação interpessoal; 
 
 ## Justificativa
 
