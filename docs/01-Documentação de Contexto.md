@@ -39,7 +39,7 @@ Com esse projeto em vigor, podemos contribuir para eliminar efeitos negativos de
 
 ## Público-Alvo
 
-Nosso público-alvo inclui adultos de todas as idades interessados em melhorar sua qualidade de vida pelo cuidado com a saúde. Isso engloba desde adultos jovens que lidam com ansiedade, até profissionais ocupados em busca de equilíbrio entre trabalho e vida pessoal, e adultos sêniores que buscam manter uma mente ativa, combater o isolamento social e o sedentarismo.
+Nosso público-alvo inclui adultos de todas as idades interessados em melhorar sua qualidade de vida pelo cuidado com a saúde, através do cumprimento de metas e objetivos. Isso engloba desde adultos jovens que lidam com ansiedade, até profissionais ocupados em busca de equilíbrio entre trabalho e vida pessoal, e adultos sêniores que buscam manter uma mente ativa, combater o isolamento social e o sedentarismo.
 
 Algumas características do nosso público-alvo são:
 * Pouca disponibilidade de tempo;
