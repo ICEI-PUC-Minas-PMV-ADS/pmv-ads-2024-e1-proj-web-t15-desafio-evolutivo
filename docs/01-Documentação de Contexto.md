@@ -7,17 +7,19 @@ Diante a progressão  deste problema, observamos  a escassez de soluções apres
 
 ## Problema
 
-O problema que vamos abordar, é a deficiência de um meio que auxilie as pessoas a serem mais organizadas e a conseguirem cumprir metas, pois em um mundo onde existem demandas complexas e mudanças constantes, se mostra cada vez mais difícil conciliar a vida profissional, acadêmica e pessoal. Ou seja, quanto mais evoluímos profissionalmente, muitas vezes deixamos de lado os costumes que podem nós proporcionar uma vida próspera, podendo ir de uma atividade física até mesmo a leitura de um livro. 
+O problema que estamos abordando, é a deficiência de meios que auxiliem as pessoas a serem mais ativas mental e fisicamente, que permita  organizar seu estilo de vida, acompanhar e promover a conclusão de metas saudáveis na atual sociedade que constantemente muda e apresenta variadas situações e demandas complexas.
 
 ## Objetivos
 
-O objetivo deste projeto é desenvolver uma solução simples que nós permita usar a tecnologia de uma forma inteligente para melhorar a qualidade de vida das pessoas. O projeto irá facilitar a maneira das pessoas se organizarem, tornando recompensador o cumprimento de metas que muitas vezes podem parecer difíceis ou cansativas. 
+O foco  deste projeto é desenvolver uma solução simples que se integre ao cotidiano  que nós permita usar a tecnologia de uma forma inteligente para melhorar a qualidade de vida das pessoas e as mantenha empenhadas a longo prazo para alcançar seus objetivos. 
+
 
 Teremos como objetivos:
-* Amenizar os impactos do sedentarismo na sociedade;
-* Auxiliar o usuário na organização da sua rotina uma forma eficiente, criativa, adotando hábitos saudáveis;
-* Ajudar pessoas a cumprirem metas em um ambiente saudável, de uso gratuito, para auxiliar em seu desenvolvimento pessoal. 
-* Proporcionar desafios para melhorar a inteligência emocional, incluindo reconhecimento e gestão de emoções, empatia e habilidades de comunicação interpessoal. 
+* Amenizar os impactos do sedentarismo na sociedade promovendo a pratica de exercicios fisicos;
+* Auxiliar o usuário na organização da sua rotina de forma eficiente, criativa, adotando hábitos saudáveis como alimentação apropiada;
+* Ajudar pessoas a cumprirem metas em um ambiente saudável, de uso gratuito, para auxiliar em seu desenvolvimento pessoal;
+* Promover estimulos ao constante aprendizado para beneficio mental, como leitura de livros e artigos;
+* Proporcionar desafios para melhorar a inteligência emocional, reconhecimento e gestão de emoções, empatia e habilidades de comunicação interpessoal. 
 
 ## Justificativa
 
