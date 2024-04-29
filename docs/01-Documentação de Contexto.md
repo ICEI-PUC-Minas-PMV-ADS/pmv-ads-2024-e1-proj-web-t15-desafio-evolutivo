@@ -1,6 +1,6 @@
 # Introdução
 
-Em um mundo onde a tecnologia abrange grande parte das necessidades do nosso dia a dia, por outro lado e também como uma consequência, o sedentarismo consome grande parte da sociedade. De acordo com a OMS (2017) o sedentarismo será, durante o século 21, tão nocivo quanto o cigarro.
+No mundo em que vivemos a tecnologia abrange diversas necessidades do nosso dia a dia, e com isso proporcionou o aumento gradativo do sedentarismo em nossa sociedade. De acordo com a OMS (2017) o sedentarismo será, durante o século 21, tão nocivo quanto o cigarro.
 
 Diante da evolução constante desse problema, conseguimos observar a escassez de soluções apresentadas para melhorar a qualidade de vida da sociedade, tendo em vista que a tecnologia facilita a resolução de muitas demandas, trazendo lazer, informações, entre outros. Porém, em contrapartida ela pode gerar uma sociedade escassa de atividades físicas, motivação, comprometimento, colocando em risco nosso corpo e mente.
 
