@@ -28,4 +28,14 @@ A urgência em abordar os padrões de atividades físicas da população é ress
 
 ## Público-alvo
 
-Nosso público-alvo inclui adultos de todas as idades interessados em melhorar sua qualidade de vida e enfrentar desafios específicos relacionados à organização pessoal e ao alcance de metas. Isso abrange desde jovens adultos lidando com ansiedade até profissionais ocupados em busca de equilíbrio entre trabalho e vida pessoal, e adultos sêniores que procuram manter uma mente ativa e combater o isolamento social. Algumas características do nosso público-alvo que devem ser consideradas são:Restrição de tempo;Dificuldade em estabelecer e manter uma rotina organizada;Tendência ao sedentarismo;Necessidade de apoio emocional e equilíbrio;Desafios ao iniciar novos hobbies devido à falta de acessibilidade;Interesse em estabelecer e alcançar metas pessoais e profissionais de forma mais eficaz;Motivação para se manter ativo e continuar aprendendo ao longo da vida.Essas características são essenciais para entender as necessidades e expectativas do nosso público-alvo e direcionar o desenvolvimento do nosso projeto de forma a atendê-las da melhor maneira possível.
+Nosso público-alvo inclui adultos de todas as idades interessados em melhorar sua qualidade de vida e enfrentar desafios específicos relacionados à organização pessoal e ao alcance de metas. Isso abrange desde jovens adultos lidando com ansiedade até profissionais ocupados em busca de equilíbrio entre trabalho e vida pessoal, e adultos sêniores que procuram manter uma mente ativa e combater o isolamento social. Algumas características do nosso público-alvo que devem ser consideradas são:
+
+* Restrição de tempo;
+* Dificuldade em estabelecer e manter uma rotina organizada;
+* Tendência ao sedentarismo;
+* Necessidade de apoio emocional e equilíbrio;
+* Desafios ao iniciar novos hobbies devido à falta de acessibilidade;
+* Interesse em estabelecer e alcançar metas pessoais e profissionais de forma mais eficaz;
+* Motivação para se manter ativo e continuar aprendendo ao longo da vida.
+
+Essas características são essenciais para entender as necessidades e expectativas do nosso público-alvo e direcionar o desenvolvimento do nosso projeto de forma a atendê-las da melhor maneira possível.
