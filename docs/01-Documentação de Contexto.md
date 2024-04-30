@@ -20,7 +20,8 @@ Nossos objetivos específicos:
 
 ## Justificativa
 
-O alerta emitido pela OMS sobre o sedentarismo (2017) ressalta a urgência em abordar os padrões de atividades mental e físicas da população, a ultima sendo   um fator significativo no aumento das taxas de obesidade, doenças cardiovasculares entre outras condições crônicas. O mesmo órgão também estima que mais de 12 bilhões de dias de trabalho são perdidos por ano devido a ansiedade ou depressão, resultando em um custo de US$ 1 trilhão anual em perda de produtividade (2022). Aliadoa esses dados, pesquisa da Universidade de São Paulo (USP) evidenciou que o sedentarismo é responsável por cerca de 320 mil mortes prematuras a cada ano no Brasil, destacando sua gravidade como problema de saúde pública (USP, 2020).
+O alerta emitido pela OMS sobre o sedentarismo (2017) ressalta a urgência em abordar os padrões de atividades mental e físicas da população, a ultima sendo um fator significativo no aumento das taxas de obesidade, doenças cardiovasculares entre outras condições crônicas. O mesmo órgão também estima que mais de 12 bilhões de dias de trabalho são perdidos por ano devido a ansiedade ou depressão, resultando em um custo de US$ 1 trilhão anual em perda de produtividade (2022).
+
 Nesse cenário, um projeto de aplicação web pode desempenhar um papel crucial no esforço para construir uma sociedade fisicamente e mentalmente saudável, trazendo uma plataforma acessível e conveniente para pessoas de todas as idades encontrarem motivação para se tornarem mais ativos e obter qualidade de vida.
 
 Entre as diversas funcionalidades, vamos oferecer:
@@ -31,18 +32,17 @@ Entre as diversas funcionalidades, vamos oferecer:
 * Desafios Variados;
 * Feedback e Avaliações.
 
-Com esse projeto em vigor, podemos contribuir para eliminar práticas e efeitos negativos da negligência com a saúde pessoal, buscando uma cultura de pessoas ativas, saudáveis e produtivas. As abordagens baseadas na tecnologia nos possibilitam atingir grandes populações de uma forma escalável, promovendo a saúde pública e reduzindo o impacto que as doenças combatidas podem manifestar. 
+Com esse projeto em vigor, podemos contribuir para eliminar práticas e efeitos negativos de negligência com saúde física e mental, buscando uma cultura de pessoas ativas, saudáveis e produtivas. As abordagens baseadas na tecnologia podem atingir grandes populações de uma forma escalável, promovendo a saúde pública e reduzindo o impacto de doenças relacionadas ao sedentarismo e à saude mental.
 
 ## Público-alvo
 
-Nosso público-alvo inclui adultos de todas as idades interessados em melhorar sua qualidade de vida e enfrentar desafios específicos relacionados à organização pessoal e ao alcance de metas. Isso abrange desde jovens adultos lidando com ansiedade até profissionais ocupados em busca de equilíbrio entre trabalho e vida pessoal, e adultos sêniores que procuram manter uma mente ativa e combater o isolamento social. Algumas características do nosso público-alvo que devem ser consideradas são:
+Nosso público-alvo inclui adultos de todas as idades interessados em melhorar sua qualidade de vida pelo cuidado com a saúde, através do cumprimento de metas e objetivos. Isso engloba desde adultos jovens que lidam com ansiedade, até profissionais ocupados em busca de equilíbrio entre trabalho e vida pessoal, e adultos sêniores que buscam manter uma mente ativa, combater o isolamento social e o sedentarismo.
 
-* Restrição de tempo;
-* Dificuldade em estabelecer e manter uma rotina organizada;
-* Tendência ao sedentarismo;
-* Necessidade de apoio emocional e equilíbrio;
-* Desafios ao iniciar novos hobbies devido à falta de acessibilidade;
-* Interesse em estabelecer e alcançar metas pessoais e profissionais de forma mais eficaz;
-* Motivação para se manter ativo e continuar aprendendo ao longo da vida.
-
-Essas características são essenciais para entender as necessidades e expectativas do nosso público-alvo e direcionar o desenvolvimento do nosso projeto de forma a atendê-las da melhor maneira possível.
+Algumas características do nosso público-alvo são:
+* Pouca disponibilidade de tempo;
+* Dificuldade em organizar uma rotina;
+* Pessoas sedentárias;
+* Necessidade de auxílio no equilíbrio emocional; 
+* Dificuldade em iniciar um novo hobby por falta de acessibilidade;
+* Pessoas que buscam estabelecer e cumprir melhor suas metas;
+* Pessoas que buscam se manterem ativas através de novos aprendizados.
