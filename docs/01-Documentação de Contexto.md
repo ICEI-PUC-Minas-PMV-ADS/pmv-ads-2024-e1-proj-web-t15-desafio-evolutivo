@@ -1,10 +1,7 @@
 # Introdução
 
-No mundo atual, onde a tecnologia desempenha um papel fundamental no atendimento das nossas necessidades diárias, o sedentarismo tornou-se uma consequência significativa para grande parte da sociedade. De acordo com a OMS (2017) o sedentarismo será, durante o século 21, tão nocivo quanto o cigarro.
-Diante da evolução constante desse problema, conseguimos observar a escassez de soluções apresentadas para melhorar a qualidade de vida da sociedade, tendo em vista que a tecnologia facilita a resolução de muitas demandas, trazendo lazer, informações, entre outros. Porém, em contrapartida ela pode gerar uma sociedade escassa de atividades físicas, motivação, comprometimento, colocando em risco nosso corpo e mente.
-Dessa forma, percebemos a necessidade de novas ideias que tragam soluções eficientes, para termos uma melhora, desde uma saúde física e mental de qualidade a um comprometimento com uma rotina dinâmica e produtiva. 
-
-
+No mundo em que vivemos a tecnologia está integrada em diversas ações de nosso cotidiano e Conforme a integração escala se torna perceptivel a dificuldade da sociedade em manter um estilo de vida ativo tanto fisicamente quanto mentalmente. De acordo com a OMS (2017) o sedentarismo será, durante o século 21, tão nocivo quanto o cigarro. 
+Diante a progressão deste problema, observamos a escassez de soluções apresentadas para melhorar a qualidade de vida da população, tendo em vista que a tecnologia facilita a resolução de demandas, sendo uma ferramenta que pode proporcionar lazer, informações, ambientes alternativos e mais possibilidades de resposta a situações reais. Assim como pode gerar em contrapartida uma sociedade escassa de atividades físicas, motivação, comprometimento, colocando em risco nosso estado fisico e mental.
 
 ## Problema
 
