@@ -24,21 +24,7 @@ Nossos objetivos específicos:
 
 ## Justificativa
 
-O alerta emitido pela OMS sobre o sedentarismo (2017) ressalta a urgência em abordar os padrões de atividades físicas da população, já que esse é um fator significativo no aumento das taxas de obesidade, doenças cardiovasculares entre outras condições crônicas. O mesmo órgão também estima que mais de 12 bilhões de dias de trabalho são perdidos por ano devido a ansiedade ou depressão, resultando em um custo de US$ 1 trilhão anual em perda de produtividade (2022).
-
-Nesse cenário, um projeto de aplicação web pode desempenhar um papel crucial no esforço para construir uma sociedade fisicamente e mentalmente saudável, trazendo uma plataforma acessível e conveniente para pessoas de todas as idades encontrarem motivação para se tornarem mais ativos e obter qualidade de vida.
-
-Entre as diversas funcionalidades, vamos oferecer:
-* Definição de Metas;
-* Sugestões de Exercícios; 
-* Interação Social;
-* Incentivos; 
-* Desafios Variados;
-* Feedback e Avaliações.
-
-Com esse projeto em vigor, podemos contribuir para eliminar efeitos negativos de negligência com saúde física e mental, buscando uma cultura de pessoas ativas, saudáveis e produtivas. As abordagens baseadas na tecnologia podem atingir grandes populações de uma forma escalável, promovendo a saúde pública e reduzindo o impacto de doenças relacionadas ao sedentarismo e à saude mental. 
-
-## Público-Alvo
+A urgência em abordar os padrões de atividades físicas da população é ressaltada pelo alerta emitido pela OMS sobre o sedentarismo, um fator significativo no aumento das taxas de obesidade, doenças cardiovasculares e outras condições crônicas. Além disso, estima-se que mais de 12 bilhões de dias de trabalho são perdidos anualmente devido à ansiedade ou depressão, resultando em um custo de US$1 trilhão em perda de produtividade (OMS, 2022). A pesquisa da Universidade de São Paulo (USP) evidenciou que o sedentarismo é responsável por cerca de 320 mil mortes prematuras a cada ano no Brasil, destacando sua gravidade como problema de saúde pública (USP, 2020).Nesse contexto, nosso projeto de aplicação web visa oferecer uma plataforma acessível e conveniente para pessoas de todas as idades encontrarem motivação para se tornarem mais ativas e obterem qualidade de vida, com foco específico na promoção da atividade física e no combate ao sedentarismo. Entre as diversas funcionalidades, ofereceremos: definição de metas, sugestões de exercícios, compartilhamento social, recompensas e incentivos, desafios variados, feedback e avaliações.Com esse projeto em vigor, buscamos contribuir para eliminar os efeitos negativos do sedentarismo na sociedade, promovendo uma cultura de pessoas ativas e saudáveis. Além disso, as abordagens baseadas na tecnologia podem atingir grandes populações de forma escalável, promovendo a saúde pública e reduzindo o impacto de doenças relacionadas ao sedentarismo.
 
 Nosso público-alvo inclui adultos de todas as idades interessados em melhorar sua qualidade de vida pelo cuidado com a saúde, através do cumprimento de metas e objetivos. Isso engloba desde adultos jovens que lidam com ansiedade, até profissionais ocupados em busca de equilíbrio entre trabalho e vida pessoal, e adultos sêniores que buscam manter uma mente ativa, combater o isolamento social e o sedentarismo.
 
