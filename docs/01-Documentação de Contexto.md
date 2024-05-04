@@ -9,14 +9,14 @@ O problema que estamos abordando, é a deficiência de meios que auxiliem as pes
 
 ## Objetivos
 
-O foco  deste projeto é desenvolver uma solução simples, que se integre ao cotidiano  que nós permita usar a tecnologia de uma forma inteligente para melhorar a qualidade de vida das pessoas, e as mantenha empenhadas a longo prazo para alcançar seus objetivos. 
-
+O foco deste projeto é desenvolver uma solução simples, que se integre ao cotidiano que nos permita usar a tecnologia de uma forma inteligente para melhorar a qualidade de vida das pessoas, e as mantenha empenhadas a longo prazo para alcançar seus objetivos.
 Nossos objetivos específicos:
-* Amenizar os impactos do sedentarismo na sociedade promovendo a pratica de exercicios fisicos;
-* Auxiliar o usuário na organização da sua rotina de forma eficiente, criativa, com metas e lembretes;
-* Ajudar pessoas a cumprirem metas em um ambiente saudável, de uso gratuito, para auxiliar em seu desenvolvimento pessoal;
-* Promover estímulos ao constante aprendizado para beneficio mental, como leitura de livros e artigos;
-* Proporcionar desafios para melhorar a inteligência emocional, reconhecimento e gestão de emoções, empatia e habilidades de comunicação interpessoal;
+Amenizar os impactos do sedentarismo na sociedade promovendo a prática de exercícios físicos;
+Auxiliar o usuário na organização da sua rotina de forma eficiente, criativa, com metas e lembretes;
+Ajudar pessoas a cumprirem metas em um ambiente saudável, de uso gratuito, para auxiliar em seu desenvolvimento pessoal;
+Promover estímulos ao constante aprendizado para benefício mental, como leitura de livros e artigos;
+Proporcionar desafios para melhorar a inteligência emocional, reconhecimento e gestão de emoções, empatia e habilidades de comunicação interpessoal;
+
 
 ## Justificativa
 
