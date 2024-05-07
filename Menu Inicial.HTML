@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  
+
   <title>Desafio Evolutivo</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,6 +10,8 @@
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="Menu Inicial.CSS">
+  <script src="Menu Inicial.JS"></script>
 </head>
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
@@ -31,7 +33,7 @@
         <div id="myNav" class="overlay">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <div class="overlay-content">
-              <a href="#Home">Home</a>
+              <a href="Desafio Evolutivo.HTML">Home</a>
               <a href="#meusdesafios">Meus Desafios</a>
               <a href="#novosdesafios">Novos Desafios</a>
               <a href="#historicodedesafios">Historico de Desafios</a>
@@ -81,238 +83,5 @@
         </div>    
 
 </body>
-
-<style>
-
-body {
-    height: 250vh; 
-    overflow-x: hidden;
-    scrollbar-width: thin; 
-    scrollbar-color: #ccc #fff;
-}
-::-webkit-scrollbar { 
-    width: 10px;
-}
-::-webkit-scrollbar-thumb {
-    background-color: #ccc;
-    border-radius: 5px;
-}
-::-webkit-scrollbar-track {
-    background-color: #fff;
-}
-
-.avatar {
-  vertical-align: bottom;
-  position: absolute;
-  right: 20px;
-  top: 7px;
-  width: 35px;
-  height: 35px;
-  border-radius: 50%;
-}
-
-.container {
-  display: inline-block;
-  cursor: pointer;
-}
-
-.navbar {
-    margin-bottom: 0;
-    background-color: #37853c;
-    z-index: 9999;
-    border: 0;
-    font-size: 12px; 
-    line-height: 1.42857143;
-    letter-spacing: 4px;
-    border-radius: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-  }
-
-.menu-botton {
-    font-size: 25px;
-    margin-top: 8px;
-    color: white;
-  }
-
-.overlay {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0, 0.9);
-  overflow-x: hidden;
-  transition: 0.5s;
-}
-
-.overlay-content {
-  position: relative;
-  top: 25%;
-  width: 100%;
-  text-align: center;
-  margin-top: 30px;
-}
-
-.overlay a {
-  padding: 8px;
-  text-decoration: none;
-  font-size: 36px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
-
-.overlay a:hover, .overlay a:focus {
-  color: #f1f1f1;
-}
-
-.overlay .closebtn {
-  position: absolute;
-  top: 20px;
-  right: 45px;
-  font-size: 60px;
-}
-
-.image-container {
-  width: 100%;
-  margin-top: 10rem;
-  max-width: 400px;
-  height: auto;
-  position: absolute;
-  display: block;
-  right: 25rem;
-}
-
-.image-left {
-  margin-top: 23rem;
-  max-width: 100px;
-  height: auto;
-  position: absolute;
-  display: block;
-  left: 5rem;
-}
-
-h1 {
-    position: absolute;
-    text-align: center;
-    color: #000000;
-    font-size: 3rem;
-    margin-top: 80rem;
-    left: 45rem;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
-}
-
-h2 {
-    position: static;
-    text-align: end;
-    color: #000000;
-    font-size: 20px;
-    top: 452px;
-    left: 368px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-        }
-
-h3 {
-    position: static;
-    text-align: end;
-    color: #000000;
-    font-size: 20px;
-    top: 452px;
-    right: 368px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-        }
-
-.tablet-screen {
-    position: absolute;
-    width: 60%;
-    height: 70%;
-    right: 9rem;
-    left: 28rem;
-    padding: 4rem;
-    top: 92rem;
-    background-color: #ededed;
-    border-radius: 20px;
-    display: grid;
-    grid-template-columns: repeat(2, 3fr);
-    gap: 4rem;
-}
-
-.app-icon {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    border-radius: 5px;
-    background-color: #ffffff;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    text-align: center;
-}
-
-.app-icon:hover {
-    background-color: #eeeeee;
-}
-
-.app-icon img {
-    width: 250px;
-    height: 250px;
-    object-fit: cover;
-    border-radius: 10px;
-    margin-bottom: 0.5rem;
-}
-
-.app-icon p {
-    margin-top: 0.5rem;
-    font-size: 0.8rem;
-}
-
-.title-container {
-    position: absolute;
-    top: 10rem;
-    right: 75rem;
-    width: 80%;
-    height: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 600px;
-    margin: 0 auto;
-        }
-
-.title-container img {
-    width: 80%;
-    height: auto;
-  }
-
-
-@media screen and (max-height: 1020px) {
-  .overlay a {font-size: 20px}
-  .overlay .closebtn {
-  font-size: 40px;
-  top: 15px;
-  right: 35px;
-  }
-}
-
-</style>
-
-<script>
-
-    function myFunction(x) {
-      x.classList.toggle("change");
-    }
-
-    function openNav() {
-        document.getElementById("myNav").style.width = "100%";
-    }
-    
-    function closeNav() {
-        document.getElementById("myNav").style.width = "0%";
-    }
-
-</script>
 
 </html>
