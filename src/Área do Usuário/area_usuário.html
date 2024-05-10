@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de Incrição Desafio</title>
+    <link rel="stylesheet" type="text/css" href="stylep.css"><!-- link de ligação css com html-->
+    
+</head>
+
+<body>
+  <header class="cabecalho"> <!--Inicio do codigo cabeça/menu-->
+    <img class="cabecalho-logo" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/blob/main/src/imagens/Titulo%20DesaafioEvolutivo.png?raw=true" alt="Desafio Evolutivo" ><!-- Logo da pagina onde o link deve levar para homepage-->
+    <nav class="cabecalho-menu">
+      <a class="cabecalho-menu-item" href="https://discord.gg/wagxzStdcR">Meus Desafios</a> <!--linkar cada item-->
+      <a class="cabecalho-menu-item">Novos Desafios</a>
+      <a class="cabecalho-menu-item">Histórico de Desafios</a>
+      <a class="cabecalho-menu-item">Contatos</a>
+    </nav>
+    <div class="cabecalho-icones"> <!--Div criada somente para que os dois icones possam ficar proximos.-->
+      <img class="cabecalho-sino" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/blob/main/src/imagens/sino.png?raw=true" alt="Denho Sino Notificação"><!--Sino das notificações onde o link deverá levar para pag. de avisos.-->
+      <img class="cabecalho-avatar" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/blob/main/src/imagens/img_avatar.png?raw=true" alt="Avatar Perfil"><!--Avatar do perfil onde o link devera levar para o perfil, possibilitando mudanças no cadastro-->
+    </div>
+  </header>
+    <main class="conteudo"><!--Inicio do codigo meio/corpo, onde encontra toda a parte central, dividida em sessões.-->
+      <section class="conteudo-titulo">
+        <h1 class="conteudo-titulo-h1"> Olá, joao </h1>
+        <p class="conteudo-titulo-paragrafo">Aqui você pode fazer alterações nos seus dados</p>
+      </section>
+      <section class="conteudo-principal">
+        <div class="conteudo-principal-dados">
+          <form action="" id="dados-form"> <!--Campos estilo formulário com dados do usuário para editar-->
+            
+            <div class="form>"
+              <label for="conteudo-principal-dados-nome"> Nome: </label1>
+              <input type="text" name="nome" id="conteudo-principal-dados-nome" required>
+              <button class="conteudo-principal-dados-nome-botao" onclick="editarcampo()">Editar </button>
+            </div>
+
+            <div class="form>"
+              <label for="conteudo-principal-dados-email"> E-mail: </label>
+              <input type="email" name="email" id="conteudo-principal-dados-email" required>
+              <button class="conteudo-principal-dados-email-botao"onclick="editarcampo()">Editar </button>
+            </div>
+
+            <div class="form>"
+              <label for="conteudo-principal-dados-email"> Senha: </label>
+              <input type="password" name="senha" id="conteudo-principal-dados-senha" required>
+              <button class="conteudo-principal-dados-senha-botao"onclick="editarcampo()">Editar </button>
+            </div>
+          </form>
+        </div>
+      <div class="conteudo-principal-perfil">
+      <image id="conteudo-principal-perfil-anon" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/blob/main/src/imagens/Avatar_icon_green.png?raw=true" />
+  
+
+      <label for="foto"> Foto do perfil:</label>
+      <input type="file" name="foto" id="foto-input" accept="image/*" onchange="mostrarFotodePerfil()">
+        <img src="#" alt="Profile Picture" style="display: none;" id="foto-input">
+    </section>
+    <section class="conteudo-secundario">
+    </section>
+    </main>
+ <footer></footer>"><!--Espaço reservado para nosso rodapé--> 
+ 
+ <script>
+
+function mostrarFotodePerfaaail(input) {
+  if (input.files && input.files[0]) {
+    var reader = new FileReader();
+    reader.onload = function (e) {
+      $('foto-input').attr('src', e.target.result).width(150).height(200);
+    };
+
+    reader.readAsDataURL(input.files[0]);
+  }
+}
+    function mostrarFotodePerfil() {
+    const input = document.getElementById('foto-input');
+    const preview = document.getElementById('preview');
+
+    if (input.files && input.files[0]) {
+      const reader = new FileReader();
+
+      reader.onload = function (e) {
+        img.src = e.target.result;
+        img.style.display = 'block'
+      };
+
+      reader.readAsDataURL(input.files[0]);
+    }
+  }
+  -->
+ </script>
+</body>
+
+</html>
