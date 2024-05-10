@@ -99,7 +99,7 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 <p> A tela de alterações de dados pessoais permite ao usuário editar suas informações pessoais  </p>
   
 
-![livros (1)](img/8.png)
+![livros (1)](img/3.png)
 
 
 
@@ -120,12 +120,12 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 
  <hr>
 
-  <h3><b> Tela – Desafio concluído </b></h3>
-<p> A tela de Desafio concluído é quando o usuário concluí os 30 dias de desafios </p>
+  <h3><b> Tela – Progresso dos desafios inscritos </b></h3>
+<p> A tela do Progresso dos desafios inscritos é para incentivar o usuário a continuar cumprindo os dias até finalizar o desafio </p>
   
-![tutores](img/10.png)
+![tutores](img/8.png)
 
 <figure> 
-    <figcaption>Figura 11 -  Desafio concluído 
+    <figcaption>Figura 11 -  Progresso dos desafios inscritos 
 </figure>
 
