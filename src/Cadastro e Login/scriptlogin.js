@@ -48,7 +48,7 @@ function logar(){
      var senhaSalva = localStorage.getItem(email);
 
     if (senha === senhaSalva ){
-        window.location.href = "Menu IniciaL.html";
+        window.location.href = "Menu Inicial.html";
     } else {
         alert ("E-mail ou senha inválidos");
     }
