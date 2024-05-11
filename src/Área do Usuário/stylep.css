@@ -21,7 +21,6 @@ body {
   justify-content: space-around;
   padding: 4px;
   background-color: #37853c;
-  height: 
   }
 
   .cabecalho-logo {
@@ -64,32 +63,37 @@ body {
 
 .conteudo-titulo {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 30px;
   font-family: 'Montserrat', sans-serif;
-  font-size: 40px;
+  font-size: 64px;
 }
 
 .conteudo-titulo-paragrafo {
   font-size: 20px;
   margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .conteudo-principal-dados {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  margin-left: 200px;
   gap: 0px;
   }
 
   #dados-form {
     display: flex;
+    position: sticky;
     flex-direction: column;
-    gap: 20px;
-    align-content: left;
+    gap: 30px;
+    align-content: center;
     border-radius: 8px;
     box-shadow: 0 0 4px;
     padding: 30px;
     width: 100%;
-    margin-top: 0px;  
+    margin-top: 100px;  
+    margin-right: 100px;
   
     }
 
@@ -100,24 +104,32 @@ body {
   }
 
   #conteudo-principal-perfil-anon{
-    position: absolute;
-    width: 18%;
-    margin-top: 50px;
-    margin-right: 0px;
-  
+    position: relative;
+    width: 30%;
+    gap: 0px;
+    margin-top: 0px;
+    margin-left: 300px;
     border-radius: 80%;
     border: 1px solid;
     border-color: #37853c;
+    box-shadow: 0 0 4px;
   }
 
   #foto-input {
-    position: relative;
-    align-items: center;
-    margin-right:20px;
-    margin-top:320px;
-
+    display: none;
+    max-width:230px;
+    max-height:500px;
+    width: auto;
+    height: auto;
   }
 
+  .conteudo-principal-perfil-botao {
+  position: absolute;
+  align-items: left;
+  margin-top: 10px;
+  margin-left: 350px;
+
+  }
 
   .conteudo-secundario {
   display: flex;
@@ -135,11 +147,4 @@ body {
   font-size: 24px;
   color: #000000;
   margin-bottom: 16px;
-  }
-
-  .conteudo-secundario-paragrafo {
-  font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  font-size: 18px;
-  color: #000000;
-  }
+  }}
