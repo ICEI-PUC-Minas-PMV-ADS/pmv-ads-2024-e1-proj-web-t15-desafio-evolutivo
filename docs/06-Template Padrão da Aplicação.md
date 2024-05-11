@@ -4,7 +4,7 @@ O layout padrão do site foi construído com as linguagens de marcação HTML e 
 
 <ul>
 <li>Cores: #37853c; e  #FFFFFF;</li>
-<li>Font-family: ‘Roboto’, ‘-apple-system’, ‘Helvetica Neue’, ‘Segoe UI’, Arial, sans-serif e ‘Lato’, sans-serif.</li>
+<li>Font-family: Roboto, Apple System, Helvetica Neue, Segoe UI, Arial, Lato e Sans Serif.</li>
 <li>Font-size: 18px, 24px, 40px, 60px. </li>
 </ul>
 
