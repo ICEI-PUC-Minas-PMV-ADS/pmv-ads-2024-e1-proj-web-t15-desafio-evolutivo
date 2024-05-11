@@ -22,7 +22,7 @@ function salvar(){
     if (senha == confirmaSenha) {
         // Verificar se o e-mail já está armazenado no localStorage
         if (localStorage.getItem(email)) {
-            alert("Este e-mail já está cadastrado.");
+            alert("Este e-mail já está cadastrado. Coloque outro e-mail e tente novamente");
             return;
         }
 
@@ -48,7 +48,7 @@ function logar(){
      var senhaSalva = localStorage.getItem(email);
 
     if (senha === senhaSalva ){
-        window.location.href = "homepage.html";
+        window.location.href = "Menu IniciaL.html";
     } else {
         alert ("E-mail ou senha inválidos");
     }
