@@ -20,6 +20,6 @@ Layout padrão da aplicação que será utilizado em todas as páginas com a def
 </figure> 
 <p>Para a criação do logotipo do site foi utilizada a cor verde, pois esta cor remete a aspectos da saúde e natureza.</p>
 <figure> 
-  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/ads-e1-exemplo-vida-de-estudante/blob/main/documentos/img/Marca texto.png" width="200" height="200">
-    <figcaption>Figura 3 - Logotipo da aplicação web Vida de Estudante
+  <img src="img/LOGO.png">
+    <figcaption>Figura 3 - Logotipo da aplicação web Desafio Evolutivo
 </figure> 
