@@ -14,7 +14,7 @@ Exemplo da tela de cadastro:
 ![Untitled Diagram-Page-1 drawio](img/Tela-Cadastro.png)
 
 
-Exemplo da tela de cadastro: 
+Exemplo da tela de login: 
 
 ![Untitled Diagram-Page-1 drawio](img/Tela-Login.png)
 
