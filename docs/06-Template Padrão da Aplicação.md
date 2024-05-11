@@ -14,10 +14,12 @@ Layout padrão da aplicação que será utilizado em todas as páginas com a def
 <h3><b>Tela Home Page</b></h3>
 <p>Exibe informações sobre o objetivo do Desafio Evolutivo, uma barra de navegação para o usuário conseguir acessar outras páginas com facilidade e a escolha entre os tipos de desafios.</p>
 <figure> 
+  <figcaption> Figura 1 - Tela Home Page
   <img src="img/HomePage.png">
+  <figcaption> Figura 2 - Tela Home Page tipos de desafios
 <img src="img/Homepage-desafios.png">
-<figcaption> Figura 1 - Tela Home Page
 </figure> 
+<br>
 <p>Para a criação do logotipo do site foi utilizada a cor verde, pois esta cor remete a aspectos da saúde e natureza.</p>
 <figure> 
   <img src="img/LOGO.png">
