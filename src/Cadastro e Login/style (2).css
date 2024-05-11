@@ -10,7 +10,45 @@ font-family: Roboto, -apple-system, 'Helvetica Neue', 'Segoe UI', Arial, sans-se
 background: #37853c;
 }
 
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; /* Alterado de 'space-around' para 'center' */
+    padding: 4px;
+    background-color: #37853c;
+}
 
+    .cabecalho-logo {
+        height: 80px;
+        align-items: center;
+        }
+      
+        .cabecalho-menu {
+        display: flex;
+        gap: 32px;
+        }
+      
+        .cabecalho-menu-item {
+        font-family: 'Lato', sans-serif;
+        color: #FFF2E7;
+        margin-top: 10px;
+        font-weight: 400;
+        font-size: 18px
+        }  
+      
+        .cabecalho-avatar {
+        height: 50px;
+        }
+      
+        .cabecalho-sino {
+        height: 50px;
+        }
+        
+h2{
+    text-align: center;
+    color:#fff;
+}
 .forms-section {
 display: flex;
 flex-direction: column;
