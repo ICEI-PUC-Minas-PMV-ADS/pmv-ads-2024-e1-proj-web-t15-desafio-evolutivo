@@ -8,7 +8,7 @@ O layout padrão do site foi construído com as linguagens de marcação HTML e 
 <li>Font-size: 14px, 16px, 18px, 32px. </li>
 </ul>
 
-O código utilizado para a construção dos elementos citados, pode ser consultado <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/tree/main/src/Cadastro%20e%20Login">aqui</a>. As imagens e ícones utilizados no projeto estão disponíveis <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/tree/main/src/IMG">aqui</a>.
+O código utilizado para a construção dos elementos citados, pode ser consultado <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/tree/main/c%C3%B3digo-fonte/Home%20Page">aqui</a>. As imagens e ícones utilizados no projeto estão disponíveis <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/tree/main/c%C3%B3digo-fonte/IMG">aqui</a>.
 Layout padrão da aplicação que será utilizado em todas as páginas com a definição de identidade visual e iconografia.
 
 <h3><b>Tela Home Page</b></h3>
