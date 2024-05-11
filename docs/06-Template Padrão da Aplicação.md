@@ -3,7 +3,7 @@
 O layout padrão do site foi construído com as linguagens de marcação HTML e CSS, e a linguagem de programação JavaScript foi utilizada para a construção da funcionalidade de cadastro e login.
 
 <ul>
-<li>Cores: #37853c; e  #FFFFFF;</li>
+<li>Cores: #37853c  e  #FFFFFF;</li>
 <li>Font-family: Roboto, Apple System, Helvetica Neue, Segoe UI, Arial, Lato e Sans Serif.</li>
 <li>Font-size: 18px, 24px, 40px, 60px. </li>
 </ul>
