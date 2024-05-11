@@ -14,4 +14,9 @@ O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em 
 
 ### [0.1.0] - 11/05/2014
 #### Informações iniciais
-- Adicionado informações iniciais
+- Atualização inicial da pasta src
+- Alteração do nome da pasta de src para código-fonte conforme exigência de projeto
+- [Criada a pasta IMG de imagens](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/tree/main/c%C3%B3digo-fonte/IMG)
+- [Desenvolvimento da funcionalidade de login/cadastro](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/blob/main/docs/07-Programa%C3%A7%C3%A3o%20de%20Funcionalidades.md)
+- [Template padrão do site](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/blob/main/docs/06-Template%20Padr%C3%A3o%20da%20Aplica%C3%A7%C3%A3o.md)
+- [Desenvolvimento de telas da aplicação](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/tree/main/c%C3%B3digo-fonte)
