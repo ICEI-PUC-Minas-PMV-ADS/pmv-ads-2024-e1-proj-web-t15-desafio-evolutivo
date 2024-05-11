@@ -339,4 +339,15 @@ body {
     width: 400px;
     height: 400px;
   }
+footer {
+    background-color: #37853c;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px solid #FFF2E7;
+  }
 }
