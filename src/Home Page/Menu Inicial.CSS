@@ -25,6 +25,7 @@ body {
   gap: 42px;
 }
 
+
 .cabecalho-menu-item {
   position: relative;
   left: 50vh;
@@ -296,6 +297,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .tablet-screen {
+    margin-top: -20rem;
     position: relative;
     width: 80%;
     height: 30%;
@@ -338,4 +340,3 @@ body {
     height: 400px;
   }
 }
-
