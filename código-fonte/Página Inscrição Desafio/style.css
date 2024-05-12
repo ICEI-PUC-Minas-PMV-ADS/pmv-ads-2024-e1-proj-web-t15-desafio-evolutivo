@@ -129,3 +129,9 @@ body {
   font-size: 18px;
   color: #000000;
   }
+
+  .rodapé {
+  background-color: #37853c;
+  padding: 10px;
+  text-align: center;
+  }
