@@ -13,7 +13,6 @@ body {
   overflow-x: hidden;
   scrollbar-width: thin; 
   scrollbar-color: #ccc #fff;
-}
 
   .cabecalho {
   display: flex;
@@ -73,7 +72,7 @@ body {
   .conteudo-principal-escrito-titulo {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  font-size: 40px;
+  font-size: 64px;
   color: #000000;;
   }
 
@@ -84,21 +83,26 @@ body {
   color: #000000;;
   }
 
-  .conteudo-principal-paragrafo {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
-  font-size: 18px;
-  color: #000000;
-  } 
-
-  .conteudo-principal-imagem {
-  height: 430px;
-  width: 300px;
-  height: 400px;
+  .conteudo-principal-escrito-botao {
+  background-color: #37853c;
+  width: 180px;
+  height: 60px;
   border: none;
   box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
   color: #FFF2EF;
+  }
+
+  .conteudo-principal-escrito-botao:hover {
+  background-color: rgba(7, 8, 8, 0.103);
+  transition-duration: 0.4s; 
+  }
+
+  .conteudo-principal-imagem {
+  height: 430px;
   }
 
   .conteudo-secundario {
@@ -119,55 +123,15 @@ body {
   margin-bottom: 16px;
   }
 
-  .conteiner-conteudo-secudario-escrito{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 24px;
-  margin-top: 48px;
-  }
-
-
-  .tablet-screen{
-  background-color: rgba(55, 133, 60, 0.527);
-  width: 200px;
-  height: 70px;
-  
-  box-shadow: 4px 5px 4px rgba(55, 133, 60, 0.979);
-  border-radius: 20px;
-  }
-  .text{
-    width: 180px;
-    height: 80px;
-    margin: auto;
-    text-align: center;
-    text-justify: auto;
-
-  }
-
-  .conteudo-secundario-escrito-botao-princial {
-  background-color: #37853c;
-  width: 180px;
-  height: 60px;
-  border: none;
-  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 20px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 24px;
-  color: #FFF2EF;
-  margin-top: 65px;
-  margin-bottom: 55px;
-  }
-
-  .conteudo-secundario-escrito-botao-princial:hover {
-  background-color: rgba(7, 8, 8, 0.103);
-  transition-duration: 0.4s; 
+  .conteudo-secundario-paragrafo {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #000000;
   }
 
   .rodapé {
   background-color: #37853c;
   padding: 10px;
   text-align: center;
-  color: #FFF2EF;
   }
