@@ -64,7 +64,7 @@
  
  <script>
 
-function importarValor() {
+function importarValor() { //função para importar os dados senha e email do local storage, *INCOMPLETA*
  if (localStorage.getItem(email) && localStorage.getItem(senha)) {
       document.getElementById('conteudo-principal-dados-email').value = localStorage.getItem('cadastro-email');
       document.getElementById('conteudo-principal-dados-senha').value = localStorage.getItem('cadastro-password');
@@ -78,7 +78,7 @@ importarDadosLocalStorage();
 };
   
 
-function editarCampo() { //função para editar dados, em breve
+function editarCampo() { //função para editar dados, *INCOMPLETA*
     // Pega os dados do email e senha
     const email = document.getElementById("cadastro-email").value;
     const senha = document.getElementById("cadastro-password").value;
@@ -123,7 +123,7 @@ function mostrarFotodePerfil() { //função para inserir imagem de perfil
  input.click();
 }
 
-window.onload = () => {
+window.onload = () => { //Carrega a imagem de perfil e insere se ela já existe no local storage
     const fotosalva = localStorage.getItem('profilepic');
 
     if (fotosalva) {
