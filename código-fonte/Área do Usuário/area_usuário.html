@@ -12,14 +12,14 @@
   <header class="cabecalho"> <!--Inicio do codigo cabeça/menu-->
     <img class="cabecalho-logo" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/blob/main/src/IMG/Titulo%20DesaafioEvolutivo.png?raw=true" alt="Desafio Evolutivo" ><!-- Logo da pagina onde o link deve levar para homepage-->
     <nav class="cabecalho-menu">
-      <a class="cabecalho-menu-item" href="https://discord.gg/wagxzStdcR">Meus Desafios</a> <!--linkar cada item-->
+      <a class="cabecalho-menu-item" href="Menu Inicial.HTML">Meus Desafios</a> <!--linkar cada item-->
       <a class="cabecalho-menu-item">Novos Desafios</a>
       <a class="cabecalho-menu-item">Histórico de Desafios</a>
       <a class="cabecalho-menu-item">Contatos</a>
     </nav>
     <div class="cabecalho-icones"> <!--Div criada somente para que os dois icones possam ficar proximos.-->
       <img class="cabecalho-sino" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/blob/main/src/IMG/sino.png?raw=true" alt="Denho Sino Notificação"><!--Sino das notificações onde o link deverá levar para pag. de avisos.-->
-      <img class="cabecalho-avatar" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/blob/main/src/IMG/img_avatar.png?raw=true"><!--Avatar do perfil onde o link devera levar para o perfil, possibilitando mudanças no cadastro-->
+      <img class="cabecalho-avatar" src="avatar.png" alt="Avatar"><!--Avatar do perfil onde o link devera levar para o perfil, possibilitando mudanças no cadastro-->
     </div>
   </header>
     <main class="conteudo"><!--Inicio do codigo meio/corpo, onde encontra toda a parte central, dividida em sessões.-->
@@ -50,18 +50,14 @@
           </form>
         </div>
       <div class="conteudo-principal-perfil">
-       <image id="conteudo-principal-perfil-anon" src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/blob/main/src/IMG/Avatar_icon_green.png?raw=true" />
-       <input type="file" id="foto-input" accept="image/*" style="display:none;">
-       <img src="#" alt="Profile Picture" style="display:none;" id="conteudo-principal-perfil-anon">
-       <br>
+       <img id="conteudo-principal-perfil-anon" src="Avatar_icon_green.png" >
+       <input type="file" id="foto-input" class="foto-input" accept="image/*" style="display:none;">
        <div class="conteudo-principal-perfil-botao">
-        <p>Escolher foto de perfil</p>
-        <button onclick="mostrarFotodePerfil()">Enviar Imagem</button>
+        <p>Escolha uma foto quadrada</p>
+        <button id= "botao-imagem" onclick="mostrarFotodePerfil()">Enviar Imagem</button>
        </div>
       </div>
 
-    </section>
-    <section class="conteudo-secundario">
     </section>
     </main>
  <footer></footer><!--Espaço reservado para nosso rodapé--> 
@@ -77,7 +73,6 @@ function importarValor() {
       window.location.href = 'index.html';
   }
 }
-
 window.onload = function() {
 importarDadosLocalStorage();
 };
@@ -100,7 +95,7 @@ function editarCampo() { //função para editar dados, em breve
   } 
 
 
-      function mostrarFotodePerfil() { //função para inserir imagem de perfil
+function mostrarFotodePerfil() { //função para inserir imagem de perfil
 
   const input = document.getElementById('foto-input');
   const output = document.getElementById('conteudo-principal-perfil-anon');
@@ -109,15 +104,40 @@ function editarCampo() { //função para editar dados, em breve
         const file = e.target.files[0];
         const reader = new FileReader();
 
-  reader.onload = function(event) {
-    output.src = event.target.result;
-    output.style.display = 'block';
+  reader.onload = function(event) { 
+    output.src = event.target.result; 
+    //output.style.display='block';
+    output.style.width = '250px'; //configurando o a imagem escolhida, o input é apenas o lugar
+    output.style.height = '250px';
+   
+  localStorage.setItem('profilepic', event.target.result);
+  const fotosalva = localStorage.getItem('profilepic');
+  const avatar = document.querySelector('.cabecalho-avatar');        
+  avatar.src = fotosalva;
+
   }
+
   reader.readAsDataURL(file);
  };
 
  input.click();
 }
- </script>
+
+window.onload = () => {
+    const fotosalva = localStorage.getItem('profilepic');
+
+    if (fotosalva) {
+      const avatar = document.querySelector('.cabecalho-avatar');        
+      avatar.src = fotosalva;
+      const perfil = document.querySelector('#conteudo-principal-perfil-anon');
+      perfil.src = fotosalva;
+      document.getElementById('botao-imagem').innerText = 'Trocar imagem';
+      //document.getElementById('botao-imagem').value= "Trocar imagem";
+      //const botao = document.querySelector('#botao-imagem');
+      //botao.textcontent = "Trocar imagem";
+    }
+};
+
+</script>
 </body>
 </html>
