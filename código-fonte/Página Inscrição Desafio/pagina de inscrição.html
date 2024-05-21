@@ -1,53 +1,69 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina de Incrição Desafio</title>
-    <link rel="stylesheet" type="text/css" href="style.css"><!-- link de ligação css com html-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="Pagina de Inscrição.css"><!-- link de ligação css com html-->
+    <script src="Pagina de Inscrição.JS"></script>
 
 </head>
-<body>
-  <header class="cabecalho"> <!--Inicio do codigo cabeça/menu-->
-    <img class="cabecalho-logo" src="Titulo DesaafioEvolutivo.png" alt="Desafio Evolutivo" ><!-- Logo da pagina onde o link deve levar para homepage-->
-    <nav class="cabecalho-menu">
-      <a class="cabecalho-menu-item" href="https://discord.gg/wagxzStdcR">Meus Desafios</a>
-      <a class="cabecalho-menu-item">Novos Desafios</a>
-      <a class="cabecalho-menu-item">Histórico de Desafios</a>
-      <a class="cabecalho-menu-item">Contatos</a>
-    </nav>
-    <div class="cabecalho-icones"> <!--Div criada somente para que os dois icones possam ficar proximos.-->
-      <img class="cabecalho-sino" src="sino.png" alt="Denho Sino Notificação"><!--Sino das notificações onde o link deverá levar para pag. de avisos.-->
-      <img class="cabecalho-avatar" src="avatar.png" alt="Avatar Perfil"><!--Avatar do perfil onde o link devera levar para o perfil, possibilitando mudanças no cadastro-->
-    </div>
-  </header>
-  
-    <main class="conteudo"><!--Inicio do codigo meio/corpo, onde encontra toda a parte central, dividida em sessões.-->
-      <div class="title-container">
-        <img src="Titulo DesaafioEvolutivo.png" alt="Desafio Evolutivo" height="100px"><!-- Logo da pagina em tamanho maior, onde o link deve levar para homepage também-->
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <img class="cabecalho-logo" href="Menu Inicial.HTML" src="Titulo DesaafioEvolutivo.png" alt="Desafio Evolutivo">
+      <nav class="cabecalho-menu">
+        <a class="cabecalho-menu-item">Desafios Inscritos</a>
+        <a class="cabecalho-menu-item">Novos Desafios</a>
+        <a class="cabecalho-menu-item">Progresso</a>
+        <a class="cabecalho-menu-item">Avaliações</a>
+      </nav>
+      <div class="cabecalho-icones"> 
+        <img class="cabecalho-sino" src="sino.png" alt="Denho Sino Notificação">
+        <img class="cabecalho-avatar" src="avatar.png" alt="Avatar Perfil">
       </div>
-        <section class="conteudo-principal">
-          <div class="conteudo-principal-escrito">
-            <h1 class="conteudo-principal-escrito-titulo">Corrida</h1>
-            <h2 class="conteudo-principal-escrito-subtitulo">Bem-vindo ao Desafio de Corrida de 30 Dias, onde você vai <br>transformar seus passos em conquistas e sua determinação em<br> resultados tangíveis. Este desafio faz parte de nossa missão<br> de promover uma vida mais ativa, saudável e gratificante.</h2>
-            <button class="conteudo-principal-escrito-botao">Inscrever</button>
-          </div>
-          <img class="conteudo-principal-imagem"src="Corrida1.png" alt="Pessoa Correndo"  width="400px">
-        </section>
-        <section class="conteudo-secundario">
-            <h3 class="conteudo-secundario-titulo"><strong>Instruções:</strong></h3>
-            <p class="conteudo-secundario-paragrafo">- Escolha um local seguro e agradável para correr.
-            <p class="conteudo-secundario-paragrafo">- Faça um aquecimento de 5 minutos, incluindo alongamentos leves.
-            <p class="conteudo-secundario-paragrafo">- Inicie sua corrida mantendo um ritmo confortável.
-            <p class="conteudo-secundario-paragrafo">- Mantenha-se consciente de sua respiração e postura.</p>
-            <p class="conteudo-secundario-paragrafo">- Após os 20 minutos, faça um cooldown de 5 minutos, caminhando e realizando alongamentos.</p>
-            <p class="conteudo-secundario-paragrafo">- Lembre-se de registrar sua atividade para acompanhar seu progresso ao longo do desafio.</p>
-            <p class="conteudo-secundario-paragrafo">- E, acima de tudo, aproveite o momento e divirta-se. Boa corrida!</p>
-          </section>
-        </main>
-      <footer class="rodapé">
-        <p>Copyright &copy; 2024 Desafio Evolutivo. Todos os direitos reservados.</p>
-      </footer><!--Espaço reservado para nosso rodapé-->
       
+  </nav>
+
+  <main class="conteudo"><!--Inicio do codigo meio/corpo, onde encontra toda a parte central, dividida em sessões.-->
+    <div class="title-container">
+      <img src="Titulo DesaafioEvolutivo.png" alt="Desafio Evolutivo" height="100px"><!-- Logo da pagina em tamanho maior, onde o link deve levar para homepage também-->
+    </div>
+
+  <section class="conteudo-principal">
+    <div class="conteudo-principal-escrito">
+      <h1 class="conteudo-principal-escrito-titulo">Corrida</h1>
+      <h2 class="conteudo-principal-escrito-subtitulo">Bem-vindo ao Desafio de Corrida de 30 Dias, onde você vai <br>transformar seus passos em conquistas e sua determinação em<br> resultados tangíveis. Este desafio faz parte de nossa missão<br> de promover uma vida mais ativa, saudável e gratificante.</h2>
+      
+      <button class="conteudo-principal-escrito-botao" id="my-button">Inscrever</button>
+
+      <div id="popup-modal" style="display: none;">
+        <p>Você está inscrito!</p>
+        <button id="ok-button">Ver progresso</button>
+        <button id="cancel-button">Continuar</button>
+      </div>
+
+    </div>
+
+    <img class="conteudo-principal-imagem"src="Corrida.png" alt="Pessoa Correndo"  width="400px">
+  </section>
+  <section class="conteudo-secundario">
+      <h3 class="conteudo-secundario-titulo"><strong>Instruções:</strong></h3>
+      <p class="conteudo-secundario-paragrafo">- Escolha um local seguro e agradável para correr.
+      <p class="conteudo-secundario-paragrafo">- Faça um aquecimento de 5 minutos, incluindo alongamentos leves.
+      <p class="conteudo-secundario-paragrafo">- Inicie sua corrida mantendo um ritmo confortável.
+      <p class="conteudo-secundario-paragrafo">- Mantenha-se consciente de sua respiração e postura.</p>
+      <p class="conteudo-secundario-paragrafo">- Após os 20 minutos, faça um cooldown de 5 minutos, caminhando e realizando alongamentos.</p>
+      <p class="conteudo-secundario-paragrafo">- Lembre-se de registrar sua atividade para acompanhar seu progresso ao longo do desafio.</p>
+      <p class="conteudo-secundario-paragrafo">- E, acima de tudo, aproveite o momento e divirta-se. Boa corrida!</p>
+    </section>
+  </main>
+<footer></footer>"><!--Espaço reservado para nosso rodapé-->
+
 </body>
 </html>
