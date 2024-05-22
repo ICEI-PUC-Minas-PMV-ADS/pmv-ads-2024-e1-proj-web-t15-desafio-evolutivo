@@ -1,5 +1,5 @@
 body {
-  height: 250vh; 
+  height: 120vh; 
   overflow-x: hidden;
   scrollbar-width: thin; 
   scrollbar-color: #ccc #fff;
@@ -75,7 +75,7 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.checked p {
+.Corrida p {
   position: absolute;
   color: black;
   top: 40vh;
@@ -84,7 +84,7 @@ body {
   font-size: 250%
 }
 
-.checked img {
+.Corrida img {
   position: absolute;
   width: 10rem;
   height: auto;
@@ -92,17 +92,39 @@ body {
   left: 20%;
 }
 
-.star-checked {
+.Corrida-checked {
   position: absolute;
   color: orange;
   top: 42vh;
-  right: 25%;
+  left: 100vh;
   font-size: x-large;
 }
 
-.star-checked img {
+.Corrida-checked img {
   position: absolute;
   width: 30rem;
   top: -11vh;
   right: -10.5vh;
 }
+
+.Meditação-checked {
+  position: absolute;
+  color: orange;
+  top: 62vh;
+  left: 100vh;
+  font-size: x-large;
+}
+
+.Meditação-checked img {
+  position: absolute;
+  width: 30rem;
+  top: -11vh;
+  right: -10.5vh;
+}
+
+.rodapé {
+  background-color: #37853c;
+  padding: 10px;
+  text-align: center;
+  color: #FFF2EF;
+  }
