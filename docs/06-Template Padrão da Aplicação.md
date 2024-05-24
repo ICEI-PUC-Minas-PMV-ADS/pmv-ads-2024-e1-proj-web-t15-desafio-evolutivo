@@ -5,7 +5,7 @@ O layout padrão do site foi construído com as linguagens de marcação HTML e 
 <ul>
 <li>Cores: #37853c  e  #FFFFFF;</li>
 <li>Font-family: Roboto, Apple System, Helvetica Neue, Segoe UI, Arial, Lato e Sans Serif.</li>
-<li>Font-size: 18px, 24px, 40px, 60px. </li>
+<li>Font-size: 14px, 18px, 24px, 40px, 60px. </li>
 </ul>
 
 O código utilizado para a construção dos elementos citados, pode ser consultado <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/tree/main/c%C3%B3digo-fonte/Home%20Page">aqui</a>. As imagens e ícones utilizados no projeto estão disponíveis <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/tree/main/c%C3%B3digo-fonte/IMG">aqui</a>.
