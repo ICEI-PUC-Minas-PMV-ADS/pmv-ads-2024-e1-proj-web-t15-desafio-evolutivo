@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Desafio Evolutivo</title>
+<link rel="stylesheet" href="style (2).css">
+
+<script src="Menu Inicial.JS"></script>
+</head>
+<header class="cabecalho"> <!--Inicio do codigo cabeça/menu-->
+    <img class="cabecalho-logo" src="Titulo DesaafioEvolutivo.png" alt="Desafio Evolutivo" ><!-- Logo da pagina onde o link deve levar para homepage-->
+    <nav class="cabecalho-menu">
+    </nav>
+  </header>
+<body>
+<section class="forms-section">
+<div class="forms">
+<div class="form-wrapper is-active">
+<button type="button" class="switcher switcher-login">
+Entrar
+<span class="underline"></span>
+</button>
+<form class="form form-login" onsubmit="event.preventDefault(); logar();">
+<fieldset>
+<legend>Por favor, insira seu e-mail e senha para entrar.</legend>
+<div class="input-block">
+<label for="login-email">E-mail</label>
+<input id="login-email" type="email" required>
+</div>
+<div class="input-block">
+<label for="login-password">Senha</label>
+<input id="login-password" type="password" required>
+</div>
+</fieldset>
+<button type="submit" class="btn-login"  >Entrar</button>
+</form>
+</div>
+<div class="form-wrapper">
+<button type="button" class="switcher switcher-signup">
+Inscrever-se
+<span class="underline"></span>
+</button>
+<form class="form form-signup" onsubmit="event.preventDefault(); salvar();">
+<fieldset>
+<legend>Por favor, insira seu e-mail, senha e confirmação de senha para se
+inscrever.</legend>
+<div class="input-block">
+<label for="signup-email">E-mail </label>
+<input id="cadastro-email" type="email" required name="txt_email">
+</div>
+<div class="input-block">
+<label for="signup-password">Senha</label>
+<input id="cadastro-password" type="password" required name="txt_senha">
+</div>
+<div class="input-block">
+<label for="signup-password-confirm">Confirmar senha</label>
+<input id="confirma-password" type="password" required name="txt_senha2">
+</div>
+</fieldset>
+<button type="submit" class="btn-signup" >Continuar</button>
+</form>
+</div>
+</div>
+</section>
+<script src="script.js"></script>
+<script src="scriptlogin.js"></script>
+</script>
+    <footer>
+    <p>Copyright &copy; 2024 Desafio Evolutivo. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
