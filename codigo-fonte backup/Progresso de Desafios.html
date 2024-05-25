@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Giuseppe-Maida">
+    <title>Desafio Evolutivo - Saúde Física e Mental</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <header class="cabecalho"> <!--Inicio do codigo cabeça/menu-->
+        <img class="cabecalho-logo" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/main/código-fonte/IMG/Titulo%20DesaafioEvolutivo.png" alt="Logo Desafio Evolutivo" ><!-- Logo da pagina onde o link deve levar para homepage-->
+        
+        <nav class="cabecalho-menu">
+          <a class="cabecalho-menu-item" href="https://discord.gg/wagxzStdcR">Meus Desafios</a>
+          <a class="cabecalho-menu-item" href=" ">Novos Desafios</a>
+          <a class="cabecalho-menu-item" href=" ">Histórico de Desafios</a>
+          <a class="cabecalho-menu-item" href=" ">Contatos</a>
+        </nav>
+        <div class="cabecalho-icones"> <!--Div criada somente para que os dois icones possam ficar proximos.-->
+          <img class="cabecalho-sino" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/main/código-fonte/IMG/sino.png" alt="Icone Sino Notificação"><!--Sino das notificações onde o link deverá levar para pag. de avisos.-->
+          <img class="cabecalho-avatar" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/main/código-fonte/IMG/avatar.png" alt="Icone Avatar Perfil"><!--Avatar do perfil onde o link devera levar para o perfil, possibilitando mudanças no cadastro-->
+        </div>
+      </header>
+
+    <div class="desafios">
+        <div class="desafio" id="desafio1">
+            <img id="icone" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/main/código-fonte/IMG/Caminhada.png" alt="Icone Caminhada"><!-- Icone Exercício Físico-->
+            <h2>Desafio 1: Exercício Físico</h2>
+            <p>Conclui minha meta Díaria de Caminhada</p>
+            <button class="concluir" onclick="concluirDesafio(1)">Concluir</button>
+            <button class="nao-concluir" onclick="naoConcluirDesafio(1)">Não Concluir</button>
+        </div>
+        
+        <div class="desafio" id="desafio2">
+            <img id="icone" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/main/código-fonte/IMG/hidratação.png" alt="Icone Hidratação">
+            <h2>Desafio 2: Hidratacão Regular</h2>
+            <p>Bebi a quantidade diaria recomendada</p>
+            <button class="concluir" onclick="concluirDesafio(2)">Concluir</button>
+            <button class="nao-concluir" onclick="naoConcluirDesafio(2)">Não Concluir</button>
+        </div>
+        
+        <div class="desafio" id="desafio3">
+            <img id="icone" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/main/código-fonte/IMG/Seguir-Dieta.png" alt="Icone Alimentação Saudável">
+            <h2>Desafio 3: Alimentação Saudável</h2>
+            <p>Me alimentei conforme a dieta recomendada</p>
+            <button class="concluir" onclick="concluirDesafio(3)">Concluir</button>
+            <button class="nao-concluir" onclick="naoConcluirDesafio(3)">Não Concluir</button>
+        </div>
+        
+        <div class="desafio" id="desafio4">
+            <img id="icone" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/main/código-fonte/IMG/tempo-de-leitura.png" alt="Icone  de Leitura">
+            <h2>Desafio 4: Leitura de Livros</h2>
+            <p>Li a quantidade de páginas estipulada</p>
+            <button class="concluir" onclick="concluirDesafio(4)">Concluir</button>
+            <button class="nao-concluir" onclick="naoConcluirDesafio(4)">Não Concluir</button>
+        </div>
+        
+        <div class="desafio" id="desafio5">
+            <img id="icone" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/main/código-fonte/IMG/exercicio-mental.png" alt="Icone Conclusão de Exercicio Mental">
+            <h2>Desafio 5: Conclusão de exercicio Mental</h2>
+            <p>Efetuei a quantidade de exercicios sugerida</p>
+            <button class="concluir" onclick="concluirDesafio(5)">Concluir</button>
+            <button class="nao-concluir" onclick="naoConcluirDesafio(5)">Não Concluir</button>
+        </div>
+        
+        <div class="desafio" id="desafio6">
+            <img id="icone" src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/main/código-fonte/IMG/metas-pessoais.png" alt="Icone Concluir Desafio Pessoal">
+            <h2>Desafio 6: Concluir Etapa de Desafio Pessoal</h2>
+            <p>Usei parte do meu tempo para progredir em minha meta pessoal</p>
+            <button class="concluir" onclick="concluirDesafio(6)">Concluir</button>
+            <button class="nao-concluir" onclick="naoConcluirDesafio(6)">Não Concluir</button>
+        </div>
+       
+        <div class="progresso" style="display: flex;"></div>
+        <div class="Progresso-dos-desafios"></div>
+          <h1>Desafios Concluidos</h1>
+          <strong style="color: #ff264a">Exercício Físico 16,6%</strong>
+          <strong style="color: #2a26ff">Hidratacão Regular 16,6%</strong>
+          <strong style="color: #f7f305">Alimentação Saudável 16,6%</strong>
+          <strong style="color: #ff28ba">Leitura de Livros 16,6%</strong>
+          <strong style="color: #26ff26">Exercicio Mental 16,6%</strong>
+          <strong style="color: #ff8f26">Desafio Pessoal 16,6%</strong>
+        </div>
+
+
+    </div>
+</body>
+<footer>
+    <p>Copyright &copy; 2024 Desafio Evolutivo. Todos os direitos reservados.</p>
+  </footer>
+</html>
