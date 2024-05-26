@@ -3,23 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina de Inscrição Desafio</title>
-    <link rel="stylesheet" type="text/css" href="style.css"><!-- link de ligação css com html-->
+    <title>Área do usuário</title>
+    <link rel="stylesheet" type="text/css" href="areadousuario.css"><!-- link de ligação css com html-->
 </head>
 
 <body>
   <header class="cabecalho"> <!--Inicio do codigo cabeça/menu-->
-    <img class="cabecalho-logo" src="Titulo%20DesaafioEvolutivo.png" alt="Desafio Evolutivo"><!-- Logo da pagina onde o link deve levar para homepage-->
-    <nav class="cabecalho-menu">
-      <a class="cabecalho-menu-item" href="Menu Inicial.HTML">Meus Desafios</a> <!--linkar cada item-->
-      <a class="cabecalho-menu-item">Novos Desafios</a>
-      <a class="cabecalho-menu-item">Histórico de Desafios</a>
-      <a class="cabecalho-menu-item">Contatos</a>
-    </nav>
-    <div class="cabecalho-icones"> <!--Div criada somente para que os dois icones possam ficar proximos.-->
-      <img class="cabecalho-sino" src="sino.png" alt="Sino Notificação"><!--Sino das notificações onde o link deverá levar para pag. de avisos.-->
-      <img class="cabecalho-avatar" src="avatar.png" alt="Avatar"><!--Avatar do perfil onde o link devera levar para o perfil, possibilitando mudanças no cadastro-->
-    </div>
+    <a href="homepage.HTML">
+      <img class="cabecalho-logo" src="IMG/Titulo DesaafioEvolutivo.png" alt="Desafio Evolutivo">
+    </a>
+      <nav class="cabecalho-menu">
+        <a class="cabecalho-menu-item">Desafios Inscritos</a>
+        <a class="cabecalho-menu-item" href="homepage.HTML">Novos Desafios</a>
+        <a class="cabecalho-menu-item"  href="progresso.html">Progresso</a>
+        <a class="cabecalho-menu-item"  href="avaliacoes.HTML">Avaliações</a>
+      </nav>
+      <div class="cabecalho-icones"> 
+        <img class="cabecalho-sino" src="IMG/sino.png" alt="Sino Notificação">
+        <a href="areadousuario.html">
+        <img class="cabecalho-avatar" src="IMG/avatar.png" alt="Avatar Perfil">
+      </a>
+      </div>
   </header>
   <main class="conteudo"><!--Inicio do codigo meio/corpo, onde encontra toda a parte central, dividida em sessões.-->
     <section class="conteudo-titulo">
@@ -31,25 +35,25 @@
         <form action="" id="dados-form"> <!--Campos estilo formulário com dados do usuário para editar-->
           <div class="form">
             <label for="conteudo-principal-dados-nome">Nome:</label>
-            <input type="text" name="nome" id="conteudo-principal-dados-nome" disabled>
+            <input type="text" name="nome" id="dadosnome" disabled>
           </div>
 
           <div class="form">
             <label for="conteudo-principal-dados-email">E-mail:</label>
-            <input type="email" name="email" id="conteudo-principal-dados-email" disabled required>
+            <input type="email" name="email" id="dadosemail" disabled required>
           </div>
 
           <div class="form">
-            <label for="conteudo-principal-dados-senha">Senha:</label>
-            <input type="password" name="senha" id="conteudo-principal-dados-senha" disabled required>
+            <label for="dadospassword">Senha:</label>
+            <input type="password" name="senha" id="dadospassword" disabled required>
           </div>
 
           <button type="button" id="editar">Editar</button>
-          <button type="submit" id="salvar" style="display: none;">Salvar</button>
+          <button type="button" id="salvar" style="display: none;" >Salvar</button>
         </form>
       </div>
       <div class="conteudo-principal-perfil">
-        <img id="conteudo-principal-perfil-anon" src="Avatar_icon_green.png">
+        <img id="conteudo-principal-perfil-anon" src="IMG/Avatar_icon_green.png">
         <input type="file" id="foto-input" class="foto-input" accept="image/*" style="display: none;">
         <div class="conteudo-principal-perfil-botao">
           <p>Escolha uma foto quadrada</p>
@@ -60,6 +64,6 @@
   </main>
   <footer></footer><!--Espaço reservado para nosso rodapé-->
 
-  <script src="script.js"></script>
+  <script src="areadousuario.js"></script>
 </body>
 </html>
