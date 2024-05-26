@@ -4,12 +4,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Desafio Evolutivo</title>
-<link rel="stylesheet" href="style (2).css">
+<link rel="stylesheet" href="cadastrologin.css">
 
-<script src="Menu Inicial.JS"></script>
+
 </head>
 <header class="cabecalho"> <!--Inicio do codigo cabeça/menu-->
-    <img class="cabecalho-logo" src="Titulo DesaafioEvolutivo.png" alt="Desafio Evolutivo" ><!-- Logo da pagina onde o link deve levar para homepage-->
+    <img class="cabecalho-logo" src="IMG/Titulo DesaafioEvolutivo.png" alt="Desafio Evolutivo" ><!-- Logo da pagina onde o link deve levar para homepage-->
     <nav class="cabecalho-menu">
     </nav>
   </header>
@@ -21,12 +21,12 @@
 Entrar
 <span class="underline"></span>
 </button>
-<form class="form form-login" onsubmit="event.preventDefault(); logar();">
+<form class="form form-login" >
 <fieldset>
 <legend>Por favor, insira seu e-mail e senha para entrar.</legend>
 <div class="input-block">
-<label for="login-email">E-mail</label>
-<input id="login-email" type="email" required>
+<label for="login-email">E-mail </label>
+<input id="login-email"  type="email" required>
 </div>
 <div class="input-block">
 <label for="login-password">Senha</label>
@@ -43,8 +43,12 @@ Inscrever-se
 </button>
 <form class="form form-signup" onsubmit="event.preventDefault(); salvar();">
 <fieldset>
-<legend>Por favor, insira seu e-mail, senha e confirmação de senha para se
+<legend>Por favor, insira seu nome, seu e-mail, senha e confirmação de senha para se
 inscrever.</legend>
+<div class="input-block">
+  <label for="signup-email">Nome </label>
+  <input id="cadastro-nome" type="nome" required name="txt_name">
+  </div>
 <div class="input-block">
 <label for="signup-email">E-mail </label>
 <input id="cadastro-email" type="email" required name="txt_email">
@@ -63,7 +67,7 @@ inscrever.</legend>
 </div>
 </div>
 </section>
-<script src="script.js"></script>
+<script src="cadastrologin.js"></script>
 <script src="scriptlogin.js"></script>
 </script>
     <footer>
