@@ -38,8 +38,7 @@ body {
   color: #FFF2E7;
   margin-top: 10px;
   font-weight: 400;
-  font-size: 18px
-  
+  font-size: 18px;
 }  
 
 .cabecalho-avatar {
@@ -82,7 +81,7 @@ body {
   top: 40vh;
   left: 30%;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 250%
+  font-size: 250%;
 }
 
 .Corrida img {
@@ -114,7 +113,7 @@ body {
   top: 62vh;
   left: 30%;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 250%
+  font-size: 250%;
 }
 
 .Meditação img {
@@ -145,30 +144,21 @@ body {
   border: 1px solid #fff;
   cursor: pointer;
   color: #ffe500;
-  font-size: 40px;/* alterar o tamanho das estrelas */
+  font-size: 40px; /* alterar o tamanho das estrelas */
 }
-.star-icon::before{
+.star-icon::before {
   content: "\2605";
 }
-.star-icon.ativo ~ .star-icon::before{
+.star-icon.ativo::before {
+  content: "\2605";
+  color: #ffcc00;
+}
+.star-icon.inativo::before {
   content: "\2606";
 }
-.Corrida-checked:hover .star-icon::before{
-  content: "\2605";
-}
-.star-icon:hover ~ .star-icon::before{
-  content: "\2606";
-}
-
-.Meditação-checked:hover .star-icon::before{
-  content: "\2605";
-}
-
 .rodapé {
   background-color: #37853c;
   padding: 10px;
   text-align: center;
   color: #FFF2EF;
-  }
-
-  
+}
