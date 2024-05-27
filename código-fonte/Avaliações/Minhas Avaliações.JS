@@ -1,32 +1,30 @@
-function myFunction(x) {
-    x.classList.toggle("change");
-  }
-
-  function openNav() {
-      document.getElementById("myNav").style.width = "100%";
-  }
-  
-  function closeNav() {
-      document.getElementById("myNav").style.width = "0%";
-  }
-
-  const stars = document.querySelectorAll('.star-icon');
-
-  document.addEventListener('click', function(e) {
-    const classStar = e.target.classList;
-    const starIndex = Array.from(stars).indexOf(e.target);
-  
-    if (!classStar.contains('ativo')) {
-      stars.forEach((star, index) => {
-        if (index <= starIndex) {
-          star.classList.add('ativo');
-        } else {
-          star.classList.remove('ativo');
-        }
-      });
-  
-      console.log(e.target.getAttribute('data-avaliacao'));
+document.addEventListener('DOMContentLoaded', function() {
+    function handleStarClick(stars, clickedIndex) {
+        stars.forEach((star, index) => {
+            if (index < clickedIndex) {
+                star.classList.add('ativo');
+                star.classList.remove('inativo');
+            } else {
+                star.classList.add('inativo');
+                star.classList.remove('ativo');
+            }
+        });
     }
-  });
 
-  
+    const corridaStars = document.querySelectorAll('.Corrida-checked .star-icon');
+    corridaStars.forEach(star => {
+        star.addEventListener('click', function() {
+            const starIndex = parseInt(this.getAttribute('data-avaliacao'));
+            handleStarClick(corridaStars, starIndex);
+        });
+    });
+
+    const meditacaoStars = document.querySelectorAll('.Meditação-checked .star-icon');
+    meditacaoStars.forEach(star => {
+        star.addEventListener('click', function() {
+            const starIndex = parseInt(this.getAttribute('data-avaliacao'));
+            handleStarClick(meditacaoStars, starIndex);
+        });
+    });
+});
+
