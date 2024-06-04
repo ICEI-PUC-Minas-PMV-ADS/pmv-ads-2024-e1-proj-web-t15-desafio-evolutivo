@@ -19,7 +19,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-01 **exemplo** : Verificar o funcionamento dos links da página Home</td>
+  <td>CT-09999 **exemplo** : Verificar o funcionamento dos links da página Home</td>
   <td>
    <ul>
     <li>RF-001:	O site deve permitir ao usuário cadastrar uma conta.</li>
