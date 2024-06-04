@@ -4,19 +4,23 @@ body {
   scrollbar-width: thin; 
   scrollbar-color: #ccc #fff;
 }
+
 ::-webkit-scrollbar { 
   width: 10px;
 }
+
 ::-webkit-scrollbar-thumb {
   background-color: #ccc;
   border-radius: 5px;
 }
+
 ::-webkit-scrollbar-track {
   background-color: #fff;
 }
 
 .container {
   display: flex;
+  align-items: center;
   cursor: pointer;
 }
 
@@ -26,9 +30,9 @@ body {
 }
 
 .cabecalho-logo {
-  margin-top: -18px;
+  margin-top: 5px; /* Ajuste a margem superior para centralizar verticalmente */
   width: 100px;
-  height: 80px;
+  height: auto; /* Mantenha a proporção da imagem */
 }
 
 .cabecalho-menu-item {
@@ -60,11 +64,10 @@ body {
 .navbar {
   display: flex;
   flex-direction: row;
-  align-items: right;
-  justify-content: space-around;
-  padding: 4px;
+  align-items: center; /* Centraliza os itens verticalmente */
+  justify-content: space-between; /* Espaça os itens horizontalmente */
+  padding: 10px 20px; /* Ajuste o padding conforme necessário */
   background-color: #37853c;
-  height: 0;
 }
 
 .h1 {
@@ -98,6 +101,7 @@ body {
   top: 42vh;
   left: 100vh;
   font-size: x-large;
+  z-index: 1; /* Certifique-se de que as estrelas estão acima da imagem */
 }
 
 .Corrida-checked img {
@@ -105,6 +109,7 @@ body {
   width: 30rem;
   top: -9.5vh;
   right: -8.5vh;
+  z-index: 0; /* Certifique-se de que a imagem está abaixo das estrelas */
 }
 
 .Meditação p {
@@ -130,6 +135,7 @@ body {
   top: 62vh;
   left: 100vh;
   font-size: x-large;
+  z-index: 1; /* Certifique-se de que as estrelas estão acima da imagem */
 }
 
 .Meditação-checked img {
@@ -137,6 +143,7 @@ body {
   width: 30rem;
   top: -9.5vh;
   right: -8.5vh;
+  z-index: 0; /* Certifique-se de que a imagem está abaixo das estrelas */
 }
 
 .star-icon {
@@ -145,20 +152,28 @@ body {
   cursor: pointer;
   color: #ffe500;
   font-size: 40px; /* alterar o tamanho das estrelas */
+  z-index: 2; /* Certifique-se de que as estrelas estão acima da imagem */
 }
+
 .star-icon::before {
   content: "\2605";
 }
+
 .star-icon.ativo::before {
   content: "\2605";
   color: #ffcc00;
 }
+
 .star-icon.inativo::before {
   content: "\2606";
 }
+
 .rodapé {
   background-color: #37853c;
   padding: 10px;
   text-align: center;
   color: #FFF2EF;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
