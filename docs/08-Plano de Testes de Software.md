@@ -19,7 +19,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-01: Verificar o funcionamento dos links da página Home</td>
+  <td>CT-01 **exemplo** : Verificar o funcionamento dos links da página Home</td>
   <td>
    <ul>
     <li>RF-001:	O site deve permitir ao usuário cadastrar uma conta.</li>
@@ -41,7 +41,40 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Maria</td>
  </tr>
 </table>
+
  
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-01: Verificar o funcionamento dos links da página Home</td>
+  <td>
+   <ul>
+    <li>RF-01:	O sistema deve permitir o cadastro e login na plataforma.</li>
+   <li>RNF-01:	O sistema deve exigir senha com no mínimo 6 caracteres sendo 1 maiúsculas, 1 minúsculas e 1 caracteres especiais(@,#,$,&,*,etc)</li>
+    
+   </ul>
+  </td>
+  <td>Verificar se o usuário consegue fazer seu cadastro e login acessando a aplicação e salvando seus dados</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Abrir a página de login.</li>
+    <li>Realizar o cadastro na janela "inscreva-se" e clicar em continuar</li>
+    <li>Inserir os dados cadastrados na janela "entrar" e clicar em entrar.</li>
+   </ol>
+   </td>
+  <td>Os deve conseguir acessar a homepage tendo seus dados (nome, email e senha) salvos.</td>
+  <td>Artur</td>
+ </tr>
+</table>
+
 ## Ferramentas de Testes (Opcional)
 
 Comente sobre as ferramentas de testes utilizadas.
