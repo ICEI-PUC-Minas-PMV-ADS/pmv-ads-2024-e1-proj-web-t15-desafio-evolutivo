@@ -36,7 +36,7 @@ header {
     font-family: 'Lato', sans-serif;
     color: #FFF2E7;
     margin-top: 10px;
-    font-weight: 400;
+    font-weight: 400px;
     font-size: 18px
 }
 
@@ -55,85 +55,48 @@ body {
 
 .sub-title {
     text-align: center;
-    font-size: 25px;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    font-size: 60px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    display: center;
 }
 
 .sub-title span {
     color: #37853c;
+   
 }
 
 .section1 {
-    display: flex;
-    flex-direction: row;
-}
-
-.container2 {
-    width: 600px;
-    height: 350px;
-    padding: 5px 40px;
-    margin-left: 100px;
-    display: auto;
+    display: center;
+    align-items: center;
 
 }
 
-.desafio {
-    margin-bottom: 10px;
-    border: 0px solid #ccc;
-    padding: 10px;
-    text-align: center;
-    font-size: 13px;
-
-}
-
-
-.buttons {
-    margin-top: 10px;
-}
-
-button {
-    padding: 5px 15px;
-    margin-right: 10px;
-    cursor: pointer;
-    margin-bottom: 0;
-}
-
-.concluir {
-    background-color: #4caf50;
-    color: #fff;
-    border: none;
-}
-
-.nao-concluir {
-    background-color: #840d05;
-    color: #fff;
-    border: none;
-}
 
 
 
 .container1 {
-    width: 500px;
-    height: 400px;
-    padding: 10px 40px;
-    margin-left: 150px;
-    display: auto;
+    width: 35rem;
+    height: 20rem;
+    padding: 10px 0px;
+    margin-left: 30rem;
+    margin-top: 0rem;
+    display: center;
+    align-items: center;
 
 }
 
-.heading {
-    text-align: center;
-    text-decoration: underline;
-    text-underline-offset: 5px;
-    text-decoration-thickness: 5px;
-    margin-bottom: 10px;
-    margin-top: 0;
-    font-size: 20px;
+
+.icone{
+   width: 40px;
+   height: 40px;
+   margin-bottom: 30px;
+   margin-left: 16.1rem
 }
 
 .bar {
-    font-size: 15px;
+    font-size: 0px;
+    
 
 }
 
@@ -149,9 +112,10 @@ button {
     margin-bottom: 10px;
 }
 
-.Techinical-bars .bar .info {
-    margin-bottom: 10px;
-    font-size: 15px;
+.Techinical-bars .bar .indfo {
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
 }
 
 .Techinical-bars .bar .info span {
@@ -189,29 +153,19 @@ button {
 
 }
 
-.progress-line.fisico span {
+.progress-line.corrida span {
     width: 100%;
 }
 
-.progress-line.hidratacao span {
-    width: 80%;
+.progress-line.memorizacao span {
+    width: 100%;
 }
 
-.progress-line.alimentacao span {
-    width: 85%;
+.progress-line.meditacao span {
+    width: 100%;
 }
 
-.progress-line.leitura span {
-    width: 80%;
-}
 
-.progress-line.mental span {
-    width: 75%;
-}
-
-.progress-line.pessoal span {
-    width: 70%;
-}
 
 .progress-line span::after {
     position: absolute;
@@ -228,29 +182,19 @@ button {
 }
 
 
-.progress-line.fisico span::after {
-    content: "100%";
+.progress-line.corrida span::after {
+    content: "0/30";
 }
 
-.progress-line.hidratacao span::after {
-    content: "80%";
+.progress-line.memorizacao span::after {
+    content: "28/30";
 }
 
-.progress-line.alimentacao span::after {
-    content: "85%";
+.progress-line.meditacao span::after {
+    content: "2/30";
 }
 
-.progress-line.leitura span::after {
-    content: "80%";
-}
 
-.progress-line.mental span::after {
-    content: "75%";
-}
-
-.progress-line.pessoal span::after {
-    content: "70%";
-}
 
 .progress-line span::before {
     content: "";
@@ -317,7 +261,13 @@ button {
     }
 }
 
-
+.motivacao{
+  
+  display: table-;
+  padding-top: 10px;
+  font-size: 12px;
+  
+}
 
 footer {
     background-color: #37853c;
