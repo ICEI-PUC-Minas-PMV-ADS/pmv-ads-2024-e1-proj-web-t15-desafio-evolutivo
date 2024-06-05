@@ -74,6 +74,41 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Artur</td>
  </tr>
 </table>
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-02: Verificar o funcionamento das avaliações dos desafios </td>
+  <td>
+   <ul>
+    <li>RF-11: O sistema deve permitir ao usuário fazer avaliações de desafios utilizando de 1 a 5 estrelas.</li> 
+   </ul>
+  </td>
+  <td>Verificar se o usuário consegue fazer a avaliação dos desafios</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Abrir a página de login.</li>
+    <li>Inserir os dados do login e clicar em entrar</li>
+    <li></li>
+   </ol>
+   </td>
+  <td>Os deve conseguir acessar a homepage tendo seus dados (nome, email e senha) salvos.</td>
+  <td>Artur</td>
+ </tr>
+</table>
+
+
+
+
+
+
 
 ## Ferramentas de Testes (Opcional)
 
