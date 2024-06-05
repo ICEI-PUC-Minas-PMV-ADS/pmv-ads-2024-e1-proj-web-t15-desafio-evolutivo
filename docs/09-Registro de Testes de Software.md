@@ -14,6 +14,16 @@ https://user-images.githubusercontent.com/100447878/174854223-c457e6ca-a9ce-48d3
   </li>
   <hr>
 
+
+  <li> CT-02: Verificar o funcionamento das avaliações dos desafios.
+
+  Responsável: Sharon.
+
+https://user-images.githubusercontent.com/100447878/174854223-c457e6ca-a9ce-48d3-aba9-b9e617132f31.mov
+
+  </li>
+  <hr>
+
 ## Avaliação
 
 Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
