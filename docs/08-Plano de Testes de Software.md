@@ -10,37 +10,7 @@ Os requisitos para realização dos testes de software são:
 Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 
 <table>
- <tr>
-  <th>Caso de teste</th>
-  <th>Requisitos associados</th>
-  <th>Objetivo do teste</th>
-  <th>Passos</th>
-  <th>Critérios de êxito</th>
-  <th>Responsável</th>
- </tr>
- <tr>
-  <td>CT-09999 **exemplo** : Verificar o funcionamento dos links da página Home</td>
-  <td>
-   <ul>
-    <li>RF-001:	O site deve permitir ao usuário cadastrar uma conta.</li>
-   <li>RF-002:	O site deve permitir ao usuário fazer o login da sua conta.</li>
-   <li>RF-005:	O site deve permitir ao usuário disponibilizar informações das disciplinas de tutoria e suas informações para contato.</li>
-    <li>RF-007:	O site deve permitir ao usuário visualizar os detalhes do livro.</li>
-   </ul>
-  </td>
-  <td>Verificar se os links da página Home estão encaminhando para as respectivas páginas corretamente</td>
-  <td>
-   <ol>
-    <li>Acessar o navegador.</li>
-    <li>Informar o endereço do site.</li>
-    <li>Visualizar a página Home.</li>
-    <li>Clicar nos links da página Home.</li>
-   </ol>
-   </td>
-  <td>Todos os links da página Home devem encaminhar os usuários para as páginas descritas.</td>
-  <td>Maria</td>
- </tr>
-</table>
+ 
 
  
 <table>
@@ -53,7 +23,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-01: Verificar o funcionamento dos links da página Home</td>
+  <td>CT-01: Verificar o funcionamento do cadastro e login</td>
   <td>
    <ul>
     <li>RF-01:	O sistema deve permitir o cadastro e login na plataforma.</li>
@@ -96,11 +66,12 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     <li>Acessar o navegador.</li>
     <li>Abrir a página de login.</li>
     <li>Inserir os dados do login e clicar em entrar</li>
-    <li></li>
+    <li>Clique em avaliações</li>
+    <li>Avalie de acordo com o nível de satisfação</li>
    </ol>
    </td>
-  <td>Os deve conseguir acessar a homepage tendo seus dados (nome, email e senha) salvos.</td>
-  <td>Artur</td>
+  <td>O usuário deve conseguir avaliar o desafio atráves da quantidade de estrelas que ele selecionar.</td>
+  <td>Sharon</td>
  </tr>
 </table>
 
