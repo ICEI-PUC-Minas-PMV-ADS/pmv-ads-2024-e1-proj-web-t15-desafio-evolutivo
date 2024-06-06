@@ -5,14 +5,13 @@
     font-family: Roboto, Apple System, Helvetica Neue, Segoe UI, Arial, Lato e Sans Serif;
 }
 
-
+/*EDIÇÃO CABEÇALHO*/
 header {
     background-color: #37853c;
     padding: 20px;
     text-align: center;
     color: #fff;
 }
-
 .cabecalho {
     display: flex;
     flex-direction: row;
@@ -22,7 +21,6 @@ header {
     background-color: #37853c;
     height: none
 }
-
 .cabecalho-logo {
     height: 40px;
 }
@@ -48,11 +46,13 @@ header {
     height: 50px;
 }
 
+/* CORES DE FUNDO E COR DO TEXTO GERAL*/
 body {
     color: #000000;
     background: #f9f9f9;
 }
 
+/* SUBTITLO MEU PROGRESSO*/
 .sub-title {
     text-align: center;
     font-size: 60px;
@@ -61,11 +61,13 @@ body {
     display: center;
 }
 
+/* MODIFICAR SEGUNDA PALAVRA DO SUBTITULO*/
 .sub-title span {
     color: #37853c;
 
 }
 
+/* SEÇÃO DE CONTEÚDO - MUDA O ALINHAMENTO GERAL*/ 
 .section {
 
     display: flex;
@@ -75,35 +77,37 @@ body {
 
 }
 
-
-
-
+/* CONTAINER DAS BARRAS E CONTEÚDO */
 .container1 {
-   
-    height: 20rem;
+
+    height: 30rem;
     padding: 10px 0px;
 
 }
 
-
+/* TAMAMHO E MARGEM DOS ICONES */
 .icone {
     width: 40px;
     height: 40px;
     margin-bottom: 30px;
 }
 
+/* ELEMENTO DE ICONE ALTERNATIVO VIA BOXICONS */
 .bar {
     font-size: 0px;
 
 
 }
 
+/* BARRA DE PROGRESSO INFERIOR */
 .Techinical-bars {
     width: 700px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+/* BARRA DE PROGRESSO SUPERIOR*/
 .Techinical-bars .bar {
     width: 700px;
     display: flex;
@@ -113,6 +117,7 @@ body {
     margin: 30px 0;
 }
 
+
 .Techinical-bars .bar:first-child {
     margin-top: 0;
 }
@@ -121,19 +126,21 @@ body {
     margin-bottom: 10px;
 }
 
+/* INDICADOR DO DESAFIO */
 .Techinical-bars .bar .indfo {
     margin-top: 10px;
     font-size: 18px;
     text-align: center;
 }
 
+/* ANIMAÇÃO DAS BARRAS DE PROGRESSO - CUIDADO */
 .Techinical-bars .bar .info span {
     font-size: 15px;
     font-weight: 500;
     animation: showText 0.5s 1s linear forwards;
     opacity: 0;
 }
-
+/* ANIMAÇÃO BARRA INICIAL ESCURA*/
 .Techinical-bars .bar .progress-line {
     position: relative;
     border-radius: 10px;
@@ -150,7 +157,7 @@ body {
         transform: scaleX(1);
     }
 }
-
+/* ANIMAÇÃO BARRA SECUNDARIA CLARA */
 .Techinical-bars .bar .progress-line span {
     height: 100%;
     background-color: #0ef;
@@ -161,24 +168,24 @@ body {
     transform-origin: left;
 
 }
-
+/* APRESENTAÇÃO ESTATICA DA BARRA DE PROGRESSO */
 .progress-line.corrida span {
-    width: 100%;
+    width: 0%;
 }
 
 .progress-line.memorizacao span {
-    width: 100%;
+    width: 0%;
 }
 
 .progress-line.meditacao span {
-    width: 100%;
+    width: 0%;
 }
 
 
-
+/* ANIMAÇÃO DA CAIXA DA LEGENDA DA BARRA DE PROGRESSO */
 .progress-line span::after {
     position: absolute;
-    padding: 1px 8px;
+    padding: 2px 8px;
     background-color: #37853c;
     color: #fefefe;
     font-size: 12px;
@@ -190,17 +197,17 @@ body {
 
 }
 
-
+/* MODIFICA A LEGENDA ESTATICA DA BARRA DE PROGRESSO */
 .progress-line.corrida span::after {
     content: "0/30";
 }
 
 .progress-line.memorizacao span::after {
-    content: "28/30";
+    content: "0/30";
 }
 
 .progress-line.meditacao span::after {
-    content: "2/30";
+    content: "0/30";
 }
 
 
@@ -270,14 +277,16 @@ body {
     }
 }
 
+/* COMPLEMENTO MOTIVACIONAL */
 .motivacao {
 
     text-align: justify;
-    padding-top: 10px;
+    padding-top: 20px;
     font-size: 14px;
 
 }
 
+/* RODAPÉ */
 footer {
     background-color: #37853c;
     color: white;
