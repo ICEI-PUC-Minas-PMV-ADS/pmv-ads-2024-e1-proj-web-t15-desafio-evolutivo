@@ -1,16 +1,17 @@
 $(document).ready(function() {
   $('#my-button').click(function() {
-    $('#popup-modal').fadeIn();
+    $('#popup-modal').fadeIn();0
+    $(this).hide(); // Esconde o botão "Iniciar"
   });
   
   $('#ok-button').click(function() {
     window.location.href = "segundodia.html";
   });
   
-  $('cancel-button').click(function() {
+  $('#cancel-button').click(function() {
+    alert("Parabéns pela conclusão da tarefa!");
     window.location.href = "trigesimodia.html";
   });
-
 });
 document.addEventListener('DOMContentLoaded', (event) => {
   // Recupera o contador e a data do último desafio do localStorage
