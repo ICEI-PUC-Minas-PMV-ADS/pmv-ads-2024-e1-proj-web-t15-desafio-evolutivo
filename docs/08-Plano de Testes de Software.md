@@ -76,7 +76,39 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 </table>
 
 
-
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-03: Verificar o funcionamento da alteração de dados do usuario</td>
+  <td>
+   <ul>
+    <li>RF-02:	O sistema deve permitir que o usuario faça mudanças nos seus dados pessoais.</li>
+ 
+    
+   </ul>
+  </td>
+  <td>Verificar se o usuário consegue fazer alteração de todos os seus dados, como e-mail, nome e senha</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Abrir a página de login.</li>
+    <li>Realizar o cadastro na janela "inscreva-se" e clicar em continuar</li>
+    <li>Inserir os dados cadastrados na janela "entrar" e clicar em entrar.</li>
+    <li>Abrir o perfil do usuario.</li>
+    <li>Fazer alterações de dados e imagem do usuario.</li>
+   </ol>
+   </td>
+  <td>O usuario deve conseguir alterar seus dados de acordo com sua preferencia</td>
+  <td>Gabriel Almeida</td>
+ </tr>
+</table>
 
 
 
