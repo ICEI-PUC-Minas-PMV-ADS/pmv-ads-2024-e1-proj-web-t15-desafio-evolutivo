@@ -120,24 +120,24 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>
  </tr>
  <tr>
-  <td>CT-04: Verificar o funcionamento das avaliações dos desafios </td>
+  <td>CT-04: Verificar o funcionamento da inscrição nos desafios </td>
   <td>
    <ul>
-    <li>RF-11: O sistema deve permitir ao usuário fazer avaliações de desafios utilizando de 1 a 5 estrelas.</li> 
+    <li>RF-05: O sistema deve permitir inscrição nos desafios..</li> 
    </ul>
   </td>
-  <td>Verificar se o usuário consegue fazer a avaliação dos desafios</td>
+  <td>Verificar se o usuário consegue realizar a inscrição no desafio.</td>
   <td>
    <ol>
     <li>Acessar o navegador.</li>
-    <li>Abrir a página de login.</li>
-    <li>Inserir os dados do login e clicar em entrar</li>
-    <li>Clique em avaliações</li>
-    <li>Avalie de acordo com o nível de satisfação</li>
+    <li>Abrir a página de inscrição.</li>
+    <li>Realizar a inscrição no botão "Inscrever"</li>
+    <li>Clicar em ver progresso.</li>
+    <li>Clicar em continuar.</li>
    </ol>
    </td>
-  <td>O usuário deve conseguir avaliar o desafio atráves da quantidade de estrelas que ele selecionar.</td>
-  <td>Sharon</td>
+  <td>O usuário deve conseguir se inscrever no desafio escolhido.</td>
+  <td>Enzo</td>
  </tr>
 </table>
 
