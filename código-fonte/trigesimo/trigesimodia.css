@@ -222,7 +222,7 @@ body {
   #comment-button {
     align-items: center;
     position: relative;
-    top: 8vh;
+    top: -50.5vh;
     right: 15vh;
     background-color: #4CAF50;
     color: #fff;
@@ -235,7 +235,7 @@ body {
   #comment-box {
     max-width: 500px;
     position: relative;
-    top: 8vh;
+    top: -50vh;
     right: 30vh;
     margin: 40px auto;
     padding: 20px;
