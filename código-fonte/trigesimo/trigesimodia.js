@@ -16,6 +16,12 @@ $(document).ready(function() {
     const highlightedContainer = document.querySelector(".highlighted-container");
     const closeButton = document.querySelector(".close-button");
     const commentBox = document.querySelector("#comment-box");
+    const commentButton = document.querySelector("#comment-button");
+    const commentTextarea = document.getElementById('comment-textarea');
+    const saveButton = document.getElementById('save-button');
+    
+    let isOpen = false;
+    let commentCounter = 30;
     
     iniciarButton.addEventListener("click", createHighlightedButton);
     
@@ -33,8 +39,6 @@ $(document).ready(function() {
       commentBox.style.display = "none";
     }
     
-    let isOpen = false;
-    
     commentButton.addEventListener('click', function() {
       if (isOpen) {
         commentBox.style.display = 'none';
@@ -45,18 +49,45 @@ $(document).ready(function() {
       }
     });
     
-    const saveButton = document.getElementById('save-button');
     saveButton.addEventListener('click', function() {
-      const commentText = document.getElementById('comment-textarea').value;
-      // Salvar o comentário em outra página com JavaScript
-      const xhr = new XMLHttpRequest();
-      xhr.open('POST', 'save-comment.php', true);
-      xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-      xhr.send('comment=' + encodeURIComponent(commentText));
-      commentBox.style.display = 'none';
-      isOpen = false;
+      const commentText = commentTextarea.value;
+      if (commentText.length <= commentCounter) {
+        const xhr = new XMLHttpRequest();
+        xhr.open('POST', 'ave-comment.php', true);
+        xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+        xhr.send('comment=' + encodeURIComponent(commentText) + '&counter=' + commentCounter);
+        commentBox.style.display = 'none';
+        isOpen = false;
+        commentTextarea.value = ''; 
+      } else {
+        alert('Comment too long! Please keep it under ' + 'haracters.');
+      }
     });
-  
+
+commentButton.addEventListener('click', function() {
+  window.location.href = 'progresso.html'; 
+});
+
+saveButton.addEventListener('click', function() {
+  const commentText = document.getElementById('comment-textarea').value;
+  if (commentText.length <= commentCounter) {
+    const xhr = new XMLHttpRequest();
+    xhr.open('POST', 'save-comment.php', true);
+    xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+    xhr.send('comment=' + encodeURIComponent(commentText) + '&counter=' + commentCounter);
+    commentBox.style.display = 'none';
+    isOpen = false;
+    backgroundBlur.style.display = 'none';
+    highlightedContainer.style.display = 'none';
+    
+    setTimeout(function() {
+      document.body.removeChild(popup);
+    }, 2000);
+  } else {
+    alert('Comment too long! Please keep it under ' + commentCounter + ' characters.');
+  }
+});
+
   });
   document.addEventListener('DOMContentLoaded', (event) => {
     // Recupera o contador e a data do último desafio do localStorage
