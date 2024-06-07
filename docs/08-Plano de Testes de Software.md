@@ -110,7 +110,36 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
  </tr>
 </table>
 
-
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-04: Verificar o funcionamento das avaliações dos desafios </td>
+  <td>
+   <ul>
+    <li>RF-11: O sistema deve permitir ao usuário fazer avaliações de desafios utilizando de 1 a 5 estrelas.</li> 
+   </ul>
+  </td>
+  <td>Verificar se o usuário consegue fazer a avaliação dos desafios</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Abrir a página de login.</li>
+    <li>Inserir os dados do login e clicar em entrar</li>
+    <li>Clique em avaliações</li>
+    <li>Avalie de acordo com o nível de satisfação</li>
+   </ol>
+   </td>
+  <td>O usuário deve conseguir avaliar o desafio atráves da quantidade de estrelas que ele selecionar.</td>
+  <td>Sharon</td>
+ </tr>
+</table>
 
 
 ## Ferramentas de Testes (Opcional)
