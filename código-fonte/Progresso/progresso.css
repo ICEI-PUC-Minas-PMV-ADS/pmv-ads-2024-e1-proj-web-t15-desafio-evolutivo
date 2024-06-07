@@ -5,6 +5,8 @@
     font-family: Roboto, Apple System, Helvetica Neue, Segoe UI, Arial, Lato e Sans Serif;
 }
 
+
+
 /*EDIÇÃO CABEÇALHO*/
 header {
     background-color: #37853c;
@@ -12,6 +14,7 @@ header {
     text-align: center;
     color: #fff;
 }
+
 .cabecalho {
     display: flex;
     flex-direction: row;
@@ -21,21 +24,24 @@ header {
     background-color: #37853c;
     height: none
 }
+
 .cabecalho-logo {
     height: 40px;
 }
 
 .cabecalho-menu {
     display: flex;
-    gap: 32px;
+    gap: 40px;
 }
 
+/*BOTÕES DE NAVEGAÇÃO*/
 .cabecalho-menu-item {
     font-family: 'Lato', sans-serif;
     color: #FFF2E7;
     margin-top: 10px;
     font-weight: 400px;
-    font-size: 18px
+    font-size: 18px;
+    text-decoration: none;
 }
 
 .cabecalho-avatar {
@@ -46,13 +52,13 @@ header {
     height: 50px;
 }
 
-/* CORES DE FUNDO E COR DO TEXTO GERAL*/
+/*CORES DE FUNDO E COR DO TEXTO GERAL*/
 body {
     color: #000000;
     background: #f9f9f9;
 }
 
-/* SUBTITLO MEU PROGRESSO*/
+/*SUBTITLO MEU PROGRESSO*/
 .sub-title {
     text-align: center;
     font-size: 60px;
@@ -61,13 +67,13 @@ body {
     display: center;
 }
 
-/* MODIFICAR SEGUNDA PALAVRA DO SUBTITULO*/
+/*MODIFICAR SEGUNDA PALAVRA DO SUBTITULO*/
 .sub-title span {
     color: #37853c;
 
 }
 
-/* SEÇÃO DE CONTEÚDO - MUDA O ALINHAMENTO GERAL*/ 
+/*SEÇÃO DE CONTEÚDO - MUDA O ALINHAMENTO GERAL*/
 .section {
 
     display: flex;
@@ -77,7 +83,7 @@ body {
 
 }
 
-/* CONTAINER DAS BARRAS E CONTEÚDO */
+/*CONTAINER DAS BARRAS E CONTEÚDO*/
 .container1 {
 
     height: 30rem;
@@ -85,21 +91,21 @@ body {
 
 }
 
-/* TAMAMHO E MARGEM DOS ICONES */
+/*TAMAMHO E MARGEM DOS ICONES*/
 .icone {
     width: 40px;
     height: 40px;
     margin-bottom: 30px;
 }
 
-/* ELEMENTO DE ICONE ALTERNATIVO VIA BOXICONS */
+/*ELEMENTO DE ICONE ALTERNATIVO VIA BOXICONS*/
 .bar {
     font-size: 0px;
 
 
 }
 
-/* BARRA DE PROGRESSO INFERIOR */
+/*BARRA DE PROGRESSO INFERIOR*/
 .Techinical-bars {
     width: 700px;
     display: flex;
@@ -107,7 +113,7 @@ body {
     align-items: center;
 }
 
-/* BARRA DE PROGRESSO SUPERIOR*/
+/*BARRA DE PROGRESSO SUPERIOR*/
 .Techinical-bars .bar {
     width: 700px;
     display: flex;
@@ -126,21 +132,22 @@ body {
     margin-bottom: 10px;
 }
 
-/* INDICADOR DO DESAFIO */
+/*INDICADOR DO DESAFIO*/
 .Techinical-bars .bar .indfo {
     margin-top: 10px;
     font-size: 18px;
     text-align: center;
 }
 
-/* ANIMAÇÃO DAS BARRAS DE PROGRESSO - CUIDADO */
+/*ANIMAÇÃO DAS BARRAS DE PROGRESSO - CUIDADO*/
 .Techinical-bars .bar .info span {
     font-size: 15px;
     font-weight: 500;
     animation: showText 0.5s 1s linear forwards;
     opacity: 0;
 }
-/* ANIMAÇÃO BARRA INICIAL ESCURA*/
+
+/*ANIMAÇÃO BARRA INICIAL ESCURA*/
 .Techinical-bars .bar .progress-line {
     position: relative;
     border-radius: 10px;
@@ -157,7 +164,8 @@ body {
         transform: scaleX(1);
     }
 }
-/* ANIMAÇÃO BARRA SECUNDARIA CLARA */
+
+/*ANIMAÇÃO BARRA SECUNDARIA CLARA*/
 .Techinical-bars .bar .progress-line span {
     height: 100%;
     background-color: #0ef;
@@ -168,7 +176,8 @@ body {
     transform-origin: left;
 
 }
-/* APRESENTAÇÃO ESTATICA DA BARRA DE PROGRESSO */
+
+/*APRESENTAÇÃO ESTATICA DA BARRA DE PROGRESSO*/
 .progress-line.corrida span {
     width: 0%;
 }
@@ -182,7 +191,7 @@ body {
 }
 
 
-/* ANIMAÇÃO DA CAIXA DA LEGENDA DA BARRA DE PROGRESSO */
+/*ANIMAÇÃO DA CAIXA DA LEGENDA DA BARRA DE PROGRESSO*/
 .progress-line span::after {
     position: absolute;
     padding: 2px 8px;
@@ -197,7 +206,7 @@ body {
 
 }
 
-/* MODIFICA A LEGENDA ESTATICA DA BARRA DE PROGRESSO */
+/*MODIFICA A LEGENDA ESTATICA DA BARRA DE PROGRESSO*/
 .progress-line.corrida span::after {
     content: "0/30";
 }
@@ -277,7 +286,7 @@ body {
     }
 }
 
-/* COMPLEMENTO MOTIVACIONAL */
+/*COMPLEMENTO MOTIVACIONAL*/
 .motivacao {
 
     text-align: justify;
@@ -286,7 +295,7 @@ body {
 
 }
 
-/* RODAPÉ */
+/*RODAPÉ*/
 footer {
     background-color: #37853c;
     color: white;
