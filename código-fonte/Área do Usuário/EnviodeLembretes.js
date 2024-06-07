@@ -4,8 +4,7 @@
 // Na pasta desse arquivo, digite npm install nodemailer
 // Run current file
 
-// senha do email desafioevolutivo30@gmail.com para teste: Desafio30evolutivo!
-// é necessário verificação em duas etapas caso queira checar o email recebido
+// senha do email  desafioevolutivoteste@gmail.com para teste: desafioevolutivoteste30
 
   const nodemailer = require('nodemailer'); 
   
@@ -21,14 +20,14 @@
   // Configuração dos e-mails
   let mailOptions = {
       from: 'desafioevolutivo30@gmail.com',
-      to: 'arturma30@gmail.com, desafioevolutivo30@gmail.com', 
+      to: 'arturma30@gmail.com, desafioevolutivoteste@gmail.com', 
       subject: 'Bem-vindo ao Desafio Evolutivo!',
       text: 'Parabéns por participar do Desafio Evolutivo! \n\nNão se esqueça de realizar seus desafios todos os dias!'
   };
 
   let mailOptions2 = {
     from: 'desafioevolutivo30@gmail.com',
-    to: 'arturma30@gmail.com, desafioevolutivo30@gmail.com', 
+    to: 'arturma30@gmail.com, desafioevolutivoteste@gmail.com', 
     subject: 'Desafio Evolutivo! \u{1F525}',
     text: 'Olá! \n\nNão se esqueça de realizar seu desafio hoje! \n\nGrandes conquistas começam em pequenas ações!'
 };
@@ -42,7 +41,7 @@
   //lógica integrando os valores do frontend
 
   // Enviar o e-mail e escrever no log que foi enviado
-  // essa condição representa o caso de o usuário não ter feito o desafio até meio dia
+  // essa condição lembra o usuário de realizar seus testes diários
   if (new Date() > dezoitohoras) {
   transporter.sendMail(mailOptions2, function(error, info){
       if (error) {
