@@ -26,7 +26,13 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-e
 
   </li>
   <hr>
-
+CT-03: Verificar o funcionamento da tela de progresso
+<br>
+<br>Responsável: Gabriel Estabanez
+<br>
+<img src='img/Captura%20de%20tela%202024-06-06%20200041.png'  >
+<br>
+<img src='img/Captura%20de%20tela%202024-06-06%20200108.png'  ><br>
 ## Avaliação
 
 Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
