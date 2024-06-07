@@ -15,7 +15,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-e
 <hr>
 
 
-  <li> CT-02: Verificar o funcionamento das avaliações dos desafios.
+  <li> CT-04: Verificar o funcionamento das avaliações dos desafios.
 
   Responsável: Sharon.
 
