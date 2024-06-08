@@ -66,7 +66,7 @@ function logar(){
   
     // Verificar se o usuário existe e se a senha está correta
     if (dados.email=== email  &&  dados.senha === senha  ){
-        window.location.href = "homepage.HTML";
+        window.location.href = "homepage.html";
         
     } else {
         alert ("E-mail ou senha inválidos");

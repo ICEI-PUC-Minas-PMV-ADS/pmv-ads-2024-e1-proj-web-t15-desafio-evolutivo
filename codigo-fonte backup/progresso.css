@@ -151,6 +151,10 @@ body {
     transform: scaleX(0);
     transform-origin: left;
 }
+.cabecalho-avatar {
+    height: 50px;
+    border-radius: 80%;
+    }
 
 @keyframes animate {
     100% {

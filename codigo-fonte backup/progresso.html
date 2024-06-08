@@ -173,9 +173,26 @@
             document.querySelector(".progress-line.meditacao span").style.width = porcentagembarra + '%';
         });
     </script>
+    <script>
+// Função para carregar a imagem de perfil do local storage
+function carregarImagemDePerfil() {
+    const fotosalva = localStorage.getItem("profilepic");
+  
+    if (fotosalva) {
+      const avatar = document.querySelector(".cabecalho-avatar");
+      avatar.src = fotosalva;
+       }
+  }
+ // Selecionando o elemento
+// Selecionando o elemento
 
+  // Carregar dados do local storage e imagem de perfil quando a página é carregada
+  window.onload = function () {
+    carregarImagemDePerfil();
+    
+  };
 
-
+</script>
 
 </body>
 

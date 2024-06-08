@@ -11,10 +11,10 @@
   <header class="cabecalho"> <!--Inicio do codigo cabeça/menu-->
     <img class="cabecalho-logo" src="IMG/Titulo DesaafioEvolutivo.png" alt="Desafio Evolutivo" ><!-- Logo da pagina onde o link deve levar para homepage-->
     <nav class="cabecalho-menu">
-      <a class="cabecalho-menu-item" href="https://discord.gg/wagxzStdcR">Meus Desafios</a>
-      <a class="cabecalho-menu-item">Novos Desafios</a>
-      <a class="cabecalho-menu-item">Histórico de Desafios</a>
-      <a class="cabecalho-menu-item">Contatos</a>
+      <a class="cabecalho-menu-item">Desafios Inscritos</a>
+      <a class="cabecalho-menu-item" href="homepage.HTML">Novos Desafios</a>
+      <a class="cabecalho-menu-item"  href="progresso.html">Progresso</a>
+      <a class="cabecalho-menu-item"  href="avaliacoes.HTML">Avaliações</a>
     </nav>
     <div class="cabecalho-icones"> <!--Div criada somente para que os dois icones possam ficar proximos.-->
       <img class="cabecalho-sino" src="IMG/sino.png" alt="Denho Sino Notificação"><!--Sino das notificações onde o link deverá levar para pag. de avisos.-->
@@ -52,7 +52,25 @@
     </div>
 
   </main>
-
+  <script>
+    // Função para carregar a imagem de perfil do local storage
+  function carregarImagemDePerfil() {
+      const fotosalva = localStorage.getItem("profilepic");
+    
+      if (fotosalva) {
+        const avatar = document.querySelector(".cabecalho-avatar");
+        avatar.src = fotosalva;
+         }
+    }
+   // Selecionando o elemento
+  // Selecionando o elemento
+  
+    // Carregar dados do local storage e imagem de perfil quando a página é carregada
+    window.onload = function () {
+      carregarImagemDePerfil();
+      
+    };
+  </script>
   <footer class="rodapé">
     <p>Copyright &copy; 2024 Desafio Evolutivo. Todos os direitos reservados.</p>
   </footer><!--Espaço reservado para nosso rodapé-->

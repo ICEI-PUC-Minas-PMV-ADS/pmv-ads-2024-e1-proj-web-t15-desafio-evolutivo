@@ -1,19 +1,17 @@
-$(document).ready(function() {
-  $('#my-button').click(function() {
-    $('#popup-modal').fadeIn();
-  });
-  
-  $('#ok-button').click(function() {
-    window.location.href = "https://www.example.com/new-page";
-  });
-  
-  $('#cancel-button').click(function() {
-    window.location.href = "Desafio dia 1/Desafio dia 1.HTML";
-  });
+function myFunction(x) {
+    x.classList.toggle("change");
+  }
 
-});
+  function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+  }
+  
+  function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+  }
+
   // Função para carregar a imagem de perfil do local storage
-  function carregarImagemDePerfil() {
+function carregarImagemDePerfil() {
     const fotosalva = localStorage.getItem("profilepic");
   
     if (fotosalva) {

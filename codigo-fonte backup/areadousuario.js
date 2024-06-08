@@ -18,6 +18,14 @@ document.getElementById("editar").addEventListener("click", function () {
   // Esconder o botão de editar e mostrar o botão de salvar
   document.getElementById("editar").style.display = "none";
   document.getElementById("salvar").style.display = "inline";
+
+  document.getElementById("salvar").addEventListener("click", function () {
+    // Quando o botão 'salvar' for clicado, esconda-o e mostre o botão 'editar'
+    const inputs = document.querySelectorAll("#dados-form input");
+    inputs.forEach((input) => (input.disabled = true));
+    document.getElementById("salvar").style.display = "none";
+    document.getElementById("editar").style.display = "inline";
+  });
 });
 
 const salve = document.querySelector("#salvar") 

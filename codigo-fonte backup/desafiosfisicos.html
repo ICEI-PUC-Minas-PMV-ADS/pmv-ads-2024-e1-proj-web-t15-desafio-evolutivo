@@ -8,30 +8,31 @@
 
 </head>
 <body>
-  <header class="cabecalho"> <!--Inicio do codigo cabeça/menu-->
-    <a href="homepage.HTML">
-      <img class="cabecalho-logo" src="IMG/Titulo DesaafioEvolutivo.png" alt="Desafio Evolutivo">
+  <header class="cabecalho"> <!--Inicio do código cabeça/menu-->
+    <a href="homepage.html">
+        <img class="cabecalho-logo"
+            src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/main/código-fonte/IMG/Titulo%20DesaafioEvolutivo.png"
+            alt="Desafio Evolutivo">
     </a>
-      <nav class="cabecalho-menu">
-        <a class="cabecalho-menu-item">Desafios Inscritos</a>
+    <nav class="cabecalho-menu">
+        <a class="cabecalho-menu-item" href="progresso.html">Progresso</a>
         <a class="cabecalho-menu-item" href="homepage.HTML">Novos Desafios</a>
-        <a class="cabecalho-menu-item"  href="progresso.html">Progresso</a>
-        <a class="cabecalho-menu-item"  href="avaliacoes.HTML">Avaliações</a>
-      </nav>
-      <div class="cabecalho-icones"> 
-        <img class="cabecalho-sino" src="IMG/sino.png" alt="Sino Notificação">
+        <a class="cabecalho-menu-item" href="avaliacoes.html">Avaliações</a>
+    </nav>
+    <div class="cabecalho-icones"> <!--Div criada para que os dois ícones possam ficar proximos.-->
+
+
         <a href="areadousuario.html">
-        <img class="cabecalho-avatar" src="IMG/avatar.png" alt="Avatar Perfil">
-      </a>
-      </div>
-  </header>
+            <img class="cabecalho-avatar"
+                src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/main/código-fonte/IMG/avatar.png"
+                alt="Icone Avatar Perfil"><!--Avatar do perfil onde o link deverá levar para o perfil, possibilitando mudanças no cadastro-->
+        </a>
+    </div>
+</header>
+
   
   <main class="conteudo"><!--Inicio do codigo meio/corpo, onde encontra toda a parte central, dividida em sessões.-->
-    <div class="title-container">
-      <a href="homepage.HTML">
-      <img src="IMG/Titulo DesaafioEvolutivo.png" alt="Desafio Evolutivo" height="100px"><!-- Logo da pagina em tamanho maior, onde o link deve levar para homepage também-->
-    </a>
-    </div>
+   
     <H1 class="conteudo-principal-titulo">Desafios Físicos</H1>
     <div class="conteudo-principal">
       <div class="tablet-screen">
@@ -58,10 +59,28 @@
         <button class="conteudo-secundario-escrito-botao-principal">Saiba Mais</button>
       </div>
     </div>
+<script>
+  // Função para carregar a imagem de perfil do local storage
+function carregarImagemDePerfil() {
+    const fotosalva = localStorage.getItem("profilepic");
+  
+    if (fotosalva) {
+      const avatar = document.querySelector(".cabecalho-avatar");
+      avatar.src = fotosalva;
+       }
+  }
+ // Selecionando o elemento
+// Selecionando o elemento
 
+  // Carregar dados do local storage e imagem de perfil quando a página é carregada
+  window.onload = function () {
+    carregarImagemDePerfil();
+    
+  };
+</script>
   </main>
 
-  <footer class="rodapé">
+  <footer >
     <p>Copyright &copy; 2024 Desafio Evolutivo. Todos os direitos reservados.</p>
   </footer><!--Espaço reservado para nosso rodapé-->
       

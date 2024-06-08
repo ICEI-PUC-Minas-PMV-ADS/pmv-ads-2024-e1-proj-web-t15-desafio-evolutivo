@@ -14,7 +14,10 @@ body {
   scrollbar-width: thin; 
   scrollbar-color: #ccc #fff;
 }
-
+.cabecalho-avatar {
+  height: 50px;
+  border-radius: 80%;
+  }
   .cabecalho {
   display: flex;
   flex-direction: row;
@@ -68,6 +71,7 @@ body {
     font-weight: 100;
     font-size: 60px;
     color: #000000;
+    margin-top: 100px;
   }
   
   .conteudo-principal{

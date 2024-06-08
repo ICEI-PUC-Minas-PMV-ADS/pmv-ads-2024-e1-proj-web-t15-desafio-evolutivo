@@ -1,3 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, Apple System, Helvetica Neue, Segoe UI, Arial, Lato e Sans Serif;
+}
+
+/*EDIÇÃO CABEÇALHO*/
+header {
+    background-color: #37853c;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 4px;
+    background-color: #37853c;
+    height: none
+}
+.cabecalho-logo {
+    height: 40px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 40px;
+}
+/*BOTÕES DE NAVEGAÇÃO*/
+.cabecalho-menu-item {
+    font-family: 'Lato', sans-serif;
+    color: #FFF2E7;
+    margin-top: 10px;
+    font-weight: 400px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.cabecalho-avatar {
+  height: 50px;
+  border-radius: 80%;
+}
+
+.cabecalho-sino {
+    height: 50px;
+}
 body {
   height: 180vh; 
   overflow-x: hidden;
@@ -20,41 +69,7 @@ body {
   cursor: pointer;
 }
 
-.cabecalho-menu {
-  display: flex;
-  gap: 42px;
-}
 
-.cabecalho-logo {
-  height: 40px;
-}
-
-.cabecalho-menu-item {
-  position: relative;
-  left: 50vh;
-  font-family: 'Lato', sans-serif;
-  color: #FFF2E7;
-  margin-top: 10px;
-  font-weight: 400;
-  font-size: 18px
-  
-}  
-
-.cabecalho-avatar {
-  position: relative;
-  left: 55vh;
-  padding: 1%;
-  height: 45px;
-  right: 10px;
-}
-
-.cabecalho-sino {
-  position: relative;
-  left: 56vh;
-  padding: 1%;
-  height: 45px;
-  right: 10px;
-}
 
 .navbar {
   display: flex;
@@ -107,6 +122,7 @@ body {
   font-weight: 400;
   font-size: 64px;
   color: #000000;;
+  margin-top: -200px;
   }
 
   .conteudo-principal-escrito-subtitulo {
@@ -167,12 +183,12 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 24px;
-  margin-top: 48px;
+  margin-top: -150px;
   }
 
   .conteudo-secundario-titulo {
   border-top: 0.4px solid#000000;;
-  padding-top: 48px;
+  padding-top: 10px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 24px;
@@ -186,3 +202,16 @@ body {
   font-size: 18px;
   color: #000000;
   }
+ /* RODAPÉ */
+footer {
+  background-color: #37853c;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-top: 2px solid #FFF2E7;
+  padding: 0.2px;
+}

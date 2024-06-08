@@ -1,52 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Roboto, Apple System, Helvetica Neue, Segoe UI, Arial, Lato e Sans Serif;
-}
 
-/*EDIÇÃO CABEÇALHO*/
-header {
-  background-color: #37853c;
-  padding: 20px;
-  text-align: center;
-  color: #fff;
-}
-.cabecalho {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  padding: 4px;
-  background-color: #37853c;
-  height: none
-}
-.cabecalho-logo {
-  height: 40px;
-}
-
-.cabecalho-menu {
-  display: flex;
-  gap: 40px;
-}
-/*BOTÕES DE NAVEGAÇÃO*/
-.cabecalho-menu-item {
-  font-family: 'Lato', sans-serif;
-  color: #FFF2E7;
-  margin-top: 10px;
-  font-weight: 400px;
-  font-size: 18px;
-  text-decoration: none;
-}
-
-.cabecalho-avatar {
-  height: 50px;
-}
-
-.cabecalho-sino {
-  height: 50px;
-}
 body {
     height: 100vh; 
     overflow-x: hidden;
@@ -63,16 +16,48 @@ body {
   ::-webkit-scrollbar-track {
     background-color: #fff;
   }
-  .cabecalho-avatar {
-    height: 50px;
-    border-radius: 80%;
-    }
+  
   .container {
     display: flex;
     cursor: pointer;
   }
   
+  .cabecalho-menu {
+    display: flex;
+    gap: 42px;
+  }
   
+  .cabecalho-logo {
+
+    height: 40px;
+  }
+  
+  .cabecalho-menu-item {
+    position: relative;
+    left: 50vh;
+    font-family: 'Lato', sans-serif;
+    color: #FFF2E7;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 18px
+    
+  }  
+  
+  .cabecalho-avatar {
+    position: relative;
+    left: 55vh;
+    padding: 1%;
+    height: 45px;
+    right: 10px;
+  }
+  
+  .cabecalho-sino {
+    position: relative;
+    left: 56vh;
+    padding: 1%;
+    height: 45px;
+    right: 10px;
+  }
   
   .navbar {
     display: flex;
@@ -109,7 +94,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 32px;
-  margin-top: -180px;
+  margin-top: -80px;
   }
 
   .conteudo-principal-escrito-titulo {
@@ -157,12 +142,12 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 24px;
-  margin-top: -200px;
+  margin-top: -220px;
   }
 
   .conteudo-secundario-titulo {
   border-top: 0.4px solid#000000;;
-  padding-top: 10px;
+  padding-top: 48px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 24px;
@@ -183,29 +168,29 @@ body {
   background-color: rgba(55, 133, 60, 0.527);
 
   width: 210px;
-  height: 80px;
+  height: 120px;
   
   box-shadow: 4px 5px 4px rgba(55, 133, 60, 0.979);
   border-radius: 20px;
   }
   .text{
-    position: static;
-    font-size: 14px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    width: 190px;
-    height: 60px;
-    margin: 10px;
-    text-align: center;
-    text-justify: center;
+  position: static;
+  font-size: 14px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 190px;
+  height: 60px;
+  margin: 10px;
+  text-align: center;
+  text-justify: center;
 
   }
   
   .conteudo-secundario-posicao-botao-princial {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around
-    }
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around
+  }
 
   .conteudo-secundario-escrito-botao-princial {
   background-color: #37853c;
@@ -226,45 +211,37 @@ body {
   background-color: rgba(7, 8, 8, 0.103);
   transition-duration: 0.4s; 
   }
-
+.cabecalho-avatar {
+  height: 50px;
+  border-radius: 80%;
+  }
   #popup-modal p {
-    margin: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 20px;
-    position: relative;
-    }
-    
-    #popup-modal button {
-    background-color: #4CAF50;
-    border: none;
-    color: #ffffff;
-    padding: 10px 22px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 2px 1px;
-    cursor: pointer;
-    border-radius: 12px;
-    margin-bottom: 60px;
-   
-    }
-    
-    #popup-modal button:hover {
-    background-color: #000000;
-    
-    }
-    
-  /* RODAPÉ */
-footer {
-  background-color: #37853c;
-  color: white;
+  margin: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  }
+  
+  #popup-modal button {
+  background-color: #4CAF50;
+  border: none;
+  color: #ffffff;
+  padding: 10px 22px;
   text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 1px;
+  cursor: pointer;
+  border-radius: 12px;
+  }
+  
+  #popup-modal button:hover {
+  background-color: #000000;
+  }
+  
+  .rodapé {
+  background-color: #37853c;
   padding: 10px;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  border-top: 2px solid #FFF2E7;
-  padding: 0.2px;
-}
+  text-align: center;
+  color: #FFF2EF;
+  }
