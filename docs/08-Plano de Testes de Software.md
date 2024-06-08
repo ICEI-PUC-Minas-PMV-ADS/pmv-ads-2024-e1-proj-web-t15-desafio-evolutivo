@@ -184,7 +184,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-06: Verificar o funcionamento de escolhas entre desafios fisícos e mentais.</td>
   <td>
    <ul>
-    <li>RF-03:	O sistema deve ter categorias entre os desafios entre físicos e mentais.</li>    
+    <li>RF-03:	O sistema deve ter categorias entre os desafios físicos e mentais.</li>    
  </ul>
   </td>
   <td>Verificar se o usuário consegue escolher entre desafios fisícos e mentais.</td>
@@ -218,8 +218,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     <li>RF-06:	O sistema deve mostrar nível de dificuldade dos desafios entre fácil, médio e avançado.</li>
    </ul>
   </td>
-  <td>Verificar se o usuário terá acesso com imagens respectivas de cada desafio.</td>
-  <td>Verificar se o usuário terá o nível de cada desafio apresentado em cada desafio.</td>
+  <td>Verificar se o usuário terá acesso com imagens respectivas de cada desafio. Verificar se o usuário terá o nível de cada desafio apresentado em cada desafio.</td>
   <td>
    <ol>
     <li>Acessar o navegador.</li>
