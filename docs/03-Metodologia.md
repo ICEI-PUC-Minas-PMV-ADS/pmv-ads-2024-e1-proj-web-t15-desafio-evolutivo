@@ -60,6 +60,4 @@ Os artefatos do projeto são desenvolvidos a partir das plataformas GitHub, Marv
 | Projeto de Interface  | Canva  | https://www.canva.com/design/DAGBqtH0lHQ/e75d9rHkMYLIy4cFvKcqlA/edit  |
 | Gerenciamento do Projeto  | GitHub  | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1033/views/3 |
 
-Tabela 1 - Desenvolvimento dos artefatos
-
-Escolhemos utilizar o GitHub para centralizar o gerenciamento do projeto, consulta/edição de documentos e código fonte na mesma plataforma buscando eficiência. Utilizamos o Canva para gerar o protótipo de baixa fidelidade e o user flow pela sua facilidade.
+Todos os artefatos relacionados a implementação e visualização dos conteúdos do projeto da aplicação foram inseridos na pasta [codigo-fonte](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/tree/main/codigo-fonte%20backup). 
