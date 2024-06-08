@@ -96,9 +96,23 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-e
 
 
   </li>
+<hr>
+  <li> CT-09: Verificar se o sistema está enviando lembretes aos usuários para completarem o desafio.
+
+  Responsável: Sharon
+  
+
+![Captura de tela 2024-06-08 194839](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/assets/166241111/8f13576f-dba9-4244-aee7-eb8a0dac0690)
+
+
+
+![Captura de tela 2024-06-08 194912](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/assets/166241111/237ffea5-aeb7-4f3e-9fed-2a78bef703f7)
+
+
+
+
+  </li>
+  
 ## Avaliação
 
 Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
-
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
