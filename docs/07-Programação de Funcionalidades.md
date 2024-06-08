@@ -27,9 +27,34 @@ RF-001: O sistema deve permitir o cadastro e login na plataforma.
 
 ●index.html
 
-●style (2).css
+●cadastrologin.css
 
-●script.js
+●cadastrologin.js
 
 ●scriptlogin.js
 
+### Tela Área do usuário (RF-002)
+
+Responsável: Sharon, Artur e Enzo
+
+O acesso a tela área do usuário quando estiver logado. As estruturas de dados foram baseadas em HTML, CSS e JS.
+
+Exemplo da tela área do usuário: 
+
+
+![Captura de tela 2024-06-08 200812](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/assets/166241111/42ab0ff6-6e6f-48dd-8fec-0afe3b8d061a)
+
+
+
+#### Requisito atendido
+
+RF-02	O sistema deve permitir que o usuário faça mudanças nos seus dados pessoais
+
+
+#### Artefatos da funcionalidade
+
+●areadousuario.html
+
+●areadousuario.css
+
+●areadousuario.js
