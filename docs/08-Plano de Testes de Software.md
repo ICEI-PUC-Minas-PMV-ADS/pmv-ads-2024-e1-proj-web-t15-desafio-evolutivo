@@ -231,6 +231,37 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Gustavo</td>
  </tr>
 </table>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-08: Verificar se o sistema está fornecendo uma descrição do desafio, primeiro dia e conclusão.</td>
+  <td>
+   <ul>
+    <li>RF-07: O sistema deve fornecer uma descrição do desafio e primeiro dia do desafio.</li>
+    <li>RF-RF-10:	O sistema deve mostrar a conclusão dos desafios.</li>
+   </ul>
+  </td>
+  <td>Verificar se o usuário terá acesso a descrição do desafio, primeiro dia do desafio e conclusão do desafio.</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Acessar a pagina com seu cadastro.</li>
+    <li>Acessar a home page e rolar até encontrar as categorias " Desafio Físico" e "Desafio Mental".</li>
+    <li>Selecionar uma das categorias e escolher o desafio desejado.</li>
+   </ol>
+   </td>
+  <td>O usuário deve ter acesso a descrição do desafio, do primeiro dia e conclusão dos desafios.</td>
+  <td>Sharon</td> 
+ </tr>
+</table>
 ## Ferramentas de Testes (Opcional)
 
 Comente sobre as ferramentas de testes utilizadas.
