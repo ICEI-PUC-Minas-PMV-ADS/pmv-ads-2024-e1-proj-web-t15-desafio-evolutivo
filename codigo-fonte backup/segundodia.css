@@ -1,5 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, Apple System, Helvetica Neue, Segoe UI, Arial, Lato e Sans Serif;
+}
 
+/*EDIÇÃO CABEÇALHO*/
+header {
+  background-color: #37853c;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 4px;
+  background-color: #37853c;
+  height: none
+}
+.cabecalho-logo {
+  height: 40px;
+}
+
+.cabecalho-menu {
+  display: flex;
+  gap: 40px;
+}
+/*BOTÕES DE NAVEGAÇÃO*/
+.cabecalho-menu-item {
+  font-family: 'Lato', sans-serif;
+  color: #FFF2E7;
+  margin-top: 10px;
+  font-weight: 400px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.cabecalho-avatar {
+  height: 50px;
+  border-radius: 80%;
+}
+
+.cabecalho-sino {
+  height: 50px;
+}
 body {
     height: 100vh; 
     overflow-x: hidden;
@@ -22,42 +70,7 @@ body {
     cursor: pointer;
   }
   
-  .cabecalho-menu {
-    display: flex;
-    gap: 42px;
-  }
   
-  .cabecalho-logo {
-
-    height: 40px;
-  }
-  
-  .cabecalho-menu-item {
-    position: relative;
-    left: 50vh;
-    font-family: 'Lato', sans-serif;
-    color: #FFF2E7;
-    margin-top: 10px;
-    font-weight: 400;
-    font-size: 18px
-    
-  }  
-  
-  .cabecalho-avatar {
-    position: relative;
-    left: 55vh;
-    padding: 1%;
-    height: 45px;
-    right: 10px;
-  }
-  
-  .cabecalho-sino {
-    position: relative;
-    left: 56vh;
-    padding: 1%;
-    height: 45px;
-    right: 10px;
-  }
   
   .navbar {
     display: flex;
@@ -105,6 +118,7 @@ body {
   font-weight: 100;
   font-size: 250%;
   color: #000000;
+  margin-top: -60px;
   }
 
   .conteudo-principal-escrito-subtitulo {
@@ -233,15 +247,23 @@ body {
   margin: 2px 1px;
   cursor: pointer;
   border-radius: 12px;
+  margin-bottom: 50px;
   }
   
   #popup-modal button:hover {
   background-color: #000000;
   }
   
-  .rodapé {
-  background-color: #37853c;
-  padding: 10px;
-  text-align: center;
-  color: #FFF2EF;
+  /* RODAPÉ */
+  footer {
+    background-color: #37853c;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px solid #FFF2E7;
+    padding: 0.2px;
   }
