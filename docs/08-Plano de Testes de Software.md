@@ -132,7 +132,6 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     <li>Acessar o navegador.</li>
     <li>Abrir a página de inscrição.</li>
     <li>Realizar a inscrição no botão "Inscrever"</li>
-    <li>Clicar em ver progresso.</li>
     <li>Clicar em continuar.</li>
    </ol>
    </td>
