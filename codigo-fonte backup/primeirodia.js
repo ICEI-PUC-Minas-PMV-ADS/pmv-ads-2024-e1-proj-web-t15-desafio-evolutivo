@@ -47,9 +47,6 @@ $(document).ready(function() {
 
     });
   });
-  // var dados = JSON.parse(localStorage.getItem("chave"));
-
-  // document.getElementById("dadosnome").value = dados.email;
 
 function carregarImagemDePerfil() {
   const fotosalva = localStorage.getItem("profilepic");
