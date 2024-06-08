@@ -27,15 +27,16 @@ header {
 
 .cabecalho-menu {
     display: flex;
-    gap: 32px;
+    gap: 40px;
 }
-
+/*BOTÕES DE NAVEGAÇÃO*/
 .cabecalho-menu-item {
     font-family: 'Lato', sans-serif;
     color: #FFF2E7;
     margin-top: 10px;
     font-weight: 400px;
-    font-size: 18px
+    font-size: 18px;
+    text-decoration: none;
 }
 
 .cabecalho-avatar {

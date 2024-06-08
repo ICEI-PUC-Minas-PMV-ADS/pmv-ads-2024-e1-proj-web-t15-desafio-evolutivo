@@ -21,18 +21,16 @@
                     alt="Desafio Evolutivo">
             </a>
             <nav class="cabecalho-menu">
-                <a class="cabecalho-menu-item" href=" ">Meus Desafios</a>
-                <a class="cabecalho-menu-item" href="homepage.HTML">Novos Desafios</a>
                 <a class="cabecalho-menu-item" href="progresso.html">Progresso</a>
-                <a class="cabecalho-menu-item" href="avaliacoes.HTML">Avaliações</a>
+                <a class="cabecalho-menu-item" href="homepage.html">Novos Desafios</a>
+                <a class="cabecalho-menu-item" href="avaliacoes.html">Avaliações</a>
             </nav>
             <div class="cabecalho-icones"> <!--Div criada somente para que os dois ícones possam ficar proximos.-->
-                <img class="cabecalho-sino"
-                    src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/main/código-fonte/IMG/sino.png"
-                    alt="Icone Sino Notificação"><!--Sino das notificações onde o link deverá levar para pag. de avisos.-->
-                <img class="cabecalho-avatar"
-                    src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/main/código-fonte/IMG/avatar.png"
-                    alt="Icone Avatar Perfil"><!--Avatar do perfil onde o link deverá levar para o perfil, possibilitando mudanças no cadastro-->
+                <a href="areadousuario.html">
+                    <img class="cabecalho-avatar"
+                        src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/main/código-fonte/IMG/avatar.png"
+                        alt="Icone Avatar Perfil"><!--Avatar do perfil onde o link deverá levar para o perfil, possibilitando mudanças no cadastro-->
+                </a>
             </div>
         </header>
         <h1 class="sub-title"> <!--Subtítulo-->
@@ -174,25 +172,25 @@
         });
     </script>
     <script>
-// Função para carregar a imagem de perfil do local storage
-function carregarImagemDePerfil() {
-    const fotosalva = localStorage.getItem("profilepic");
-  
-    if (fotosalva) {
-      const avatar = document.querySelector(".cabecalho-avatar");
-      avatar.src = fotosalva;
-       }
-  }
- // Selecionando o elemento
-// Selecionando o elemento
+        // Função para carregar a imagem de perfil do local storage
+        function carregarImagemDePerfil() {
+            const fotosalva = localStorage.getItem("profilepic");
 
-  // Carregar dados do local storage e imagem de perfil quando a página é carregada
-  window.onload = function () {
-    carregarImagemDePerfil();
-    
-  };
+            if (fotosalva) {
+                const avatar = document.querySelector(".cabecalho-avatar");
+                avatar.src = fotosalva;
+            }
+        }
+        // Selecionando o elemento
+        // Selecionando o elemento
 
-</script>
+        // Carregar dados do local storage e imagem de perfil quando a página é carregada
+        window.onload = function () {
+            carregarImagemDePerfil();
+
+        };
+
+    </script>
 
 </body>
 
