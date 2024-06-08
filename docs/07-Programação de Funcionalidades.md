@@ -32,6 +32,7 @@ RF-001: O sistema deve permitir o cadastro e login na plataforma.
 ●cadastrologin.js
 
 ●scriptlogin.js
+<hr>
 
 ### Tela Área do usuário (RF-002)
 
@@ -58,3 +59,4 @@ RF-02	O sistema deve permitir que o usuário faça mudanças nos seus dados pess
 ●areadousuario.css
 
 ●areadousuario.js
+<hr>
