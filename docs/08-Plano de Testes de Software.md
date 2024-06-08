@@ -246,7 +246,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>
    <ul>
     <li>RF-07: O sistema deve fornecer uma descrição do desafio e primeiro dia do desafio.</li>
-    <li>RF-RF-10:	O sistema deve mostrar a conclusão dos desafios.</li>
+    <li>RF-10:	O sistema deve mostrar a conclusão dos desafios.</li>
    </ul>
   </td>
   <td>Verificar se o usuário terá acesso a descrição do desafio, primeiro dia do desafio e conclusão do desafio.</td>
