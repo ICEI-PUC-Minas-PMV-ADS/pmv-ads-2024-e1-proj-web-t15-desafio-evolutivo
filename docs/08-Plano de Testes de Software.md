@@ -160,6 +160,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Verificar o funcionamento da tela de progresso .</td>
   <td>
    <ol>
+    <li>Acessar o navegador.</li>
     <li>Acessar a parte de progresso.</li>
     <li>Verificar se está funcionado a barra de progresso.</li>
     
