@@ -262,6 +262,40 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Sharon</td> 
  </tr>
 </table>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-09: Verificar se o sistema está enviando lembretes aos usuários para completarem o desafio.</td>
+  <td>
+   <ul>
+    <li>RF-08	O sistema deve enviar lembretes aos usuários para completarem o desafio.</li>
+   </ul>
+  </td>
+  <td>Verificar se o usuário recebe lembretes para completarem o desafio.</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Acessar a pagina com seu cadastro.</li>
+    <li>Acessar a home page e rolar até encontrar as categorias " Desafio Físico" e "Desafio Mental".</li>
+    <li>Selecionar uma das categorias e escolher o desafio desejado.</li>
+    <li>Se inscrever no desafio desejado e completar o primeiro dia.</li>
+   </ol>
+   </td>
+  <td>O usuário deve receber lembretes para completarem o desafio.</td>
+  <td>Sharon</td> 
+ </tr>
+</table>
+
+
+
 ## Ferramentas de Testes (Opcional)
 
 Comente sobre as ferramentas de testes utilizadas.
