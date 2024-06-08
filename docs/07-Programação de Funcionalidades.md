@@ -86,3 +86,30 @@ RF-03	O sistema deve ter categorias entre os desafios entre físicos e mentais.
 ●homepage.css
 
 ●homepage.js
+
+<hr>
+
+### Tela de Desafios (RF-004)
+
+Responsável: Gustavo
+
+O acesso a tela de desafios é liberado quando estiver logado. As estruturas de dados foram baseadas em HTML, CSS e JS.
+
+Exemplo da tela de Desafios: 
+
+
+![Captura de tela 2024-06-08 202127](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/assets/166241111/d2613f4a-b4e5-4645-a01b-e1da6660c17a)
+
+
+
+
+#### Requisito atendido
+
+RF-04	O sistema deve apresentar uma imagem relacionada a cada desafio.
+
+
+#### Artefatos da funcionalidade
+
+●desafiosfisicos.html
+
+●desafiosfisicos.css
