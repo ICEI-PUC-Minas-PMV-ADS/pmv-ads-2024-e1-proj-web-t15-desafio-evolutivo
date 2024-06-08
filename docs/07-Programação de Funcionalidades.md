@@ -38,7 +38,7 @@ RF-001: O sistema deve permitir o cadastro e login na plataforma.
 
 Responsável: Sharon, Artur e Enzo
 
-O acesso a tela área do usuário quando estiver logado. As estruturas de dados foram baseadas em HTML, CSS e JS.
+O acesso a tela área do usuário é liberado quando estiver logado. As estruturas de dados foram baseadas em HTML, CSS e JS.
 
 Exemplo da tela área do usuário: 
 
@@ -60,3 +60,29 @@ RF-02	O sistema deve permitir que o usuário faça mudanças nos seus dados pess
 
 ●areadousuario.js
 <hr>
+
+### Tela de Home Page (RF-003)
+
+Responsável: Almeida
+
+O acesso a tela de Home Page é liberado quando estiver logado. As estruturas de dados foram baseadas em HTML, CSS e JS.
+
+Exemplo da tela de Home Page: 
+
+![Captura de tela 2024-06-08 201309](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/assets/166241111/90359286-8774-41ef-8b89-b70d2d55144e)
+
+
+
+
+#### Requisito atendido
+
+RF-03	O sistema deve ter categorias entre os desafios entre físicos e mentais.
+
+
+#### Artefatos da funcionalidade
+
+●homepage.html
+
+●homepage.css
+
+●homepage.js
