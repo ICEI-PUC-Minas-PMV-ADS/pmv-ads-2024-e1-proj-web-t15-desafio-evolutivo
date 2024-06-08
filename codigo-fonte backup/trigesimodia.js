@@ -1,8 +1,15 @@
+var contador = parseInt(localStorage.getItem('contador')) || 0; //alterar esse número para forçar teste
+var lastChallengeDate = localStorage.getItem('lastChallengeDate') || '';
+var today = new Date().toISOString().split('T')[0]; // Formato YYYY-MM-DD    
+
 $(document).ready(function() {
   $('#my-button').click(function() {
-    $('#popup-modal').fadeIn();
-    $(this).hide(); // Esconde o botão "Iniciar"
-  });
+    if (lastChallengeDate !== today) {
+      $('#popup-modal').fadeIn();0
+      $(this).hide(); // Esconde o botão "Iniciar"
+    } else {
+      alert('Você já fez seu desafio hoje! Volte amanhã!');
+    }});
   
   $('#ok-button').click(function() {
     window.location.href = "";
@@ -32,10 +39,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
           localStorage.setItem('lastChallengeDate', lastChallengeDate);
       
           // Vitória no desafio
-          if (contador >= 30) {
+          //if (contador >= 30) {
               alert('Parabéns! Você venceu o desafio! Agora avalie sua experiência.');
               window.location.href = "avaliacoes.html";
-          } 
+          //} 
       }
       else {
           alert('Você já completou o desafio de hoje!');
