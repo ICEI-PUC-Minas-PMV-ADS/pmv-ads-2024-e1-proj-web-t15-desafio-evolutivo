@@ -1,11 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, Apple System, Helvetica Neue, Segoe UI, Arial, Lato e Sans Serif;
+}
+
 body {
-  height: 120vh; 
+  height: 120vh;
   overflow-x: hidden;
-  scrollbar-width: thin; 
+  scrollbar-width: thin;
   scrollbar-color: #ccc #fff;
 }
 
-::-webkit-scrollbar { 
+::-webkit-scrollbar {
   width: 10px;
 }
 
@@ -18,56 +25,49 @@ body {
   background-color: #fff;
 }
 
-.container {
+/*EDIÇÃO CABEÇALHO*/
+header {
+  background-color: #37853c;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.cabecalho {
   display: flex;
+  flex-direction: row;
   align-items: center;
-  cursor: pointer;
+  justify-content: space-around;
+  padding: 4px;
+  background-color: #37853c;
+  height: none
+}
+
+.cabecalho-logo {
+  height: 40px;
 }
 
 .cabecalho-menu {
   display: flex;
-  gap: 42px;
+  gap: 40px;
 }
 
-.cabecalho-logo {
-  margin-top: 5px; /* Ajuste a margem superior para centralizar verticalmente */
-  width: 100px;
-  height: auto; /* Mantenha a proporção da imagem */
-}
-
+/*BOTÕES DE NAVEGAÇÃO*/
 .cabecalho-menu-item {
-  position: relative;
-  left: 50vh;
   font-family: 'Lato', sans-serif;
   color: #FFF2E7;
   margin-top: 10px;
-  font-weight: 400;
+  font-weight: 400px;
   font-size: 18px;
-}  
+  text-decoration: none;
+}
 
 .cabecalho-avatar {
-  position: relative;
-  left: 55vh;
-  padding: 1%;
-  height: 45px;
-  right: 10px;
+  height: 50px;
 }
 
 .cabecalho-sino {
-  position: relative;
-  left: 56vh;
-  padding: 1%;
-  height: 45px;
-  right: 10px;
-}
-
-.navbar {
-  display: flex;
-  flex-direction: row;
-  align-items: center; /* Centraliza os itens verticalmente */
-  justify-content: space-between; /* Espaça os itens horizontalmente */
-  padding: 10px 20px; /* Ajuste o padding conforme necessário */
-  background-color: #37853c;
+  height: 50px;
 }
 
 .h1 {
@@ -77,10 +77,12 @@ body {
   color: black;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 .cabecalho-avatar {
   height: 50px;
   border-radius: 80%;
-  }
+}
+
 .Corrida p {
   position: absolute;
   color: black;
@@ -104,15 +106,17 @@ body {
   top: 42vh;
   left: 100vh;
   font-size: x-large;
-  z-index: 1; /* Certifique-se de que as estrelas estão acima da imagem */
+  z-index: 1;
+  /* Certifique-se de que as estrelas estão acima da imagem */
 }
 
 .Corrida-checked img {
   position: absolute;
   width: 30rem;
-  top: -9.5vh;
+  top: -9.1vh;
   right: -8.5vh;
-  z-index: 0; /* Certifique-se de que a imagem está abaixo das estrelas */
+  z-index: 0;
+  /* Certifique-se de que a imagem está abaixo das estrelas */
 }
 
 .Meditação p {
@@ -138,15 +142,17 @@ body {
   top: 62vh;
   left: 100vh;
   font-size: x-large;
-  z-index: 1; /* Certifique-se de que as estrelas estão acima da imagem */
+  z-index: 1;
+  /* Certifique-se de que as estrelas estão acima da imagem */
 }
 
 .Meditação-checked img {
   position: absolute;
   width: 30rem;
-  top: -9.5vh;
+  top: -9.1vh;
   right: -8.5vh;
-  z-index: 0; /* Certifique-se de que a imagem está abaixo das estrelas */
+  z-index: 0;
+  /* Certifique-se de que a imagem está abaixo das estrelas */
 }
 
 .star-icon {
@@ -154,8 +160,10 @@ body {
   border: 1px solid #fff;
   cursor: pointer;
   color: #ffe500;
-  font-size: 40px; /* alterar o tamanho das estrelas */
-  z-index: 2; /* Certifique-se de que as estrelas estão acima da imagem */
+  font-size: 40px;
+  /* alterar o tamanho das estrelas */
+  z-index: 2;
+  /* Certifique-se de que as estrelas estão acima da imagem */
 }
 
 .star-icon::before {
@@ -173,10 +181,13 @@ body {
 
 .rodapé {
   background-color: #37853c;
-  padding: 10px;
+  color: white;
   text-align: center;
-  color: #FFF2EF;
+  padding: 10px;
   position: fixed;
+  left: 0;
   bottom: 0;
   width: 100%;
+  border-top: 2px solid #FFF2E7;
+  padding: 0.2px;
 }
