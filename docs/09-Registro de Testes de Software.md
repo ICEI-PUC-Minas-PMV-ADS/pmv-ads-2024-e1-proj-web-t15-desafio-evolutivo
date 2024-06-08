@@ -34,6 +34,8 @@ CT-05: Verificar o funcionamento da tela de progresso
 <br>
 <img src='img/Captura%20de%20tela%202024-06-06%20200108.png'  ><br>
 
+<hr>
+
 <li> CT-03: Verificar o funcionamento da alteração de dados de usuarios.
 
   Responsável: Gabriel Almeida.
