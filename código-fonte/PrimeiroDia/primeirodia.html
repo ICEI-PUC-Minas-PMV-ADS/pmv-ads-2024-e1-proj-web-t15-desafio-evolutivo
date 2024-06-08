@@ -8,8 +8,8 @@
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="Desafio dia 1.CSS">
-
+  <link rel="stylesheet" type="text/css" href="primeirodia.css">
+  <script src="primeirodia.js"></script>
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
@@ -53,7 +53,15 @@
               <div class="tablet-screen">
                 <p class="text"><strong>Termine com uma caminhada por 5 minutos, para alongar os músculos.</strong></p></div>
             </div>
-            <button class="conteudo-secundario-escrito-botao-princial">Iniciar</button>
+          </section>
+          <section class="conteudo-secundario-posicao-botao-princial">
+    
+            <button class="conteudo-secundario-escrito-botao-princial" id="my-button">Iniciar</button>
+
+        <div id="popup-modal" style="display: none;">
+          <p>Não esqueça de concluir o desafio de hoje!</p>
+          <button id="cancel-button" >Concluir</button>
+        </div>
           </section>
         </main>
       <footer class="rodapé">
@@ -61,4 +69,4 @@
       </footer><!--Espaço reservado para nosso rodapé-->
       
 </body>
-</html>
+</html> 
