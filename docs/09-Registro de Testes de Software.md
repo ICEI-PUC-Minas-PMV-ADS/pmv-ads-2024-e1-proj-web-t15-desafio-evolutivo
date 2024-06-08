@@ -49,7 +49,7 @@ CT-05: Verificar o funcionamento da tela de progresso
 <hr>
 
 
-  <ol>
+  
   <li> CT-06: Verificar se o usuário consegue escolher entre desafios fisícos e mentais.
 
   Responsável: Gustavo
@@ -60,7 +60,7 @@ CT-05: Verificar o funcionamento da tela de progresso
 
 <hr>
 
-<ol>
+
   <li> CT-07: Verificar se o usuário terá acesso com imagens respectivas de cada desafio. Verificar se o usuário terá o nível de cada desafio apresentado em cada desafio.
 
   Responsável: Gustavo
