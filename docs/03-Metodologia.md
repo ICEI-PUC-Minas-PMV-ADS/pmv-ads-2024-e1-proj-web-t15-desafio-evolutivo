@@ -22,8 +22,9 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 * Done: nesta lista são colocadas as tarefas finalizadas e as que passaram pelos testes e controle de qualidade, prontas para serem entregues aos usuários.
 
 O quadro kanban do grupo no GitHub está disponível no link https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1033 e é apresentado, no estado atual, na figura abaixo:
+![Captura de tela 2024-06-08 183618](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/assets/166241111/1dac5558-b3ac-4a18-a5ec-a100d766caeb)
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/DesafioEvolutivo/assets/163445754/87beb130-b693-46e0-be61-467eeaba3adc)
+
 Figura 1 - Quadro kanban
 
 Quanto à gerência de issues, o projeto adota a seguinte convenção para
