@@ -139,8 +139,36 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Enzo</td>
  </tr>
 </table>
-
-
+<br>
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-05: Verificar o funcionamento da tela de progresso. </td>
+  <td>
+   <ul>
+    <li>RF-09: O sistema deve fornecer aos usuários histórico do progresso no desafio.</li> 
+    
+   </ul>
+  </td>
+  <td>Verificar o funcionamento da tela de progresso .</td>
+  <td>
+   <ol>
+    <li>Acessar a parte de progresso.</li>
+    <li>Verificar se está funcionado a barra de progresso.</li>
+    
+   </ol>
+   </td>
+  <td>O usuário deve conseguir ver seu desenvolvimento na barra de progresso ao longo do desafio.</td>
+  <td>Gabriel Estabanez</td>
+ </tr>
+</table>
 ## Ferramentas de Testes (Opcional)
 
 Comente sobre as ferramentas de testes utilizadas.
