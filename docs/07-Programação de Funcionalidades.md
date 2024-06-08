@@ -113,3 +113,33 @@ RF-04	O sistema deve apresentar uma imagem relacionada a cada desafio.
 ●desafiosfisicos.html
 
 ●desafiosfisicos.css
+
+<hr>
+
+### Tela de Inscrição no Desafio (RF-005)
+
+Responsável: Gustavo e Almeida
+
+O acesso a tela de Inscrição no Desafio é liberado quando estiver logado. As estruturas de dados foram baseadas em HTML, CSS e JS.
+
+Exemplo da tela de Inscrição no Desafio: 
+
+
+![Captura de tela 2024-06-08 202459](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/assets/166241111/38ddc231-119b-4133-aabb-fe1bc00b46cf)
+
+
+
+
+#### Requisito atendido
+
+RF-05	O sistema deve permitir inscrição nos desafios.
+
+
+#### Artefatos da funcionalidade
+
+●inscricaodesafio.html
+
+●inscricaodesafio.css
+
+●inscricaodesafio.js
+
