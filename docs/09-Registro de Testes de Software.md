@@ -26,6 +26,18 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-e
 
   </li>
   <hr>
+
+  <li> CT-03: Verificar o funcionamento da alteração de dados de usuarios.
+
+  Responsável: Gabriel Almeida.
+
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/assets/163691808/c296d612-b029-4e77-9edf-8cb199662986
+
+
+  </li>
+  <hr>
+  
 CT-05: Verificar o funcionamento da tela de progresso
 <br>
 <br>Responsável: Gabriel Estabanez
@@ -36,16 +48,17 @@ CT-05: Verificar o funcionamento da tela de progresso
 
 <hr>
 
-<li> CT-03: Verificar o funcionamento da alteração de dados de usuarios.
 
-  Responsável: Gabriel Almeida.
+  <ol>
+  <li> CT-06: Verificar se o usuário consegue escolher entre desafios fisícos e mentais.
 
-
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/assets/163691808/c296d612-b029-4e77-9edf-8cb199662986
-
-
+  Responsável: Gustavo
+  
+![desafiosfisicosoumentais](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/assets/166300104/40ec67f9-66ce-44a0-a2a5-3038fdd3309c)
+<img src='img/Captura%20de%20tela%202024-06-06%20200041.png'  >
   </li>
-  <hr>
+
+<hr>
 
 ## Avaliação
 
