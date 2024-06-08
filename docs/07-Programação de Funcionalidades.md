@@ -175,3 +175,34 @@ RF-07	O sistema deve fornecer uma descrição do desafio e primeiro dia do desaf
 ●primeirodia.css
 
 ●primeirodia.js
+
+### Tela de Lembrente de Desafio (RF-008)
+
+Responsável: Artur
+
+O recebimento da notificação surge quando o usuário, inscrito em um desafio, acessa a home page sem fazer a tarefa do dia. 
+As estruturas de dados foram baseadas em HTML, CSS, JS e Node.js para o envio do e-mail.
+
+Exemplo da tela de Notificação: 
+
+
+
+
+![notificações](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/assets/163445754/30abb3ea-4d9f-4f20-ab0b-caab894f59e4)
+
+
+#### Requisito atendido
+
+RF-08	O sistema deve enviar lembretes aos usuários para completarem o desafio.
+
+
+#### Artefatos da funcionalidade
+
+●homepage.html
+
+●homepage.css
+
+●homepage.js
+
+●EnviodeLembretes(servidor).js
+
