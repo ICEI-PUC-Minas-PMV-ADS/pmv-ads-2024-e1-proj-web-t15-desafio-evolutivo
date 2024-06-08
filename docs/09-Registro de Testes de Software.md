@@ -10,6 +10,7 @@ Os testes funcionais realizados na aplicação web são descritos a seguir.
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/assets/163445754/57b8da21-0834-4a3d-b742-a7b222867387
 
+Os dados de cadastro são inseridos pelo usuário e gravados no localstorage. Então o usuário faz login com seus dados e acessa a homepage.
   </li>
 
 <hr>
@@ -22,7 +23,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-e
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/assets/166241111/8778ec79-ccfc-4d81-a434-43978f2952b6
 
-
+O usuário pode avaliar os desafios realizados utilizando até 5 estrelas.
 
   </li>
   <hr>
@@ -34,6 +35,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-e
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/assets/163691808/c296d612-b029-4e77-9edf-8cb199662986
 
+O usuário pode verificar e editar seus dados pessoais que serão novamente armazenados no localstorage.
 
   </li>
    <hr>
@@ -58,6 +60,8 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-e
 <img src='img/Captura%20de%20tela%202024-06-06%20200041.png'  >
 <br>
 <img src='img/Captura%20de%20tela%202024-06-06%20200108.png'  ><br>
+
+O usuário pode verificar o seu progresso aumentando de "21/30" para "22/30" na página do progresso, após realizar um dia do desafio.
 
 </li>
 <hr>
@@ -108,6 +112,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-e
 
 ![Captura de tela 2024-06-08 194912](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/assets/166241111/237ffea5-aeb7-4f3e-9fed-2a78bef703f7)
 
+O usuário recebe uma notificação ao entrar na home page caso esteja inscrito em um desafio e ainda não realizado a tarefa do dia. Também recebe um email no seu email cadastrado.
 
 
 
@@ -115,4 +120,8 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-e
   
 ## Avaliação
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+Os testes mostraram resultados esperados, indicando necessidade de pequenas alterações e aprimoramentos que foram realizados ao longo do projeto. Um dos maiores desafios foi implementar toda a lógica e comunicação entre as páginas quando o usuário se inscreve no desafio e avança nas tarefas diárias. 
+
+Os testes CT-01 e CT-03 foram importantes para o desenvolvimento das funcionalidades principais para atender os requisitos, pois mostravam o que era salvo em localstorage para ser reutilizado.
+
+O teste CT-09 exigiu uma solução para encontrar uma forma de notificar o usuário apenas se ele estivesse inscrito no desafio atendendo o RF-08. Também foi fornecida uma simples utilizando um servidor com Node.js que envia e-mails diretamente ao e-mail cadastrado, aproximando o projeto da realidade.
