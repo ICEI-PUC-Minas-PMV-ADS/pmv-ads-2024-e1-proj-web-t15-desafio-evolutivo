@@ -38,7 +38,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-e
   </li>
    <hr>
 
-  <li> CT-04: Verificar o funcionamento da inscrição no desafio.
+  <li> CT-04: Verificar o funcionamento da inscrição nos desafios.
 
   Responsável: Enzo.
 
