@@ -8,7 +8,7 @@ A estratégia tomada pelo grupo é separar as telas da aplicação web por pasta
 
 ## Instalação do Site
 
-O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em servidores como navegadores web. Você pode acessar o código do projeto na sua fase de desenvolvimento atual neste [link](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/tree/main/c%C3%B3digo-fonte).
+O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em servidores como navegadores web. Você pode acessar o site clicando <a href="pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo.vercel.app">aqui</a> para acessá-lo. 
 
 ## Histórico de versões
 
