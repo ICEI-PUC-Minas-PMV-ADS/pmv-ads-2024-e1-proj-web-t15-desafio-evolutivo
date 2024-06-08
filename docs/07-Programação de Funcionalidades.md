@@ -2,7 +2,7 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="5-Arquitetura da Solução.md"> Arquitetura da Solução</a>
 
-### Tela de Cadastro e Login (RF-001)
+### Tela de Cadastro e Login (RF-01)
 
 Responsável: Sharon e enzo
 
@@ -34,7 +34,7 @@ RF-001: O sistema deve permitir o cadastro e login na plataforma.
 ●scriptlogin.js
 <hr>
 
-### Tela Área do usuário (RF-002)
+### Tela Área do usuário (RF-02)
 
 Responsável: Sharon, Artur e Enzo
 
@@ -61,7 +61,7 @@ RF-02	O sistema deve permitir que o usuário faça mudanças nos seus dados pess
 ●areadousuario.js
 <hr>
 
-### Tela de Home Page (RF-003)
+### Tela de Home Page (RF-03)
 
 Responsável: Almeida
 
@@ -89,7 +89,7 @@ RF-03	O sistema deve ter categorias entre os desafios entre físicos e mentais.
 
 <hr>
 
-### Tela de Desafios (RF-004 e RF006)
+### Tela de Desafios (RF-004 e RF06)
 
 Responsável: Gustavo
 
@@ -116,7 +116,7 @@ RF-06	O sistema deve mostrar nível de dificuldade dos desafios entre fácil, m�
 
 <hr>
 
-### Tela de Inscrição no Desafio (RF-005)
+### Tela de Inscrição no Desafio (RF-05)
 
 Responsável: Gustavo e Almeida
 
@@ -145,7 +145,7 @@ RF-05	O sistema deve permitir inscrição nos desafios.
 
 <hr>
 
-### Tela do Desafio e primeiro dia (RF-007)
+### Tela do Desafio e primeiro dia (RF-07)
 
 Responsável: Gustavo e Almeida
 
@@ -176,7 +176,7 @@ RF-07	O sistema deve fornecer uma descrição do desafio e primeiro dia do desaf
 
 ●primeirodia.js
 
-### Tela de Lembrente de Desafio (RF-008)
+### Tela de Lembrente de Desafio (RF-08)
 
 Responsável: Artur
 
@@ -190,6 +190,7 @@ Exemplo da tela de Notificação:
 
 ![notificações](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/assets/163445754/30abb3ea-4d9f-4f20-ab0b-caab894f59e4)
 
+![lembretes2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/assets/163445754/158aabc9-c1dc-432e-93e1-dcc8724bba31)
 
 #### Requisito atendido
 
