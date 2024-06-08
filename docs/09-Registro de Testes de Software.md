@@ -36,6 +36,19 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-e
 
 
   </li>
+   <hr>
+
+  <li> CT-04: Verificar o funcionamento da inscrição no desafio.
+
+  Responsável: Enzo.
+
+![WhatsApp Image 2024-06-07 at 9 10 35 PM](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/assets/166241111/eff1fe4b-3547-4b1f-b826-f177f91a7151)
+
+
+![WhatsApp Image 2024-06-08 at 9 20 25 AM](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/assets/166241111/7bdf88b3-1fb5-4cf9-aed1-60858aa94adb)
+
+
+  </li>
   <hr>
   
 <li> CT-05: Verificar o funcionamento da tela de progresso
