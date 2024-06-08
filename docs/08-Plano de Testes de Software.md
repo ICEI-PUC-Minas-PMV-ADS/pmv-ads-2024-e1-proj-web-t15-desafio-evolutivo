@@ -170,6 +170,68 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>Gabriel Estabanez</td>
  </tr>
 </table>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-06: Verificar o funcionamento de escolhas entre desafios fisícos e mentais.</td>
+  <td>
+   <ul>
+    <li>RF-03:	O sistema deve ter categorias entre os desafios entre físicos e mentais.</li>    
+ </ul>
+  </td>
+  <td>Verificar se o usuário consegue escolher entre desafios fisícos e mentais.</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Acessar a pagina com seu cadastro.</li>
+    <li>Acessar a home page e rolar até encontrar os dois cards de cada modalidade de desafio.</li>
+    <li>Clicar no desafio desaja para acessar os desafios. (Ex: Desafio Fisíco/Corrida).</li>
+   </ol>
+   </td>
+  <td>Deve conseguir acessar a pagina de desafios mentais ou fisícos.</td>
+  <td>Gustavo</td>
+ </tr>
+</table>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+ <tr>
+  <td>CT-07: Verificar o funcionamento de imagens para cada desafio. E verificar o nível dos desafios.</td>
+  <td>
+   <ul>
+    <li>RF-04:	O sistema deve apresentar uma imagem relacionada a cada desafio.</li>
+    <li>RF-06:	O sistema deve mostrar nível de dificuldade dos desafios entre fácil, médio e avançado.</li>
+   </ul>
+  </td>
+  <td>Verificar se o usuário terá acesso com imagens respectivas de cada desafio.</td>
+  <td>Verificar se o usuário terá o nível de cada desafio apresentado em cada desafio.</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Acessar a pagina com seu cadastro.</li>
+    <li>Acessar a home page e rolar até encontrar os dois cards de cada modalidade de desafio.</li>
+    <li>Acessar clicando na pagina de desafios.</li>
+   </ol>
+   </td>
+  <td>Devemo ter acesso a imagens relacionados aos desafios e seus respectivos níveis de dificuldade.</td>
+  <td>Gustavo</td>
+ </tr>
+</table>
 ## Ferramentas de Testes (Opcional)
 
 Comente sobre as ferramentas de testes utilizadas.
