@@ -123,7 +123,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <td>CT-04: Verificar o funcionamento da inscrição nos desafios </td>
   <td>
    <ul>
-    <li>RF-05: O sistema deve permitir inscrição nos desafios..</li> 
+    <li>RF-05: O sistema deve permitir inscrição nos desafios.</li> 
    </ul>
   </td>
   <td>Verificar se o usuário consegue realizar a inscrição no desafio.</td>
