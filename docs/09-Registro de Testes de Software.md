@@ -124,4 +124,4 @@ Os testes mostraram resultados esperados, indicando necessidade de pequenas alte
 
 Os testes CT-01 e CT-03 foram importantes para o desenvolvimento das funcionalidades principais para atender os requisitos, pois mostravam o que era salvo em localstorage para ser reutilizado.
 
-O teste CT-09 exigiu uma solução para encontrar uma forma de notificar o usuário apenas se ele estivesse inscrito no desafio atendendo o RF-08. Também foi fornecida uma simples utilizando um servidor com Node.js que envia e-mails diretamente ao e-mail cadastrado, aproximando o projeto da realidade.
+O teste CT-09 exigiu uma solução para encontrar uma forma de notificar o usuário apenas se ele estivesse inscrito no desafio atendendo o RF-08. Também foi fornecida uma solução utilizando um servidor com Node.js que envia e-mails diretamente ao e-mail cadastrado, aproximando o projeto da realidade.
