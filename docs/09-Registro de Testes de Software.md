@@ -33,6 +33,18 @@ CT-05: Verificar o funcionamento da tela de progresso
 <img src='img/Captura%20de%20tela%202024-06-06%20200041.png'  >
 <br>
 <img src='img/Captura%20de%20tela%202024-06-06%20200108.png'  ><br>
+
+<li> CT-03: Verificar o funcionamento da alteração de dados de usuarios.
+
+  Responsável: Gabriel Almeida.
+
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/assets/163691808/c296d612-b029-4e77-9edf-8cb199662986
+
+
+  </li>
+  <hr>
+
 ## Avaliação
 
 Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
