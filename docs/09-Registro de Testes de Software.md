@@ -38,7 +38,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-e
   </li>
   <hr>
   
-CT-05: Verificar o funcionamento da tela de progresso
+<li> CT-05: Verificar o funcionamento da tela de progresso
 <br>
 <br>Responsável: Gabriel Estabanez
 <br>
@@ -46,6 +46,7 @@ CT-05: Verificar o funcionamento da tela de progresso
 <br>
 <img src='img/Captura%20de%20tela%202024-06-06%20200108.png'  ><br>
 
+</li>
 <hr>
 
 
