@@ -12,7 +12,28 @@ O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em 
 
 ## Histórico de versões
 
-### [0.1.0] - 11/05/2014
+### [0.1.0] - 03/04/2022
+#### Adicionado
+- Home Page: arquivos HTML, CSS, JS e imagens.
+
+### [0.1.1] - 15/05/2024
+#### Atualizado
+- Home Page: arquivos HTML, CSS, JS e imagens.
+
+#### Adicionado
+- Cadastro / Login: arquivos HTML, CSS, JS e imagens.
+- Avaliações: arquivo HTML, CSS, JS imagens.
+- Progresso: arquivos HTML, CSS, JS e imagens.
+- Área do usuário: arquivos HTML, CSS, JS e imagens.
+
+### [0.1.2] - 08/06/2022
+#### Atualizado
+- Homepage: arquivos HTML, CSS, JS e imagens.
+- Avaliações: arquivos HTML, CSS, JS e imagens.
+- Tipos de desafios: arquivos HTML, CSS, JS e imagens.
+- Área usuário: arquivos HTML, CSS, JS e imagens.
+- Progresso: arquivos HTML, CSS, JS e imagens.
+
 #### Informações iniciais
 - Atualização inicial da pasta src
 - Alteração do nome da pasta de src para código-fonte conforme exigência de projeto
