@@ -89,7 +89,7 @@ RF-03	O sistema deve ter categorias entre os desafios entre físicos e mentais.
 
 <hr>
 
-### Tela de Desafios (RF-004)
+### Tela de Desafios (RF-004 e RF006)
 
 Responsável: Gustavo
 
@@ -106,7 +106,7 @@ Exemplo da tela de Desafios:
 #### Requisito atendido
 
 RF-04	O sistema deve apresentar uma imagem relacionada a cada desafio.
-
+RF-06	O sistema deve mostrar nível de dificuldade dos desafios entre fácil, médio e avançado.
 
 #### Artefatos da funcionalidade
 
@@ -143,3 +143,35 @@ RF-05	O sistema deve permitir inscrição nos desafios.
 
 ●inscricaodesafio.js
 
+<hr>
+
+### Tela do Desafio e primeiro dia (RF-007)
+
+Responsável: Gustavo e Almeida
+
+O acesso a tela do Desafio é liberado quando estiver logado, a tela do Primeiro Dia é liberada quando se inscreve no desafio. As estruturas de dados foram baseadas em HTML, CSS e JS.
+
+Exemplo da Tela do Desafio e primeiro dia: 
+
+
+![Captura de tela 2024-06-08 202459](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/assets/166241111/38ddc231-119b-4133-aabb-fe1bc00b46cf)
+![Captura de tela 2024-06-08 203613](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/assets/166241111/d46f6180-e975-4783-97ad-7cea1b2512bd)
+
+
+#### Requisito atendido
+
+RF-07	O sistema deve fornecer uma descrição do desafio e primeiro dia do desafio.
+
+#### Artefatos da funcionalidade
+
+●inscricaodesafio.html
+
+●inscricaodesafio.css
+
+●inscricaodesafio.js
+
+●primeirodia.html
+
+●primeirodia.css
+
+●primeirodia.js
