@@ -85,7 +85,17 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-e
   </li>
 
 <hr>
+  <li> CT-08: Verificar se o sistema está fornecendo uma descrição do desafio, primeiro dia e conclusão.
 
+  Responsável: Sharon
+  
+
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/assets/166241111/84844e8a-5562-4ea4-a5d5-287bd9f12d7b
+
+
+
+  </li>
 ## Avaliação
 
 Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
