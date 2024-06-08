@@ -55,7 +55,19 @@ CT-05: Verificar o funcionamento da tela de progresso
   Responsável: Gustavo
   
 ![desafiosfisicosoumentais](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/assets/166300104/40ec67f9-66ce-44a0-a2a5-3038fdd3309c)
-<img src='img/Captura%20de%20tela%202024-06-06%20200041.png'  >
+
+  </li>
+
+<hr>
+
+<ol>
+  <li> CT-07: Verificar se o usuário terá acesso com imagens respectivas de cada desafio. Verificar se o usuário terá o nível de cada desafio apresentado em cada desafio.
+
+  Responsável: Gustavo
+  
+![niveisdosdesafios](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/assets/166300104/f3a7122f-41f8-4048-a7af-b39b8a580924)
+![imagensdosdesafios](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/assets/166300104/9041e657-05d5-4147-86fe-bef82339cc46)
+
   </li>
 
 <hr>
