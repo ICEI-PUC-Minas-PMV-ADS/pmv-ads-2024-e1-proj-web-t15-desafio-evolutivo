@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
           //if (contador >= 30) {
               alert('Parabéns! Você venceu o desafio! Agora avalie sua experiência.');
               localStorage.removeItem('lastChallengeDate');
-              localStorage.removeItem('contador');
+              
               window.location.href = "avaliacoes.html";
           //} 
       }
