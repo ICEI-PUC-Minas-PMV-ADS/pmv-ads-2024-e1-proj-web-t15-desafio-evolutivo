@@ -156,8 +156,14 @@ body {
   margin-bottom: 16px;
   }
   .rodapé {
-    background-color: #37853c;
-    padding: 10px;
-    text-align: center;
-    color: #FFF2EF;
+   background-color: #37853c;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-top: 2px solid #FFF2E7;
+  padding: 0.2px;
     }
