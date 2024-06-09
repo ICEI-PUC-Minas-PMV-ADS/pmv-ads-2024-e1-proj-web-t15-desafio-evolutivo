@@ -28,8 +28,7 @@ O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em 
 
 ### [0.1.2] - 08/06/2022
 #### Atualizado
-<a href="pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/código-fonte
-/areadousuario.html">Área do Usuário</a>
+<a href="/areadousuario.html">Área do Usuário</a>
 - Homepage: arquivos HTML, CSS, JS e imagens.
 - Avaliações: arquivos HTML, CSS, JS e imagens.
 - Tipos de desafios: arquivos HTML, CSS, JS e imagens.
