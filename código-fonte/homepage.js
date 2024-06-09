@@ -47,7 +47,17 @@ function myFunction(x) {
     }
   };
 
+function carregarImagemDePerfil() {
+    const fotosalva = localStorage.getItem("profilepic");
+  
+    if (fotosalva) {
+      const avatar = document.querySelector(".cabecalho-avatar");
+      avatar.src = fotosalva;
+       }
+  }
+
   window.onload = function () {
     alertaDesafio();
     enviarDados();
+    carregarImagemDePerfil();
     };
