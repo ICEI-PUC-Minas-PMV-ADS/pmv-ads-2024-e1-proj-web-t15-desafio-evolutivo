@@ -246,7 +246,7 @@ RF-09	O sistema deve fornecer aos usuários histórico do progresso no desafio.
 
 ●trigesimodia.js
 
-### Tela de Notificação de Conclusão (RF-10)
+### Tela de Conclusão de Desafio (RF-10)
 
 Responsável: Giuseppe e Gustavo 
 
