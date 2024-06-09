@@ -248,32 +248,48 @@ RF-09	O sistema deve fornecer aos usuários histórico do progresso no desafio.
 
 ### Tela de Notificação de Conclusão (RF-10)
 
-Responsável: Giuseppe
+Responsável: Giuseppe e Gustavo 
 
-A tela de  irá atualizar as barras de progresso demonstrando o progresso concluido pelo usuario.
-As estruturas de dados foram baseados em HTML, CSS, JS.
+A tela de desafio ao obter sua trigesima conclusão irá apresentar uma notificação de conclusão do Desafio.
+As estruturas de dados foram baseados em HTML, CSS, JS. 
 
-Exemplo da tela de Progresso: 
-
-
+Exemplo da tela de Conclusão: 
 
 
-![notificações](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/blob/main/docs/img/progresso-dia-29.png?raw=true)
 
-![lembretes2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/blob/main/docs/img/progresso-dia-30.png?raw=true)
+
+![notificações](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/blob/main/docs/img/conclusao-de-desafio.png?raw=true)
+
+![lembretes2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/blob/main/docs/img/desafio-concluido.png?raw=true)
 
 #### Requisito atendido
 
-RF-09	O sistema deve fornecer aos usuários histórico do progresso no desafio.
+RF-10	O sistema deve mostrar a conclusão dos desafios
 
 
 #### Artefatos da funcionalidade
 
-●progresso.html
+●desafiosfisicos.html
 
-●progresso.css
+●desafiosfisicos.css
 
+●primeirodia.html
 
+●primeirodia.css
+
+●primeirodia.js
+
+●segundodia.html
+
+●segundodia.css
+
+●segundodia.js
+
+●trigesimodia.html
+
+●trigesimodia.css
+
+●trigesimodia.js
 
 
 ### Tela de Avaliação de Desafios (RF-11)
