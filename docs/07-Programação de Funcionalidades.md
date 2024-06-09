@@ -207,6 +207,35 @@ RF-08	O sistema deve enviar lembretes aos usuários para completarem o desafio.
 
 ●EnviodeLembretes(servidor).js
 
+### Tela de Progresso de Desafio (RF-09)
+
+Responsável: Giuseppe
+
+A tela de notificação irá atualizar as barras de progresso demonstrando o progresso concluido pelo usuario.
+As estruturas de dados foram baseados em HTML, CSS, JS.
+
+Exemplo da tela de Progresso: 
+
+
+
+
+![notificações](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/blob/main/docs/img/progresso-dia-29.png?raw=true)
+
+![lembretes2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/blob/main/docs/img/progresso-dia-30.png?raw=true)
+
+#### Requisito atendido
+
+RF-09	O sistema deve fornecer aos usuários histórico do progresso no desafio.
+
+
+#### Artefatos da funcionalidade
+
+●progresso.html
+
+●progresso.css
+
+
+
 ### Tela de Avaliação de Desafios (RF-11)
 
 Responsável: Gabriel Almeida
