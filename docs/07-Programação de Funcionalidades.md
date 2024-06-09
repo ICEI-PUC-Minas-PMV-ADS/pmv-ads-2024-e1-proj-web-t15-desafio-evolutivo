@@ -207,3 +207,30 @@ RF-08	O sistema deve enviar lembretes aos usuários para completarem o desafio.
 
 ●EnviodeLembretes(servidor).js
 
+### Tela de Avaliação de Desafios (RF-11)
+
+Responsável: Gabriel Almeida
+
+O usuário pode avaliar os desafios realizados em estrelas, de 1 a 5. 
+As estruturas de dados foram baseadas em HTML, CSS e JS.
+
+Exemplo da tela de Avaliação de Desafios: 
+
+
+![avaliação](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/assets/163445754/afc44ae9-8052-4342-ad2b-2d3aa1459cb5)
+
+
+#### Requisito atendido
+
+RF-11	O sistema deve permitir ao usuário fazer avaliações de desafios utilizando de 1 a 5 estrelas.
+
+
+#### Artefatos da funcionalidade
+
+●avaliacoes.html
+
+●avaliacoes.css
+
+●avaliacoes.js
+
+
