@@ -38,7 +38,7 @@ O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em 
 #### Adicionado
 - <a href="/código-fonte/primeirodia.html">Primeiro Dia:</a> arquivos HTML, CSS, JS e imagens.
 - <a href="/código-fonte/segundodia.html">Segundo Dia:</a> arquivos HTML, CSS, JS e imagens.
-- <a href="/código-fonte/terceirodia.html">Terceiro Dia:</a> arquivos HTML, CSS, JS e imagens.
+- <a href="/código-fonte/trigesimodia.html">Trigésimo Dia:</a> arquivos HTML, CSS, JS e imagens.
 - <a href="/código-fonte/inscricaodesafio.html">Inscrição no Desafio:</a> arquivos HTML, CSS, JS e imagens.
--  <a href="/código-fonte/EnviodeLembretes(servidor).js">Solução alternativa envio de lembretes:</a> arquivo JS.
+- <a href="/código-fonte/EnviodeLembretes(servidor).js">Solução alternativa envio de lembretes:</a> arquivo JS.
   
