@@ -288,7 +288,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
     <li>Acessar a home page e rolar até encontrar as categorias " Desafio Físico" e "Desafio Mental".</li>
     <li>Selecionar uma das categorias e escolher o desafio desejado.</li>
     <li>Se inscrever no desafio desejado e completar o primeiro dia.</li>
-    <li>Retornar à home page simulando o próximo dia.</li>
+    <li>Retornar à home page e alterar data no localstorage (colocar data de ontem no lastchallengedate).</li>
    </ol>
    </td>
   <td>O usuário deve receber lembretes para completarem o desafio.</td>
