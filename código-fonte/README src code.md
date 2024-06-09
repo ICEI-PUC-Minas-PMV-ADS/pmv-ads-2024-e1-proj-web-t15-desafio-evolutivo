@@ -8,7 +8,8 @@ A estratégia tomada pelo grupo é separar as telas da aplicação web por pasta
 
 ## Instalação do Site
 
-O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em servidores como navegadores web. Você pode acessar o site clicando <a href="pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo.vercel.app">aqui</a> para acessá-lo. 
+O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em servidores como navegadores web. 
+Para simular o envio de emails (solução alternativa e mais robusta para RF-08), o usuário pode instalar o <a href="https://nodejs.org/en">Node.js</a> e alguns módulos, digitando no terminal do VSCode <b>npm install nodemailer cors body-parser express</b> . O VSCode deverá ser reiniciado após instalação do node, e após instalação dos módulos. Então, basta apenas rodar o servidor e abrir a aplicação.
 
 ## Histórico de versões
 
