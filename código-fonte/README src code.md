@@ -14,23 +14,31 @@ O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em 
 
 ### [0.1.0] - 03/04/2022
 #### Adicionado
-- Home Page: arquivos HTML, CSS, JS e imagens.
+- <a href="/código-fonte/homepage.html">Homepage:</a> arquivos HTML, CSS, JS e imagens.
 
 ### [0.1.1] - 15/05/2024
 #### Atualizado
-- Home Page: arquivos HTML, CSS, JS e imagens.
+- <a href="/código-fonte/homepage.html">Homepage:</a> arquivos HTML, CSS, JS e imagens.
 
 #### Adicionado
-- Cadastro / Login: arquivos HTML, CSS, JS e imagens.
-- Avaliações: arquivo HTML, CSS, JS imagens.
-- Progresso: arquivos HTML, CSS, JS e imagens.
-- Área do usuário: arquivos HTML, CSS, JS e imagens.
+- <a href="/código-fonte/index.html">Cadastro / Login:</a> arquivos HTML, CSS, JS e imagens.
+- <a href="/código-fonte/avaliacoes.html">Avaliações:</a> arquivos HTML, CSS, JS e imagens.
+- <a href="/código-fonte/progresso.html">Progresso:</a>  arquivos HTML, CSS, JS e imagens.
+- <a href="/código-fonte/areadousuario.html">Área do Usuário:</a> arquivos HTML, CSS, JS e imagens.
 
-### [0.1.2] - 08/06/2022
+### [0.1.2] - 09/06/2022
 #### Atualizado
-<a href="/areadousuario.html">Área do Usuário</a>
-- Homepage: arquivos HTML, CSS, JS e imagens.
-- Avaliações: arquivos HTML, CSS, JS e imagens.
-- Tipos de desafios: arquivos HTML, CSS, JS e imagens.
-- Área usuário: arquivos HTML, CSS, JS e imagens.
-- Progresso: arquivos HTML, CSS, JS e imagens.
+
+- <a href="/código-fonte/homepage.html">Homepage:</a> arquivos HTML, CSS, JS e imagens.
+- <a href="/código-fonte/avaliacoes.html">Avaliações:</a> arquivos HTML, CSS, JS e imagens.
+- <a href="/código-fonte/desafiosfisicos.html">Desafios Físicos:</a> arquivos HTML, CSS, JS e imagens.
+- <a href="/código-fonte/desafiosmentais.html">Desafios Mentais:</a> arquivos HTML, CSS, JS e imagens.
+- <a href="/código-fonte/areadousuario.html">Área do Usuário:</a> arquivos HTML, CSS, JS e imagens.
+- <a href="/código-fonte/progresso.html">Progresso:</a>  arquivos HTML, CSS, JS e imagens.
+#### Adicionado
+- <a href="/código-fonte/primeirodia.html">Primeiro Dia:</a> arquivos HTML, CSS, JS e imagens.
+- <a href="/código-fonte/segundodia.html">Segundo Dia:</a> arquivos HTML, CSS, JS e imagens.
+- <a href="/código-fonte/terceirodia.html">Terceiro Dia:</a> arquivos HTML, CSS, JS e imagens.
+- <a href="/código-fonte/inscricaodesafio.html">Inscrição no Desafio:</a> arquivos HTML, CSS, JS e imagens.
+-  <a href="/código-fonte/EnviodeLembretes(servidor).js">Solução alternativa envio de lembretes:</a> arquivo JS.
+  
