@@ -28,8 +28,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
  
   // Atualiza o contador se o botão for clicado
   document.getElementById('cancel-button').addEventListener('click', () => {
-      const today = new Date().toISOString().split('T')[0]; // Formato YYYY-MM-DD               
-      
+       const data = new Date().toLocaleString("sv-SE", { timeZone: "America/Sao_Paulo" });
+       const today = data.split(' ')[0]; 
+    
       // Verifica se o desafio já foi feito hoje
       if (today !== lastChallengeDate && contador < 30) {
           contador = Math.min(contador + 1); // Incrementa o contador
@@ -41,7 +42,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
           // Vitória no desafio
           //if (contador >= 30) {
               alert('Parabéns! Você venceu o desafio! Agora avalie sua experiência.');
-              localStorage.removeItem('lastChallengeDate');
+              localStorage.removeItem('lastChallengeDate', lastChallengeDate);
+              localStorage.removeItem('contador', contador);
               
               window.location.href = "avaliacoes.html";
           //} 
