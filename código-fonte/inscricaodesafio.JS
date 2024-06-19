@@ -8,10 +8,30 @@ $(document).ready(function() {
   });
   
   $('#cancel-button').click(function() {
-    window.location.href = "Desafio dia 1/Desafio dia 1.HTML";
-  });
-
-});
+   
+      // Referenciar o botão
+      const cancelButton = document.getElementById('cancel-button');
+      
+      // Obter o valor do contador do localStorage
+      const contador = localStorage.getItem('contador');
+      
+      // link padrão
+      let link = 'primeirodia.html'; 
+      switch(contador) {
+          case '1':
+              link = 'segundodia.html';
+              break;
+          case '29':
+              link = 'trigesimodia.html';
+              break;
+          // Qualquer outro valor
+          default:
+              link = 'primeirodia.html';
+              break;
+            }
+       window.location.href = link;
+      })}
+  );
   // Função para carregar a imagem de perfil do local storage
   function carregarImagemDePerfil() {
     const fotosalva = localStorage.getItem("profilepic");
