@@ -28,8 +28,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
       // Verifica se o desafio já foi feito hoje
       let contador = parseInt(localStorage.getItem('contador')) || 0; //alterar esse número para forçar teste
       let lastChallengeDate = localStorage.getItem('lastChallengeDate') || '';
-      let today = new Date().toISOString().split('T')[0]; // Formato YYYY-MM-DD
-
+      const data = new Date().toLocaleString("sv-SE", { timeZone: "America/Sao_Paulo" });
+      const today = data.split(' ')[0];     
+    
       if (today !== lastChallengeDate && contador < 30) {
           contador = Math.min(contador + 1); // Incrementa o contador
 
