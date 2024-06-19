@@ -21,7 +21,8 @@ $(document).ready(function() {
 
     // Atualiza o contador se o botão for clicado
     document.getElementById('cancel-button').addEventListener('click', () => {
-        const today = new Date().toISOString().split('T')[0]; // Formato YYYY-MM-DD               
+        const data = new Date().toLocaleString("sv-SE", { timeZone: "America/Sao_Paulo" });
+        const today = data.split(' ')[0];     
         
         // Verifica se o desafio já foi feito hoje
         if (today !== lastChallengeDate && contador < 30) {
