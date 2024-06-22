@@ -140,7 +140,8 @@
             let lastChallengeDate = localStorage.getItem('lastChallengeDate') || '';
 
             //LÓGICA DO CONTADOR MOSTRANDO VALOR NA BARRA DE PROGRESSO
-            const valorProgresso = contador + '/30'; // Altere para o valor desejado
+            let num = 12;
+            const valorProgresso = num + '/30'; // Altere para o valor desejado
 
             // Selecione o elemento da barra de progresso 
             const progressBar = document.querySelector(".progress-line.memorizacao span");
@@ -148,7 +149,7 @@
             // Defina o atributo data-progress com o valor da variável 
             progressBar.setAttribute("data-progress", valorProgresso);
 
-            const porcentagembarra = contador * 100 / 30;
+            const porcentagembarra = num * 100 / 30;
             document.querySelector(".progress-line.memorizacao span").style.width = porcentagembarra + '%';
         });
     </script>
@@ -159,7 +160,8 @@
             let lastChallengeDate = localStorage.getItem('lastChallengeDate') || '';
 
             //LÓGICA DO CONTADOR MOSTRANDO VALOR NA BARRA DE PROGRESSO
-            const valorProgresso = contador + '/30'; // Altere para o valor desejado 
+            let num = 27;
+            const valorProgresso = num + '/30'; // Altere para o valor desejado 
 
             // Selecione o elemento da barra de progresso 
             const progressBar = document.querySelector(".progress-line.meditacao span");
@@ -167,7 +169,7 @@
             // Defina o atributo data-progress com o valor da variável 
             progressBar.setAttribute("data-progress", valorProgresso);
 
-            const porcentagembarra = contador * 100 / 30;
+            const porcentagembarra = num * 100 / 30;
             document.querySelector(".progress-line.meditacao span").style.width = porcentagembarra + '%';
         });
     </script>
