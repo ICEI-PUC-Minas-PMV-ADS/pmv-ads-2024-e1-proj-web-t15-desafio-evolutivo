@@ -41,7 +41,8 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 <li><a href="presentation/10-Apresentação do Projeto.md"> Apresentação do Projeto</a></li>
 </ol>
 
-
+# Hospedagem
+A aplicação em HTML/CSS/JS é um projeto que pode ser utilizado tanto em servidores como em navegadores web. Clique <a href= https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/>"aqui"</a> para acessá-lo.
 # Código
 
 <li><a href="/código-fonte"> Código Fonte</a></li>
