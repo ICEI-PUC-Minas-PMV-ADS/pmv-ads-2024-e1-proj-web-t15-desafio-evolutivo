@@ -12,6 +12,7 @@ header {
   text-align: center;
   color: #fff;
 }
+
 .cabecalho {
   display: flex;
   flex-direction: row;
@@ -21,6 +22,7 @@ header {
   background-color: #37853c;
   height: none
 }
+
 .cabecalho-logo {
   height: 40px;
 }
@@ -29,6 +31,7 @@ header {
   display: flex;
   gap: 40px;
 }
+
 /*BOTÕES DE NAVEGAÇÃO*/
 .cabecalho-menu-item {
   font-family: 'Lato', sans-serif;
@@ -47,19 +50,23 @@ header {
 .cabecalho-sino {
   height: 50px;
 }
+
 body {
-  height: 250vh; 
+  height: 250vh;
   overflow-x: hidden;
-  scrollbar-width: thin; 
+  scrollbar-width: thin;
   scrollbar-color: #ccc #fff;
 }
-::-webkit-scrollbar { 
+
+::-webkit-scrollbar {
   width: 10px;
 }
+
 ::-webkit-scrollbar-thumb {
   background-color: #ccc;
   border-radius: 5px;
 }
+
 ::-webkit-scrollbar-track {
   background-color: #fff;
 }
@@ -90,10 +97,10 @@ body {
 
 .title-container {
   position: absolute;
-  top: 18vh; 
-  right: 76%; 
-  transform: translateX(50%); 
-  width: 30vw; 
+  top: 18vh;
+  right: 76%;
+  transform: translateX(50%);
+  width: 30vw;
   height: 30px;
   display: flex;
   align-items: center;
@@ -103,16 +110,16 @@ body {
 }
 
 .title-container img {
-  width: 30vw; 
+  width: 30vw;
   height: auto;
 }
 
 .objetivo-container {
   display: flex;
   position: absolute;
-  top: 35vh; 
-  right: 75%; 
-  transform: translateX(50%); 
+  top: 35vh;
+  right: 75%;
+  transform: translateX(50%);
   flex-direction: column;
   align-items: right;
   justify-content: left;
@@ -214,92 +221,103 @@ body {
 
 @media (max-width: 768px) {
   .title-container {
-     width: 30vw; 
-     height: 30px; 
-   }
+    width: 30vw;
+    height: 30px;
+  }
+
   .title-container img {
-     width: 30vw; 
-   }
- }
- 
- @media (max-width: 480px) {
+    width: 30vw;
+  }
+}
+
+@media (max-width: 480px) {
   .title-container {
-     width: 40vw; 
-     height: 40px; 
-   }
+    width: 40vw;
+    height: 40px;
+  }
+
   .title-container img {
-     width: 40vw; 
-   }
- }
- 
- @media screen and (max-height: 1020px) {
- .overlay a {font-size: 20px}
- .overlay .closebtn {
- font-size: 40px;
- top: 15px;
- right: 35px;
- }
- }
- 
- @media (max-width: 768px) {
-   .overlay-content {
-     top: 15%; 
-   }
-   .overlay a {
-     font-size: 24px; 
-   }
-   .overlay .closebtn {
-     font-size: 40px; 
-   }
- }
- 
- @media (max-width: 480px) {
-   .overlay-content {
-     top: 10%; 
-   }
-   .overlay a {
-     font-size: 18px; 
-   }
-   .overlay .closebtn {
-     font-size: 30px; 
-   }
- }
- 
- @media (max-width: 768px) {
-   .avatar {
-     right: 5px; 
-   }
-   .menu-botton {
-     font-size: 20px; 
-   }
- }
- 
- @media (max-width: 480px) {
-   .avatar {
-     display: none; 
-   }
-   .menu-botton {
-     font-size: 18px; 
-   }
- }
- 
- @media (max-width: 768px) {
-   .objetivo-container {
-     padding: 1%;
-   }
- 
-   .objetivo-container h1 {
-     font-size: 3rem;
-     left: 85%;
-   }
- 
-   .objetivo-container p {
-     font-size: 100%;
-     left: 85%;
-   }
- }
- 
- @media (max-width: 768px) {
+    width: 40vw;
+  }
+}
+
+@media screen and (max-height: 1020px) {
+  .overlay a {
+    font-size: 20px
+  }
+
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+@media (max-width: 768px) {
+  .overlay-content {
+    top: 15%;
+  }
+
+  .overlay a {
+    font-size: 24px;
+  }
+
+  .overlay .closebtn {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .overlay-content {
+    top: 10%;
+  }
+
+  .overlay a {
+    font-size: 18px;
+  }
+
+  .overlay .closebtn {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .avatar {
+    right: 5px;
+  }
+
+  .menu-botton {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .avatar {
+    display: none;
+  }
+
+  .menu-botton {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .objetivo-container {
+    padding: 1%;
+  }
+
+  .objetivo-container h1 {
+    font-size: 3rem;
+    left: 85%;
+  }
+
+  .objetivo-container p {
+    font-size: 100%;
+    left: 85%;
+  }
+}
+
+@media (max-width: 768px) {
   .sub-title {
     position: relative;
     top: 100vh;
@@ -359,8 +377,9 @@ body {
     height: 400px;
   }
 }
- /* RODAPÉ */
- footer {
+
+/* RODAPÉ */
+footer {
   background-color: #37853c;
   color: white;
   text-align: center;

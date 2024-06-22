@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
     function handleStarClick(stars, clickedIndex) {
         stars.forEach((star, index) => {
             if (index < clickedIndex) {
@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const corridaStars = document.querySelectorAll('.Corrida-checked .star-icon');
     corridaStars.forEach(star => {
-        star.addEventListener('click', function() {
+        star.addEventListener('click', function () {
             const starIndex = parseInt(this.getAttribute('data-avaliacao'));
             handleStarClick(corridaStars, starIndex);
         });
@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const meditacaoStars = document.querySelectorAll('.Meditação-checked .star-icon');
     meditacaoStars.forEach(star => {
-        star.addEventListener('click', function() {
+        star.addEventListener('click', function () {
             const starIndex = parseInt(this.getAttribute('data-avaliacao'));
             handleStarClick(meditacaoStars, starIndex);
         });
@@ -32,17 +32,17 @@ document.addEventListener('DOMContentLoaded', function() {
 // Função para carregar a imagem de perfil do local storage
 function carregarImagemDePerfil() {
     const fotosalva = localStorage.getItem("profilepic");
-  
+
     if (fotosalva) {
-      const avatar = document.querySelector(".cabecalho-avatar");
-      avatar.src = fotosalva;
-       }
-  }
- // Selecionando o elemento
+        const avatar = document.querySelector(".cabecalho-avatar");
+        avatar.src = fotosalva;
+    }
+}
+// Selecionando o elemento
 // Selecionando o elemento
 
-  // Carregar dados do local storage e imagem de perfil quando a página é carregada
-  window.onload = function () {
+// Carregar dados do local storage e imagem de perfil quando a página é carregada
+window.onload = function () {
     carregarImagemDePerfil();
-    
-  };
+
+};

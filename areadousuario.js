@@ -28,18 +28,18 @@ document.getElementById("editar").addEventListener("click", function () {
   });
 });
 
-const salve = document.querySelector("#salvar") 
+const salve = document.querySelector("#salvar")
 
 if (salve) {
-    salve.addEventListener("click", () => salvar())
+  salve.addEventListener("click", () => salvar())
 }
 function salvar() {
-    dados.nome = document.getElementById("dadosnome").value;
-    dados.email = document.getElementById("dadosemail").value;
-    dados.senha = document.getElementById("dadospassword").value;
-    console.log(dados)
+  dados.nome = document.getElementById("dadosnome").value;
+  dados.email = document.getElementById("dadosemail").value;
+  dados.senha = document.getElementById("dadospassword").value;
+  console.log(dados)
 
-    localStorage.setItem("chave", JSON.stringify(dados));
+  localStorage.setItem("chave", JSON.stringify(dados));
 }
 
 // Função para mostrar a foto de perfil

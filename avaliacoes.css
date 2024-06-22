@@ -75,7 +75,8 @@ header {
   top: 10rem;
   left: 50rem;
   color: black;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: Roboto, Apple System, Helvetica Neue, Segoe UI, Arial, Lato e Sans Serif;
+  font-size: 40px;
 }
 
 .cabecalho-avatar {
@@ -89,7 +90,7 @@ header {
   top: 40vh;
   left: 30%;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 250%;
+  font-size: 40px;
 }
 
 .Corrida img {
@@ -105,7 +106,7 @@ header {
   position: absolute;
   top: 42vh;
   left: 100vh;
-  font-size: x-large;
+  font-size: 40px;
   z-index: 1;
   /* Certifique-se de que as estrelas estão acima da imagem */
 }
@@ -125,7 +126,7 @@ header {
   top: 62vh;
   left: 30%;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 250%;
+  font-size: 40px;
 }
 
 .Meditação img {
@@ -141,7 +142,7 @@ header {
   position: absolute;
   top: 62vh;
   left: 100vh;
-  font-size: x-large;
+  font-size: 40px;
   z-index: 1;
   /* Certifique-se de que as estrelas estão acima da imagem */
 }
