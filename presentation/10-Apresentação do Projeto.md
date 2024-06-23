@@ -1,8 +1,12 @@
 # Apresentação
 
-<span style="color:red">Pré-requisitos: Todos os demais artefatos</span>
+<span style="color:red">Video de apresentação das funcionalidades.</span>
 
-Conjunto de slides em um arquivo PowerPoint ou PDF com a apresentação do projeto contemplando todos os itens trabalhados nos demais artefatos.
+
+Uploading 2024-06-22 23-19menor-45 (1).mp4…
+
+
+
 
 ## Título do Projeto
 
