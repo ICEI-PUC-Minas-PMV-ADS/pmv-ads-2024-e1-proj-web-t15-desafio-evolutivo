@@ -1,13 +1,8 @@
-## Título do Projeto
+# Título do Projeto
 
 Desafio Evolutivo
 
-# Apresentação
-
-<span style="color:red">Slides de apresentação.</span>
-
-
-
+## Apresentação
 
 <span style="color:red">Video de apresentação das funcionalidades.</span>
 
