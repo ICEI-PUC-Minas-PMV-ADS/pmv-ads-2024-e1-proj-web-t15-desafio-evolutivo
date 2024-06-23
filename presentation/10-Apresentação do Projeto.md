@@ -1,3 +1,7 @@
+## Título do Projeto
+
+Desafio Evolutivo
+
 # Apresentação
 
 <span style="color:red">Slides de apresentação.</span>
@@ -12,15 +16,10 @@
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/assets/166300104/dc5461df-d3dc-4df0-851d-089faecd9216
 
 
-
-
-## Título do Projeto
-
-Desafio Evolutivo
-
 ## Identidade Visual (Marca, Design)
+![Titulo DesaafioEvolutivo](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/assets/166300104/b2ce0c50-07a6-44ff-a889-949fa4464bd9)
 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo/blob/main/c%C3%B3digo-fonte/IMG/Titulo%20DesaafioEvolutivo.png
+
 
 ## Conjunto de Slides (Estrutura)
 
