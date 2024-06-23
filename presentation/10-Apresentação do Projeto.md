@@ -22,6 +22,8 @@ Slides de apresentação do projeto.
  
 > **Links Úteis**:
 > - [ApresentaçãoDesafioEvolutivo.pptx](https://github.com/user-attachments/files/15945941/ApresentacaoDesafioEvolutivo.pptx)
+> - [ApresentaçãoDesafioEvolutivo (1).pdf](https://github.com/user-attachments/files/15946105/ApresentacaoDesafioEvolutivo.1.pdf)
+
 
 ## Hospedagem
 
