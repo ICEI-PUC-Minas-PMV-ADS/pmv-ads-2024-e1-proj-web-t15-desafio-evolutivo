@@ -26,7 +26,7 @@ function myFunction(x) {
   
     const today = new Date().toLocaleDateString('pt-br'); 
   
-    if (dados && today !== lastChallengeDate) {
+    if (dados && today !== lastChallengeDate && contador) {
         // Enviar dados para o servidor por meio de uma requisição AJAX
         const xhr = new XMLHttpRequest();
         xhr.open('POST', 'http://127.0.0.1:3000/receber-dados');
