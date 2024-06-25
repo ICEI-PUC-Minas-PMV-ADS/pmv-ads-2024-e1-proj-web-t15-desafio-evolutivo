@@ -23,7 +23,7 @@ function myFunction(x) {
     // Obter dados do localStorage
     const dados = JSON.parse(localStorage.getItem('chave'));
     let lastChallengeDate = localStorage.getItem('lastChallengeDate') || '';
-  
+    let contador = localStorage.getItem("contador");
     const today = new Date().toLocaleDateString('pt-br'); 
   
     if (dados && today !== lastChallengeDate && contador) {
