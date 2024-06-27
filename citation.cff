@@ -1,29 +1,28 @@
 message: Please cite this software using these metadata.
-title:
+title: Desafio Evolutivo
 authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
+  - family-names: Maciel de Assis Pinto
+    given-names: Artur
+  - family-names: Gabriel
+    given-names: Enzo
+  - family-names: Almeida
+    given-names: Gabriel
+  - family-names: Estabanez
+    given-names: Gabriel
+  - family-names: Maida
+    given-names: Giuseppe
+  - family-names: Paz
+    given-names: Gustavo
+  - family-names: Stacy
+    given-names: Sharon
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
-  - name-suffix: Professor
-    affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: de Almeida Tôrres
+    given-names: Viviane
 keywords:
-  - 
-  - 
-repository-code: 
+  - Saúde
+  - Bem-estar
+  - Desafio
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-e1-proj-web-t15-desafio-evolutivo
 version: 1.0.0
-date-released: 2023-10-31
+date-released: 2024-06-27
